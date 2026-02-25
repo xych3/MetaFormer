@@ -1,0 +1,1894 @@
+[2026-02-03 01:10:20] [INFO] Trainer initialized on device: cuda
+[2026-02-03 01:10:20] [INFO] Model parameters: 2,245,579
+[2026-02-03 01:10:20] [INFO] Training samples: 49024
+[2026-02-03 01:10:20] [INFO] Validation samples: 8955
+[2026-02-03 01:10:20] [INFO] ============================================================
+[2026-02-03 01:10:20] [INFO] Starting training...
+[2026-02-03 01:10:20] [INFO] Total epochs: 100
+[2026-02-03 01:10:20] [INFO] Batch size: 32
+[2026-02-03 01:10:20] [INFO] Gradient accumulation steps: 1
+[2026-02-03 01:10:20] [INFO] Effective batch size: 32
+[2026-02-03 01:10:20] [INFO] ============================================================
+[2026-02-03 01:10:27] [INFO] Step 100 | Loss: 0.3044 | LR: 1.40e-06
+[2026-02-03 01:10:33] [INFO] Step 200 | Loss: 0.2836 | LR: 2.71e-06
+[2026-02-03 01:10:39] [INFO] Step 300 | Loss: 0.2477 | LR: 4.01e-06
+[2026-02-03 01:10:45] [INFO] Step 400 | Loss: 0.2119 | LR: 5.32e-06
+[2026-02-03 01:10:51] [INFO] Step 500 | Loss: 0.1874 | LR: 6.62e-06
+[2026-02-03 01:10:57] [INFO] Step 600 | Loss: 0.1619 | LR: 7.93e-06
+[2026-02-03 01:11:02] [INFO] Step 700 | Loss: 0.1403 | LR: 9.23e-06
+[2026-02-03 01:11:08] [INFO] Step 800 | Loss: 0.1248 | LR: 1.05e-05
+[2026-02-03 01:11:14] [INFO] Step 900 | Loss: 0.1175 | LR: 1.18e-05
+[2026-02-03 01:11:20] [INFO] Step 1000 | Loss: 0.1044 | LR: 1.31e-05
+[2026-02-03 01:11:26] [INFO] Step 1100 | Loss: 0.0891 | LR: 1.44e-05
+[2026-02-03 01:11:32] [INFO] Step 1200 | Loss: 0.0897 | LR: 1.58e-05
+[2026-02-03 01:11:38] [INFO] Step 1300 | Loss: 0.0813 | LR: 1.71e-05
+[2026-02-03 01:11:44] [INFO] Step 1400 | Loss: 0.0740 | LR: 1.84e-05
+[2026-02-03 01:11:49] [INFO] Step 1500 | Loss: 0.0733 | LR: 1.97e-05
+[2026-02-03 01:11:51] [INFO] Epoch 1/100 completed | Train Loss: 0.1575 | Time: 90.7s
+[2026-02-03 01:11:57] [INFO] Validation Loss: 0.0570
+[2026-02-03 01:11:57] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:11:57] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:11:57] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:12:02] [INFO] Step 1600 | Loss: 0.0664 | LR: 2.10e-05
+[2026-02-03 01:12:08] [INFO] Step 1700 | Loss: 0.0651 | LR: 2.23e-05
+[2026-02-03 01:12:14] [INFO] Step 1800 | Loss: 0.0613 | LR: 2.36e-05
+[2026-02-03 01:12:19] [INFO] Step 1900 | Loss: 0.0546 | LR: 2.49e-05
+[2026-02-03 01:12:25] [INFO] Step 2000 | Loss: 0.0500 | LR: 2.62e-05
+[2026-02-03 01:12:31] [INFO] Step 2100 | Loss: 0.0525 | LR: 2.75e-05
+[2026-02-03 01:12:37] [INFO] Step 2200 | Loss: 0.0502 | LR: 2.88e-05
+[2026-02-03 01:12:43] [INFO] Step 2300 | Loss: 0.0495 | LR: 3.01e-05
+[2026-02-03 01:12:49] [INFO] Step 2400 | Loss: 0.0534 | LR: 3.14e-05
+[2026-02-03 01:12:54] [INFO] Step 2500 | Loss: 0.0498 | LR: 3.27e-05
+[2026-02-03 01:13:00] [INFO] Step 2600 | Loss: 0.0468 | LR: 3.40e-05
+[2026-02-03 01:13:06] [INFO] Step 2700 | Loss: 0.0504 | LR: 3.53e-05
+[2026-02-03 01:13:12] [INFO] Step 2800 | Loss: 0.0436 | LR: 3.66e-05
+[2026-02-03 01:13:17] [INFO] Step 2900 | Loss: 0.0488 | LR: 3.79e-05
+[2026-02-03 01:13:23] [INFO] Step 3000 | Loss: 0.0486 | LR: 3.92e-05
+[2026-02-03 01:13:27] [INFO] Epoch 2/100 completed | Train Loss: 0.0530 | Time: 89.3s
+[2026-02-03 01:13:32] [INFO] Validation Loss: 0.0429
+[2026-02-03 01:13:32] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:13:33] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:13:33] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:13:35] [INFO] Step 3100 | Loss: 0.0458 | LR: 4.05e-05
+[2026-02-03 01:13:41] [INFO] Step 3200 | Loss: 0.0499 | LR: 4.18e-05
+[2026-02-03 01:13:47] [INFO] Step 3300 | Loss: 0.0429 | LR: 4.31e-05
+[2026-02-03 01:13:53] [INFO] Step 3400 | Loss: 0.0405 | LR: 4.44e-05
+[2026-02-03 01:13:58] [INFO] Step 3500 | Loss: 0.0435 | LR: 4.57e-05
+[2026-02-03 01:14:04] [INFO] Step 3600 | Loss: 0.0402 | LR: 4.71e-05
+[2026-02-03 01:14:10] [INFO] Step 3700 | Loss: 0.0427 | LR: 4.84e-05
+[2026-02-03 01:14:16] [INFO] Step 3800 | Loss: 0.0451 | LR: 4.97e-05
+[2026-02-03 01:14:22] [INFO] Step 3900 | Loss: 0.0400 | LR: 5.10e-05
+[2026-02-03 01:14:27] [INFO] Step 4000 | Loss: 0.0423 | LR: 5.23e-05
+[2026-02-03 01:14:33] [INFO] Step 4100 | Loss: 0.0424 | LR: 5.36e-05
+[2026-02-03 01:14:39] [INFO] Step 4200 | Loss: 0.0444 | LR: 5.49e-05
+[2026-02-03 01:14:45] [INFO] Step 4300 | Loss: 0.0364 | LR: 5.62e-05
+[2026-02-03 01:14:51] [INFO] Step 4400 | Loss: 0.0392 | LR: 5.75e-05
+[2026-02-03 01:14:56] [INFO] Step 4500 | Loss: 0.0385 | LR: 5.88e-05
+[2026-02-03 01:15:02] [INFO] Epoch 3/100 completed | Train Loss: 0.0422 | Time: 89.3s
+[2026-02-03 01:15:08] [INFO] Validation Loss: 0.0385
+[2026-02-03 01:15:08] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:15:08] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:15:08] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:15:08] [INFO] Step 4600 | Loss: 0.0441 | LR: 6.01e-05
+[2026-02-03 01:15:14] [INFO] Step 4700 | Loss: 0.0365 | LR: 6.14e-05
+[2026-02-03 01:15:20] [INFO] Step 4800 | Loss: 0.0360 | LR: 6.27e-05
+[2026-02-03 01:15:26] [INFO] Step 4900 | Loss: 0.0380 | LR: 6.40e-05
+[2026-02-03 01:15:32] [INFO] Step 5000 | Loss: 0.0422 | LR: 6.53e-05
+[2026-02-03 01:15:37] [INFO] Step 5100 | Loss: 0.0351 | LR: 6.66e-05
+[2026-02-03 01:15:43] [INFO] Step 5200 | Loss: 0.0405 | LR: 6.79e-05
+[2026-02-03 01:15:49] [INFO] Step 5300 | Loss: 0.0371 | LR: 6.92e-05
+[2026-02-03 01:15:55] [INFO] Step 5400 | Loss: 0.0375 | LR: 7.05e-05
+[2026-02-03 01:16:01] [INFO] Step 5500 | Loss: 0.0467 | LR: 7.18e-05
+[2026-02-03 01:16:07] [INFO] Step 5600 | Loss: 0.0366 | LR: 7.31e-05
+[2026-02-03 01:16:12] [INFO] Step 5700 | Loss: 0.0394 | LR: 7.44e-05
+[2026-02-03 01:16:18] [INFO] Step 5800 | Loss: 0.0429 | LR: 7.57e-05
+[2026-02-03 01:16:24] [INFO] Step 5900 | Loss: 0.0422 | LR: 7.70e-05
+[2026-02-03 01:16:30] [INFO] Step 6000 | Loss: 0.0407 | LR: 7.84e-05
+[2026-02-03 01:16:36] [INFO] Step 6100 | Loss: 0.0401 | LR: 7.97e-05
+[2026-02-03 01:16:37] [INFO] Epoch 4/100 completed | Train Loss: 0.0385 | Time: 89.1s
+[2026-02-03 01:16:43] [INFO] Validation Loss: 0.0365
+[2026-02-03 01:16:43] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:16:43] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:16:43] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:16:47] [INFO] Step 6200 | Loss: 0.0329 | LR: 8.10e-05
+[2026-02-03 01:16:53] [INFO] Step 6300 | Loss: 0.0424 | LR: 8.23e-05
+[2026-02-03 01:16:59] [INFO] Step 6400 | Loss: 0.0349 | LR: 8.36e-05
+[2026-02-03 01:17:05] [INFO] Step 6500 | Loss: 0.0412 | LR: 8.49e-05
+[2026-02-03 01:17:11] [INFO] Step 6600 | Loss: 0.0370 | LR: 8.62e-05
+[2026-02-03 01:17:17] [INFO] Step 6700 | Loss: 0.0379 | LR: 8.75e-05
+[2026-02-03 01:17:22] [INFO] Step 6800 | Loss: 0.0387 | LR: 8.88e-05
+[2026-02-03 01:17:28] [INFO] Step 6900 | Loss: 0.0358 | LR: 9.01e-05
+[2026-02-03 01:17:34] [INFO] Step 7000 | Loss: 0.0361 | LR: 9.14e-05
+[2026-02-03 01:17:40] [INFO] Step 7100 | Loss: 0.0419 | LR: 9.27e-05
+[2026-02-03 01:17:46] [INFO] Step 7200 | Loss: 0.0311 | LR: 9.40e-05
+[2026-02-03 01:17:52] [INFO] Step 7300 | Loss: 0.0308 | LR: 9.53e-05
+[2026-02-03 01:17:57] [INFO] Step 7400 | Loss: 0.0382 | LR: 9.66e-05
+[2026-02-03 01:18:03] [INFO] Step 7500 | Loss: 0.0375 | LR: 9.79e-05
+[2026-02-03 01:18:09] [INFO] Step 7600 | Loss: 0.0329 | LR: 9.92e-05
+[2026-02-03 01:18:12] [INFO] Epoch 5/100 completed | Train Loss: 0.0364 | Time: 88.6s
+[2026-02-03 01:18:17] [INFO] Validation Loss: 0.0341
+[2026-02-03 01:18:17] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:18:17] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:18:17] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:18:20] [INFO] Step 7700 | Loss: 0.0360 | LR: 1.00e-04
+[2026-02-03 01:18:26] [INFO] Step 7800 | Loss: 0.0343 | LR: 1.00e-04
+[2026-02-03 01:18:32] [INFO] Step 7900 | Loss: 0.0327 | LR: 1.00e-04
+[2026-02-03 01:18:38] [INFO] Step 8000 | Loss: 0.0389 | LR: 1.00e-04
+[2026-02-03 01:18:44] [INFO] Step 8100 | Loss: 0.0343 | LR: 1.00e-04
+[2026-02-03 01:18:49] [INFO] Step 8200 | Loss: 0.0383 | LR: 1.00e-04
+[2026-02-03 01:18:55] [INFO] Step 8300 | Loss: 0.0368 | LR: 1.00e-04
+[2026-02-03 01:19:01] [INFO] Step 8400 | Loss: 0.0388 | LR: 1.00e-04
+[2026-02-03 01:19:06] [INFO] Step 8500 | Loss: 0.0362 | LR: 1.00e-04
+[2026-02-03 01:19:12] [INFO] Step 8600 | Loss: 0.0355 | LR: 1.00e-04
+[2026-02-03 01:19:18] [INFO] Step 8700 | Loss: 0.0319 | LR: 1.00e-04
+[2026-02-03 01:19:24] [INFO] Step 8800 | Loss: 0.0350 | LR: 1.00e-04
+[2026-02-03 01:19:29] [INFO] Step 8900 | Loss: 0.0335 | LR: 1.00e-04
+[2026-02-03 01:19:35] [INFO] Step 9000 | Loss: 0.0305 | LR: 1.00e-04
+[2026-02-03 01:19:41] [INFO] Step 9100 | Loss: 0.0318 | LR: 1.00e-04
+[2026-02-03 01:19:47] [INFO] Epoch 6/100 completed | Train Loss: 0.0345 | Time: 89.1s
+[2026-02-03 01:19:52] [INFO] Validation Loss: 0.0327
+[2026-02-03 01:19:52] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:19:52] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:19:53] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:19:53] [INFO] Step 9200 | Loss: 0.0325 | LR: 1.00e-04
+[2026-02-03 01:19:59] [INFO] Step 9300 | Loss: 0.0315 | LR: 1.00e-04
+[2026-02-03 01:20:05] [INFO] Step 9400 | Loss: 0.0316 | LR: 1.00e-04
+[2026-02-03 01:20:11] [INFO] Step 9500 | Loss: 0.0369 | LR: 1.00e-04
+[2026-02-03 01:20:16] [INFO] Step 9600 | Loss: 0.0315 | LR: 1.00e-04
+[2026-02-03 01:20:22] [INFO] Step 9700 | Loss: 0.0358 | LR: 1.00e-04
+[2026-02-03 01:20:28] [INFO] Step 9800 | Loss: 0.0271 | LR: 9.99e-05
+[2026-02-03 01:20:34] [INFO] Step 9900 | Loss: 0.0340 | LR: 9.99e-05
+[2026-02-03 01:20:40] [INFO] Step 10000 | Loss: 0.0355 | LR: 9.99e-05
+[2026-02-03 01:20:45] [INFO] Step 10100 | Loss: 0.0387 | LR: 9.99e-05
+[2026-02-03 01:20:51] [INFO] Step 10200 | Loss: 0.0343 | LR: 9.99e-05
+[2026-02-03 01:20:57] [INFO] Step 10300 | Loss: 0.0360 | LR: 9.99e-05
+[2026-02-03 01:21:03] [INFO] Step 10400 | Loss: 0.0304 | LR: 9.99e-05
+[2026-02-03 01:21:09] [INFO] Step 10500 | Loss: 0.0259 | LR: 9.99e-05
+[2026-02-03 01:21:15] [INFO] Step 10600 | Loss: 0.0308 | LR: 9.99e-05
+[2026-02-03 01:21:21] [INFO] Step 10700 | Loss: 0.0276 | LR: 9.99e-05
+[2026-02-03 01:21:22] [INFO] Epoch 7/100 completed | Train Loss: 0.0333 | Time: 89.5s
+[2026-02-03 01:21:28] [INFO] Validation Loss: 0.0318
+[2026-02-03 01:21:28] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:21:28] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:21:28] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:21:33] [INFO] Step 10800 | Loss: 0.0359 | LR: 9.99e-05
+[2026-02-03 01:21:38] [INFO] Step 10900 | Loss: 0.0374 | LR: 9.99e-05
+[2026-02-03 01:21:45] [INFO] Step 11000 | Loss: 0.0317 | LR: 9.99e-05
+[2026-02-03 01:21:50] [INFO] Step 11100 | Loss: 0.0367 | LR: 9.99e-05
+[2026-02-03 01:21:56] [INFO] Step 11200 | Loss: 0.0416 | LR: 9.99e-05
+[2026-02-03 01:22:02] [INFO] Step 11300 | Loss: 0.0316 | LR: 9.98e-05
+[2026-02-03 01:22:08] [INFO] Step 11400 | Loss: 0.0311 | LR: 9.98e-05
+[2026-02-03 01:22:14] [INFO] Step 11500 | Loss: 0.0348 | LR: 9.98e-05
+[2026-02-03 01:22:20] [INFO] Step 11600 | Loss: 0.0302 | LR: 9.98e-05
+[2026-02-03 01:22:26] [INFO] Step 11700 | Loss: 0.0320 | LR: 9.98e-05
+[2026-02-03 01:22:31] [INFO] Step 11800 | Loss: 0.0350 | LR: 9.98e-05
+[2026-02-03 01:22:37] [INFO] Step 11900 | Loss: 0.0306 | LR: 9.98e-05
+[2026-02-03 01:22:43] [INFO] Step 12000 | Loss: 0.0288 | LR: 9.98e-05
+[2026-02-03 01:22:49] [INFO] Step 12100 | Loss: 0.0297 | LR: 9.98e-05
+[2026-02-03 01:22:55] [INFO] Step 12200 | Loss: 0.0342 | LR: 9.98e-05
+[2026-02-03 01:22:58] [INFO] Epoch 8/100 completed | Train Loss: 0.0326 | Time: 89.8s
+[2026-02-03 01:23:03] [INFO] Validation Loss: 0.0312
+[2026-02-03 01:23:04] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:23:04] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:23:04] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:23:06] [INFO] Step 12300 | Loss: 0.0315 | LR: 9.98e-05
+[2026-02-03 01:23:12] [INFO] Step 12400 | Loss: 0.0339 | LR: 9.97e-05
+[2026-02-03 01:23:18] [INFO] Step 12500 | Loss: 0.0322 | LR: 9.97e-05
+[2026-02-03 01:23:24] [INFO] Step 12600 | Loss: 0.0351 | LR: 9.97e-05
+[2026-02-03 01:23:29] [INFO] Step 12700 | Loss: 0.0301 | LR: 9.97e-05
+[2026-02-03 01:23:35] [INFO] Step 12800 | Loss: 0.0293 | LR: 9.97e-05
+[2026-02-03 01:23:41] [INFO] Step 12900 | Loss: 0.0335 | LR: 9.97e-05
+[2026-02-03 01:23:47] [INFO] Step 13000 | Loss: 0.0333 | LR: 9.97e-05
+[2026-02-03 01:23:52] [INFO] Step 13100 | Loss: 0.0288 | LR: 9.97e-05
+[2026-02-03 01:23:58] [INFO] Step 13200 | Loss: 0.0310 | LR: 9.96e-05
+[2026-02-03 01:24:04] [INFO] Step 13300 | Loss: 0.0323 | LR: 9.96e-05
+[2026-02-03 01:24:10] [INFO] Step 13400 | Loss: 0.0302 | LR: 9.96e-05
+[2026-02-03 01:24:16] [INFO] Step 13500 | Loss: 0.0342 | LR: 9.96e-05
+[2026-02-03 01:24:22] [INFO] Step 13600 | Loss: 0.0331 | LR: 9.96e-05
+[2026-02-03 01:24:28] [INFO] Step 13700 | Loss: 0.0351 | LR: 9.96e-05
+[2026-02-03 01:24:33] [INFO] Epoch 9/100 completed | Train Loss: 0.0320 | Time: 88.8s
+[2026-02-03 01:24:38] [INFO] Validation Loss: 0.0308
+[2026-02-03 01:24:38] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:24:38] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:24:39] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:24:39] [INFO] Step 13800 | Loss: 0.0342 | LR: 9.96e-05
+[2026-02-03 01:24:45] [INFO] Step 13900 | Loss: 0.0299 | LR: 9.96e-05
+[2026-02-03 01:24:51] [INFO] Step 14000 | Loss: 0.0349 | LR: 9.95e-05
+[2026-02-03 01:24:57] [INFO] Step 14100 | Loss: 0.0284 | LR: 9.95e-05
+[2026-02-03 01:25:02] [INFO] Step 14200 | Loss: 0.0339 | LR: 9.95e-05
+[2026-02-03 01:25:08] [INFO] Step 14300 | Loss: 0.0342 | LR: 9.95e-05
+[2026-02-03 01:25:14] [INFO] Step 14400 | Loss: 0.0307 | LR: 9.95e-05
+[2026-02-03 01:25:20] [INFO] Step 14500 | Loss: 0.0316 | LR: 9.95e-05
+[2026-02-03 01:25:26] [INFO] Step 14600 | Loss: 0.0282 | LR: 9.94e-05
+[2026-02-03 01:25:31] [INFO] Step 14700 | Loss: 0.0277 | LR: 9.94e-05
+[2026-02-03 01:25:37] [INFO] Step 14800 | Loss: 0.0261 | LR: 9.94e-05
+[2026-02-03 01:25:43] [INFO] Step 14900 | Loss: 0.0396 | LR: 9.94e-05
+[2026-02-03 01:25:49] [INFO] Step 15000 | Loss: 0.0286 | LR: 9.94e-05
+[2026-02-03 01:25:55] [INFO] Step 15100 | Loss: 0.0347 | LR: 9.94e-05
+[2026-02-03 01:26:01] [INFO] Step 15200 | Loss: 0.0310 | LR: 9.93e-05
+[2026-02-03 01:26:06] [INFO] Step 15300 | Loss: 0.0300 | LR: 9.93e-05
+[2026-02-03 01:26:07] [INFO] Epoch 10/100 completed | Train Loss: 0.0316 | Time: 88.8s
+[2026-02-03 01:26:13] [INFO] Validation Loss: 0.0303
+[2026-02-03 01:26:13] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:26:13] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:26:13] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:26:18] [INFO] Step 15400 | Loss: 0.0313 | LR: 9.93e-05
+[2026-02-03 01:26:24] [INFO] Step 15500 | Loss: 0.0299 | LR: 9.93e-05
+[2026-02-03 01:26:30] [INFO] Step 15600 | Loss: 0.0290 | LR: 9.93e-05
+[2026-02-03 01:26:35] [INFO] Step 15700 | Loss: 0.0282 | LR: 9.93e-05
+[2026-02-03 01:26:41] [INFO] Step 15800 | Loss: 0.0328 | LR: 9.92e-05
+[2026-02-03 01:26:47] [INFO] Step 15900 | Loss: 0.0340 | LR: 9.92e-05
+[2026-02-03 01:26:53] [INFO] Step 16000 | Loss: 0.0317 | LR: 9.92e-05
+[2026-02-03 01:26:59] [INFO] Step 16100 | Loss: 0.0329 | LR: 9.92e-05
+[2026-02-03 01:27:05] [INFO] Step 16200 | Loss: 0.0328 | LR: 9.92e-05
+[2026-02-03 01:27:11] [INFO] Step 16300 | Loss: 0.0285 | LR: 9.91e-05
+[2026-02-03 01:27:16] [INFO] Step 16400 | Loss: 0.0277 | LR: 9.91e-05
+[2026-02-03 01:27:22] [INFO] Step 16500 | Loss: 0.0287 | LR: 9.91e-05
+[2026-02-03 01:27:28] [INFO] Step 16600 | Loss: 0.0287 | LR: 9.91e-05
+[2026-02-03 01:27:34] [INFO] Step 16700 | Loss: 0.0310 | LR: 9.91e-05
+[2026-02-03 01:27:40] [INFO] Step 16800 | Loss: 0.0347 | LR: 9.90e-05
+[2026-02-03 01:27:42] [INFO] Epoch 11/100 completed | Train Loss: 0.0312 | Time: 89.3s
+[2026-02-03 01:27:48] [INFO] Validation Loss: 0.0302
+[2026-02-03 01:27:48] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:27:48] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:27:48] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:27:51] [INFO] Step 16900 | Loss: 0.0310 | LR: 9.90e-05
+[2026-02-03 01:27:57] [INFO] Step 17000 | Loss: 0.0280 | LR: 9.90e-05
+[2026-02-03 01:28:03] [INFO] Step 17100 | Loss: 0.0293 | LR: 9.90e-05
+[2026-02-03 01:28:09] [INFO] Step 17200 | Loss: 0.0340 | LR: 9.90e-05
+[2026-02-03 01:28:14] [INFO] Step 17300 | Loss: 0.0284 | LR: 9.89e-05
+[2026-02-03 01:28:20] [INFO] Step 17400 | Loss: 0.0357 | LR: 9.89e-05
+[2026-02-03 01:28:26] [INFO] Step 17500 | Loss: 0.0333 | LR: 9.89e-05
+[2026-02-03 01:28:32] [INFO] Step 17600 | Loss: 0.0412 | LR: 9.89e-05
+[2026-02-03 01:28:38] [INFO] Step 17700 | Loss: 0.0322 | LR: 9.88e-05
+[2026-02-03 01:28:44] [INFO] Step 17800 | Loss: 0.0310 | LR: 9.88e-05
+[2026-02-03 01:28:49] [INFO] Step 17900 | Loss: 0.0297 | LR: 9.88e-05
+[2026-02-03 01:28:55] [INFO] Step 18000 | Loss: 0.0293 | LR: 9.88e-05
+[2026-02-03 01:29:01] [INFO] Step 18100 | Loss: 0.0284 | LR: 9.87e-05
+[2026-02-03 01:29:06] [INFO] Step 18200 | Loss: 0.0226 | LR: 9.87e-05
+[2026-02-03 01:29:12] [INFO] Step 18300 | Loss: 0.0360 | LR: 9.87e-05
+[2026-02-03 01:29:17] [INFO] Epoch 12/100 completed | Train Loss: 0.0308 | Time: 88.4s
+[2026-02-03 01:29:22] [INFO] Validation Loss: 0.0302
+[2026-02-03 01:29:22] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:29:23] [INFO] Step 18400 | Loss: 0.0373 | LR: 9.87e-05
+[2026-02-03 01:29:29] [INFO] Step 18500 | Loss: 0.0345 | LR: 9.87e-05
+[2026-02-03 01:29:35] [INFO] Step 18600 | Loss: 0.0267 | LR: 9.86e-05
+[2026-02-03 01:29:41] [INFO] Step 18700 | Loss: 0.0286 | LR: 9.86e-05
+[2026-02-03 01:29:47] [INFO] Step 18800 | Loss: 0.0304 | LR: 9.86e-05
+[2026-02-03 01:29:53] [INFO] Step 18900 | Loss: 0.0318 | LR: 9.86e-05
+[2026-02-03 01:29:59] [INFO] Step 19000 | Loss: 0.0298 | LR: 9.85e-05
+[2026-02-03 01:30:04] [INFO] Step 19100 | Loss: 0.0300 | LR: 9.85e-05
+[2026-02-03 01:30:10] [INFO] Step 19200 | Loss: 0.0303 | LR: 9.85e-05
+[2026-02-03 01:30:16] [INFO] Step 19300 | Loss: 0.0247 | LR: 9.84e-05
+[2026-02-03 01:30:22] [INFO] Step 19400 | Loss: 0.0315 | LR: 9.84e-05
+[2026-02-03 01:30:28] [INFO] Step 19500 | Loss: 0.0265 | LR: 9.84e-05
+[2026-02-03 01:30:34] [INFO] Step 19600 | Loss: 0.0339 | LR: 9.84e-05
+[2026-02-03 01:30:40] [INFO] Step 19700 | Loss: 0.0240 | LR: 9.83e-05
+[2026-02-03 01:30:46] [INFO] Step 19800 | Loss: 0.0318 | LR: 9.83e-05
+[2026-02-03 01:30:51] [INFO] Step 19900 | Loss: 0.0316 | LR: 9.83e-05
+[2026-02-03 01:30:52] [INFO] Epoch 13/100 completed | Train Loss: 0.0306 | Time: 89.7s
+[2026-02-03 01:30:58] [INFO] Validation Loss: 0.0298
+[2026-02-03 01:30:58] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:30:58] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:30:58] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:31:03] [INFO] Step 20000 | Loss: 0.0273 | LR: 9.83e-05
+[2026-02-03 01:31:09] [INFO] Step 20100 | Loss: 0.0256 | LR: 9.82e-05
+[2026-02-03 01:31:15] [INFO] Step 20200 | Loss: 0.0301 | LR: 9.82e-05
+[2026-02-03 01:31:21] [INFO] Step 20300 | Loss: 0.0282 | LR: 9.82e-05
+[2026-02-03 01:31:27] [INFO] Step 20400 | Loss: 0.0324 | LR: 9.81e-05
+[2026-02-03 01:31:33] [INFO] Step 20500 | Loss: 0.0275 | LR: 9.81e-05
+[2026-02-03 01:31:39] [INFO] Step 20600 | Loss: 0.0345 | LR: 9.81e-05
+[2026-02-03 01:31:45] [INFO] Step 20700 | Loss: 0.0272 | LR: 9.81e-05
+[2026-02-03 01:31:51] [INFO] Step 20800 | Loss: 0.0275 | LR: 9.80e-05
+[2026-02-03 01:31:57] [INFO] Step 20900 | Loss: 0.0314 | LR: 9.80e-05
+[2026-02-03 01:32:03] [INFO] Step 21000 | Loss: 0.0288 | LR: 9.80e-05
+[2026-02-03 01:32:08] [INFO] Step 21100 | Loss: 0.0272 | LR: 9.79e-05
+[2026-02-03 01:32:14] [INFO] Step 21200 | Loss: 0.0337 | LR: 9.79e-05
+[2026-02-03 01:32:21] [INFO] Step 21300 | Loss: 0.0281 | LR: 9.79e-05
+[2026-02-03 01:32:26] [INFO] Step 21400 | Loss: 0.0264 | LR: 9.78e-05
+[2026-02-03 01:32:29] [INFO] Epoch 14/100 completed | Train Loss: 0.0303 | Time: 90.3s
+[2026-02-03 01:32:34] [INFO] Validation Loss: 0.0297
+[2026-02-03 01:32:35] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:32:35] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:32:35] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:32:38] [INFO] Step 21500 | Loss: 0.0320 | LR: 9.78e-05
+[2026-02-03 01:32:44] [INFO] Step 21600 | Loss: 0.0279 | LR: 9.78e-05
+[2026-02-03 01:32:50] [INFO] Step 21700 | Loss: 0.0283 | LR: 9.77e-05
+[2026-02-03 01:32:56] [INFO] Step 21800 | Loss: 0.0306 | LR: 9.77e-05
+[2026-02-03 01:33:01] [INFO] Step 21900 | Loss: 0.0306 | LR: 9.77e-05
+[2026-02-03 01:33:08] [INFO] Step 22000 | Loss: 0.0293 | LR: 9.76e-05
+[2026-02-03 01:33:13] [INFO] Step 22100 | Loss: 0.0306 | LR: 9.76e-05
+[2026-02-03 01:33:19] [INFO] Step 22200 | Loss: 0.0266 | LR: 9.76e-05
+[2026-02-03 01:33:25] [INFO] Step 22300 | Loss: 0.0265 | LR: 9.75e-05
+[2026-02-03 01:33:31] [INFO] Step 22400 | Loss: 0.0262 | LR: 9.75e-05
+[2026-02-03 01:33:37] [INFO] Step 22500 | Loss: 0.0246 | LR: 9.75e-05
+[2026-02-03 01:33:43] [INFO] Step 22600 | Loss: 0.0310 | LR: 9.74e-05
+[2026-02-03 01:33:48] [INFO] Step 22700 | Loss: 0.0250 | LR: 9.74e-05
+[2026-02-03 01:33:54] [INFO] Step 22800 | Loss: 0.0292 | LR: 9.74e-05
+[2026-02-03 01:34:00] [INFO] Step 22900 | Loss: 0.0276 | LR: 9.73e-05
+[2026-02-03 01:34:04] [INFO] Epoch 15/100 completed | Train Loss: 0.0301 | Time: 89.4s
+[2026-02-03 01:34:10] [INFO] Validation Loss: 0.0294
+[2026-02-03 01:34:10] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:34:10] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:34:10] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:34:12] [INFO] Step 23000 | Loss: 0.0254 | LR: 9.73e-05
+[2026-02-03 01:34:17] [INFO] Step 23100 | Loss: 0.0307 | LR: 9.73e-05
+[2026-02-03 01:34:23] [INFO] Step 23200 | Loss: 0.0275 | LR: 9.72e-05
+[2026-02-03 01:34:29] [INFO] Step 23300 | Loss: 0.0334 | LR: 9.72e-05
+[2026-02-03 01:34:35] [INFO] Step 23400 | Loss: 0.0289 | LR: 9.72e-05
+[2026-02-03 01:34:41] [INFO] Step 23500 | Loss: 0.0367 | LR: 9.71e-05
+[2026-02-03 01:34:47] [INFO] Step 23600 | Loss: 0.0322 | LR: 9.71e-05
+[2026-02-03 01:34:53] [INFO] Step 23700 | Loss: 0.0342 | LR: 9.71e-05
+[2026-02-03 01:34:59] [INFO] Step 23800 | Loss: 0.0301 | LR: 9.70e-05
+[2026-02-03 01:35:04] [INFO] Step 23900 | Loss: 0.0321 | LR: 9.70e-05
+[2026-02-03 01:35:10] [INFO] Step 24000 | Loss: 0.0317 | LR: 9.70e-05
+[2026-02-03 01:35:16] [INFO] Step 24100 | Loss: 0.0308 | LR: 9.69e-05
+[2026-02-03 01:35:22] [INFO] Step 24200 | Loss: 0.0328 | LR: 9.69e-05
+[2026-02-03 01:35:28] [INFO] Step 24300 | Loss: 0.0317 | LR: 9.68e-05
+[2026-02-03 01:35:34] [INFO] Step 24400 | Loss: 0.0314 | LR: 9.68e-05
+[2026-02-03 01:35:39] [INFO] Step 24500 | Loss: 0.0264 | LR: 9.68e-05
+[2026-02-03 01:35:40] [INFO] Epoch 16/100 completed | Train Loss: 0.0299 | Time: 89.4s
+[2026-02-03 01:35:45] [INFO] Validation Loss: 0.0293
+[2026-02-03 01:35:45] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:35:50] [INFO] Step 24600 | Loss: 0.0341 | LR: 9.67e-05
+[2026-02-03 01:35:56] [INFO] Step 24700 | Loss: 0.0286 | LR: 9.67e-05
+[2026-02-03 01:36:02] [INFO] Step 24800 | Loss: 0.0277 | LR: 9.67e-05
+[2026-02-03 01:36:08] [INFO] Step 24900 | Loss: 0.0291 | LR: 9.66e-05
+[2026-02-03 01:36:14] [INFO] Step 25000 | Loss: 0.0274 | LR: 9.66e-05
+[2026-02-03 01:36:20] [INFO] Step 25100 | Loss: 0.0304 | LR: 9.65e-05
+[2026-02-03 01:36:26] [INFO] Step 25200 | Loss: 0.0238 | LR: 9.65e-05
+[2026-02-03 01:36:31] [INFO] Step 25300 | Loss: 0.0312 | LR: 9.65e-05
+[2026-02-03 01:36:37] [INFO] Step 25400 | Loss: 0.0281 | LR: 9.64e-05
+[2026-02-03 01:36:43] [INFO] Step 25500 | Loss: 0.0287 | LR: 9.64e-05
+[2026-02-03 01:36:49] [INFO] Step 25600 | Loss: 0.0365 | LR: 9.63e-05
+[2026-02-03 01:36:55] [INFO] Step 25700 | Loss: 0.0289 | LR: 9.63e-05
+[2026-02-03 01:37:01] [INFO] Step 25800 | Loss: 0.0294 | LR: 9.63e-05
+[2026-02-03 01:37:06] [INFO] Step 25900 | Loss: 0.0282 | LR: 9.62e-05
+[2026-02-03 01:37:12] [INFO] Step 26000 | Loss: 0.0340 | LR: 9.62e-05
+[2026-02-03 01:37:14] [INFO] Epoch 17/100 completed | Train Loss: 0.0297 | Time: 88.9s
+[2026-02-03 01:37:20] [INFO] Validation Loss: 0.0291
+[2026-02-03 01:37:20] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:37:20] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:37:20] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:37:23] [INFO] Step 26100 | Loss: 0.0309 | LR: 9.61e-05
+[2026-02-03 01:37:29] [INFO] Step 26200 | Loss: 0.0304 | LR: 9.61e-05
+[2026-02-03 01:37:35] [INFO] Step 26300 | Loss: 0.0288 | LR: 9.60e-05
+[2026-02-03 01:37:41] [INFO] Step 26400 | Loss: 0.0352 | LR: 9.60e-05
+[2026-02-03 01:37:47] [INFO] Step 26500 | Loss: 0.0342 | LR: 9.60e-05
+[2026-02-03 01:37:53] [INFO] Step 26600 | Loss: 0.0338 | LR: 9.59e-05
+[2026-02-03 01:37:59] [INFO] Step 26700 | Loss: 0.0260 | LR: 9.59e-05
+[2026-02-03 01:38:05] [INFO] Step 26800 | Loss: 0.0305 | LR: 9.58e-05
+[2026-02-03 01:38:11] [INFO] Step 26900 | Loss: 0.0308 | LR: 9.58e-05
+[2026-02-03 01:38:17] [INFO] Step 27000 | Loss: 0.0325 | LR: 9.57e-05
+[2026-02-03 01:38:22] [INFO] Step 27100 | Loss: 0.0280 | LR: 9.57e-05
+[2026-02-03 01:38:28] [INFO] Step 27200 | Loss: 0.0263 | LR: 9.57e-05
+[2026-02-03 01:38:33] [INFO] Step 27300 | Loss: 0.0268 | LR: 9.56e-05
+[2026-02-03 01:38:39] [INFO] Step 27400 | Loss: 0.0288 | LR: 9.56e-05
+[2026-02-03 01:38:45] [INFO] Step 27500 | Loss: 0.0267 | LR: 9.55e-05
+[2026-02-03 01:38:49] [INFO] Epoch 18/100 completed | Train Loss: 0.0296 | Time: 88.9s
+[2026-02-03 01:38:55] [INFO] Validation Loss: 0.0289
+[2026-02-03 01:38:55] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:38:55] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:38:55] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:38:56] [INFO] Step 27600 | Loss: 0.0292 | LR: 9.55e-05
+[2026-02-03 01:39:02] [INFO] Step 27700 | Loss: 0.0275 | LR: 9.54e-05
+[2026-02-03 01:39:08] [INFO] Step 27800 | Loss: 0.0329 | LR: 9.54e-05
+[2026-02-03 01:39:14] [INFO] Step 27900 | Loss: 0.0285 | LR: 9.54e-05
+[2026-02-03 01:39:20] [INFO] Step 28000 | Loss: 0.0291 | LR: 9.53e-05
+[2026-02-03 01:39:26] [INFO] Step 28100 | Loss: 0.0291 | LR: 9.53e-05
+[2026-02-03 01:39:32] [INFO] Step 28200 | Loss: 0.0282 | LR: 9.52e-05
+[2026-02-03 01:39:37] [INFO] Step 28300 | Loss: 0.0305 | LR: 9.52e-05
+[2026-02-03 01:39:43] [INFO] Step 28400 | Loss: 0.0261 | LR: 9.51e-05
+[2026-02-03 01:39:49] [INFO] Step 28500 | Loss: 0.0248 | LR: 9.51e-05
+[2026-02-03 01:39:55] [INFO] Step 28600 | Loss: 0.0303 | LR: 9.50e-05
+[2026-02-03 01:40:01] [INFO] Step 28700 | Loss: 0.0314 | LR: 9.50e-05
+[2026-02-03 01:40:07] [INFO] Step 28800 | Loss: 0.0343 | LR: 9.49e-05
+[2026-02-03 01:40:12] [INFO] Step 28900 | Loss: 0.0262 | LR: 9.49e-05
+[2026-02-03 01:40:18] [INFO] Step 29000 | Loss: 0.0298 | LR: 9.48e-05
+[2026-02-03 01:40:24] [INFO] Step 29100 | Loss: 0.0310 | LR: 9.48e-05
+[2026-02-03 01:40:24] [INFO] Epoch 19/100 completed | Train Loss: 0.0294 | Time: 89.1s
+[2026-02-03 01:40:30] [INFO] Validation Loss: 0.0294
+[2026-02-03 01:40:30] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:40:35] [INFO] Step 29200 | Loss: 0.0278 | LR: 9.47e-05
+[2026-02-03 01:40:41] [INFO] Step 29300 | Loss: 0.0312 | LR: 9.47e-05
+[2026-02-03 01:40:47] [INFO] Step 29400 | Loss: 0.0263 | LR: 9.46e-05
+[2026-02-03 01:40:53] [INFO] Step 29500 | Loss: 0.0282 | LR: 9.46e-05
+[2026-02-03 01:40:59] [INFO] Step 29600 | Loss: 0.0275 | LR: 9.46e-05
+[2026-02-03 01:41:05] [INFO] Step 29700 | Loss: 0.0277 | LR: 9.45e-05
+[2026-02-03 01:41:10] [INFO] Step 29800 | Loss: 0.0280 | LR: 9.45e-05
+[2026-02-03 01:41:16] [INFO] Step 29900 | Loss: 0.0329 | LR: 9.44e-05
+[2026-02-03 01:41:22] [INFO] Step 30000 | Loss: 0.0247 | LR: 9.44e-05
+[2026-02-03 01:41:28] [INFO] Step 30100 | Loss: 0.0294 | LR: 9.43e-05
+[2026-02-03 01:41:33] [INFO] Step 30200 | Loss: 0.0249 | LR: 9.43e-05
+[2026-02-03 01:41:39] [INFO] Step 30300 | Loss: 0.0243 | LR: 9.42e-05
+[2026-02-03 01:41:45] [INFO] Step 30400 | Loss: 0.0296 | LR: 9.42e-05
+[2026-02-03 01:41:51] [INFO] Step 30500 | Loss: 0.0309 | LR: 9.41e-05
+[2026-02-03 01:41:57] [INFO] Step 30600 | Loss: 0.0273 | LR: 9.41e-05
+[2026-02-03 01:41:58] [INFO] Epoch 20/100 completed | Train Loss: 0.0293 | Time: 88.7s
+[2026-02-03 01:42:04] [INFO] Validation Loss: 0.0289
+[2026-02-03 01:42:04] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:42:08] [INFO] Step 30700 | Loss: 0.0313 | LR: 9.40e-05
+[2026-02-03 01:42:13] [INFO] Step 30800 | Loss: 0.0262 | LR: 9.40e-05
+[2026-02-03 01:42:19] [INFO] Step 30900 | Loss: 0.0333 | LR: 9.39e-05
+[2026-02-03 01:42:25] [INFO] Step 31000 | Loss: 0.0254 | LR: 9.38e-05
+[2026-02-03 01:42:31] [INFO] Step 31100 | Loss: 0.0264 | LR: 9.38e-05
+[2026-02-03 01:42:37] [INFO] Step 31200 | Loss: 0.0305 | LR: 9.37e-05
+[2026-02-03 01:42:43] [INFO] Step 31300 | Loss: 0.0285 | LR: 9.37e-05
+[2026-02-03 01:42:49] [INFO] Step 31400 | Loss: 0.0282 | LR: 9.36e-05
+[2026-02-03 01:42:55] [INFO] Step 31500 | Loss: 0.0373 | LR: 9.36e-05
+[2026-02-03 01:43:00] [INFO] Step 31600 | Loss: 0.0284 | LR: 9.35e-05
+[2026-02-03 01:43:06] [INFO] Step 31700 | Loss: 0.0267 | LR: 9.35e-05
+[2026-02-03 01:43:12] [INFO] Step 31800 | Loss: 0.0247 | LR: 9.34e-05
+[2026-02-03 01:43:17] [INFO] Step 31900 | Loss: 0.0308 | LR: 9.34e-05
+[2026-02-03 01:43:23] [INFO] Step 32000 | Loss: 0.0280 | LR: 9.33e-05
+[2026-02-03 01:43:29] [INFO] Step 32100 | Loss: 0.0254 | LR: 9.33e-05
+[2026-02-03 01:43:33] [INFO] Epoch 21/100 completed | Train Loss: 0.0291 | Time: 89.2s
+[2026-02-03 01:43:39] [INFO] Validation Loss: 0.0286
+[2026-02-03 01:43:39] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:43:39] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:43:39] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:43:41] [INFO] Step 32200 | Loss: 0.0245 | LR: 9.32e-05
+[2026-02-03 01:43:47] [INFO] Step 32300 | Loss: 0.0239 | LR: 9.32e-05
+[2026-02-03 01:43:53] [INFO] Step 32400 | Loss: 0.0313 | LR: 9.31e-05
+[2026-02-03 01:43:59] [INFO] Step 32500 | Loss: 0.0281 | LR: 9.31e-05
+[2026-02-03 01:44:04] [INFO] Step 32600 | Loss: 0.0287 | LR: 9.30e-05
+[2026-02-03 01:44:10] [INFO] Step 32700 | Loss: 0.0286 | LR: 9.29e-05
+[2026-02-03 01:44:16] [INFO] Step 32800 | Loss: 0.0330 | LR: 9.29e-05
+[2026-02-03 01:44:22] [INFO] Step 32900 | Loss: 0.0285 | LR: 9.28e-05
+[2026-02-03 01:44:28] [INFO] Step 33000 | Loss: 0.0285 | LR: 9.28e-05
+[2026-02-03 01:44:34] [INFO] Step 33100 | Loss: 0.0309 | LR: 9.27e-05
+[2026-02-03 01:44:39] [INFO] Step 33200 | Loss: 0.0274 | LR: 9.27e-05
+[2026-02-03 01:44:45] [INFO] Step 33300 | Loss: 0.0321 | LR: 9.26e-05
+[2026-02-03 01:44:51] [INFO] Step 33400 | Loss: 0.0239 | LR: 9.26e-05
+[2026-02-03 01:44:56] [INFO] Step 33500 | Loss: 0.0314 | LR: 9.25e-05
+[2026-02-03 01:45:02] [INFO] Step 33600 | Loss: 0.0275 | LR: 9.24e-05
+[2026-02-03 01:45:08] [INFO] Step 33700 | Loss: 0.0222 | LR: 9.24e-05
+[2026-02-03 01:45:08] [INFO] Epoch 22/100 completed | Train Loss: 0.0290 | Time: 88.5s
+[2026-02-03 01:45:14] [INFO] Validation Loss: 0.0287
+[2026-02-03 01:45:14] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:45:19] [INFO] Step 33800 | Loss: 0.0322 | LR: 9.23e-05
+[2026-02-03 01:45:24] [INFO] Step 33900 | Loss: 0.0291 | LR: 9.23e-05
+[2026-02-03 01:45:30] [INFO] Step 34000 | Loss: 0.0237 | LR: 9.22e-05
+[2026-02-03 01:45:36] [INFO] Step 34100 | Loss: 0.0300 | LR: 9.22e-05
+[2026-02-03 01:45:42] [INFO] Step 34200 | Loss: 0.0302 | LR: 9.21e-05
+[2026-02-03 01:45:47] [INFO] Step 34300 | Loss: 0.0310 | LR: 9.20e-05
+[2026-02-03 01:45:53] [INFO] Step 34400 | Loss: 0.0252 | LR: 9.20e-05
+[2026-02-03 01:45:59] [INFO] Step 34500 | Loss: 0.0346 | LR: 9.19e-05
+[2026-02-03 01:46:05] [INFO] Step 34600 | Loss: 0.0288 | LR: 9.19e-05
+[2026-02-03 01:46:10] [INFO] Step 34700 | Loss: 0.0273 | LR: 9.18e-05
+[2026-02-03 01:46:16] [INFO] Step 34800 | Loss: 0.0251 | LR: 9.17e-05
+[2026-02-03 01:46:22] [INFO] Step 34900 | Loss: 0.0367 | LR: 9.17e-05
+[2026-02-03 01:46:28] [INFO] Step 35000 | Loss: 0.0300 | LR: 9.16e-05
+[2026-02-03 01:46:34] [INFO] Step 35100 | Loss: 0.0298 | LR: 9.16e-05
+[2026-02-03 01:46:39] [INFO] Step 35200 | Loss: 0.0288 | LR: 9.15e-05
+[2026-02-03 01:46:41] [INFO] Epoch 23/100 completed | Train Loss: 0.0289 | Time: 87.3s
+[2026-02-03 01:46:46] [INFO] Validation Loss: 0.0288
+[2026-02-03 01:46:47] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:46:50] [INFO] Step 35300 | Loss: 0.0305 | LR: 9.14e-05
+[2026-02-03 01:46:56] [INFO] Step 35400 | Loss: 0.0245 | LR: 9.14e-05
+[2026-02-03 01:47:02] [INFO] Step 35500 | Loss: 0.0287 | LR: 9.13e-05
+[2026-02-03 01:47:08] [INFO] Step 35600 | Loss: 0.0264 | LR: 9.13e-05
+[2026-02-03 01:47:14] [INFO] Step 35700 | Loss: 0.0301 | LR: 9.12e-05
+[2026-02-03 01:47:19] [INFO] Step 35800 | Loss: 0.0305 | LR: 9.11e-05
+[2026-02-03 01:47:25] [INFO] Step 35900 | Loss: 0.0297 | LR: 9.11e-05
+[2026-02-03 01:47:31] [INFO] Step 36000 | Loss: 0.0320 | LR: 9.10e-05
+[2026-02-03 01:47:37] [INFO] Step 36100 | Loss: 0.0309 | LR: 9.10e-05
+[2026-02-03 01:47:43] [INFO] Step 36200 | Loss: 0.0277 | LR: 9.09e-05
+[2026-02-03 01:47:48] [INFO] Step 36300 | Loss: 0.0274 | LR: 9.08e-05
+[2026-02-03 01:47:54] [INFO] Step 36400 | Loss: 0.0255 | LR: 9.08e-05
+[2026-02-03 01:48:00] [INFO] Step 36500 | Loss: 0.0230 | LR: 9.07e-05
+[2026-02-03 01:48:06] [INFO] Step 36600 | Loss: 0.0264 | LR: 9.07e-05
+[2026-02-03 01:48:12] [INFO] Step 36700 | Loss: 0.0366 | LR: 9.06e-05
+[2026-02-03 01:48:15] [INFO] Epoch 24/100 completed | Train Loss: 0.0287 | Time: 88.6s
+[2026-02-03 01:48:21] [INFO] Validation Loss: 0.0286
+[2026-02-03 01:48:21] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:48:23] [INFO] Step 36800 | Loss: 0.0283 | LR: 9.05e-05
+[2026-02-03 01:48:29] [INFO] Step 36900 | Loss: 0.0270 | LR: 9.05e-05
+[2026-02-03 01:48:34] [INFO] Step 37000 | Loss: 0.0296 | LR: 9.04e-05
+[2026-02-03 01:48:40] [INFO] Step 37100 | Loss: 0.0239 | LR: 9.03e-05
+[2026-02-03 01:48:46] [INFO] Step 37200 | Loss: 0.0337 | LR: 9.03e-05
+[2026-02-03 01:48:52] [INFO] Step 37300 | Loss: 0.0257 | LR: 9.02e-05
+[2026-02-03 01:48:58] [INFO] Step 37400 | Loss: 0.0252 | LR: 9.01e-05
+[2026-02-03 01:49:04] [INFO] Step 37500 | Loss: 0.0278 | LR: 9.01e-05
+[2026-02-03 01:49:10] [INFO] Step 37600 | Loss: 0.0252 | LR: 9.00e-05
+[2026-02-03 01:49:15] [INFO] Step 37700 | Loss: 0.0336 | LR: 9.00e-05
+[2026-02-03 01:49:21] [INFO] Step 37800 | Loss: 0.0253 | LR: 8.99e-05
+[2026-02-03 01:49:27] [INFO] Step 37900 | Loss: 0.0284 | LR: 8.98e-05
+[2026-02-03 01:49:33] [INFO] Step 38000 | Loss: 0.0321 | LR: 8.98e-05
+[2026-02-03 01:49:39] [INFO] Step 38100 | Loss: 0.0266 | LR: 8.97e-05
+[2026-02-03 01:49:45] [INFO] Step 38200 | Loss: 0.0274 | LR: 8.96e-05
+[2026-02-03 01:49:50] [INFO] Step 38300 | Loss: 0.0299 | LR: 8.96e-05
+[2026-02-03 01:49:50] [INFO] Epoch 25/100 completed | Train Loss: 0.0286 | Time: 89.5s
+[2026-02-03 01:49:56] [INFO] Validation Loss: 0.0285
+[2026-02-03 01:49:56] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:49:56] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:49:56] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:50:02] [INFO] Step 38400 | Loss: 0.0296 | LR: 8.95e-05
+[2026-02-03 01:50:08] [INFO] Step 38500 | Loss: 0.0333 | LR: 8.94e-05
+[2026-02-03 01:50:14] [INFO] Step 38600 | Loss: 0.0273 | LR: 8.94e-05
+[2026-02-03 01:50:20] [INFO] Step 38700 | Loss: 0.0299 | LR: 8.93e-05
+[2026-02-03 01:50:25] [INFO] Step 38800 | Loss: 0.0245 | LR: 8.92e-05
+[2026-02-03 01:50:31] [INFO] Step 38900 | Loss: 0.0250 | LR: 8.92e-05
+[2026-02-03 01:50:37] [INFO] Step 39000 | Loss: 0.0279 | LR: 8.91e-05
+[2026-02-03 01:50:43] [INFO] Step 39100 | Loss: 0.0296 | LR: 8.90e-05
+[2026-02-03 01:50:49] [INFO] Step 39200 | Loss: 0.0256 | LR: 8.90e-05
+[2026-02-03 01:50:54] [INFO] Step 39300 | Loss: 0.0237 | LR: 8.89e-05
+[2026-02-03 01:51:00] [INFO] Step 39400 | Loss: 0.0268 | LR: 8.88e-05
+[2026-02-03 01:51:06] [INFO] Step 39500 | Loss: 0.0241 | LR: 8.88e-05
+[2026-02-03 01:51:12] [INFO] Step 39600 | Loss: 0.0277 | LR: 8.87e-05
+[2026-02-03 01:51:18] [INFO] Step 39700 | Loss: 0.0262 | LR: 8.86e-05
+[2026-02-03 01:51:23] [INFO] Step 39800 | Loss: 0.0302 | LR: 8.86e-05
+[2026-02-03 01:51:25] [INFO] Epoch 26/100 completed | Train Loss: 0.0286 | Time: 88.8s
+[2026-02-03 01:51:31] [INFO] Validation Loss: 0.0290
+[2026-02-03 01:51:31] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:51:35] [INFO] Step 39900 | Loss: 0.0285 | LR: 8.85e-05
+[2026-02-03 01:51:41] [INFO] Step 40000 | Loss: 0.0249 | LR: 8.84e-05
+[2026-02-03 01:51:46] [INFO] Step 40100 | Loss: 0.0292 | LR: 8.84e-05
+[2026-02-03 01:51:52] [INFO] Step 40200 | Loss: 0.0220 | LR: 8.83e-05
+[2026-02-03 01:51:58] [INFO] Step 40300 | Loss: 0.0289 | LR: 8.82e-05
+[2026-02-03 01:52:04] [INFO] Step 40400 | Loss: 0.0267 | LR: 8.81e-05
+[2026-02-03 01:52:10] [INFO] Step 40500 | Loss: 0.0241 | LR: 8.81e-05
+[2026-02-03 01:52:15] [INFO] Step 40600 | Loss: 0.0258 | LR: 8.80e-05
+[2026-02-03 01:52:21] [INFO] Step 40700 | Loss: 0.0263 | LR: 8.79e-05
+[2026-02-03 01:52:27] [INFO] Step 40800 | Loss: 0.0277 | LR: 8.79e-05
+[2026-02-03 01:52:33] [INFO] Step 40900 | Loss: 0.0318 | LR: 8.78e-05
+[2026-02-03 01:52:39] [INFO] Step 41000 | Loss: 0.0273 | LR: 8.77e-05
+[2026-02-03 01:52:45] [INFO] Step 41100 | Loss: 0.0302 | LR: 8.77e-05
+[2026-02-03 01:52:51] [INFO] Step 41200 | Loss: 0.0249 | LR: 8.76e-05
+[2026-02-03 01:52:57] [INFO] Step 41300 | Loss: 0.0255 | LR: 8.75e-05
+[2026-02-03 01:53:00] [INFO] Epoch 27/100 completed | Train Loss: 0.0285 | Time: 89.3s
+[2026-02-03 01:53:06] [INFO] Validation Loss: 0.0284
+[2026-02-03 01:53:06] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:53:08] [INFO] Step 41400 | Loss: 0.0297 | LR: 8.74e-05
+[2026-02-03 01:53:14] [INFO] Step 41500 | Loss: 0.0268 | LR: 8.74e-05
+[2026-02-03 01:53:20] [INFO] Step 41600 | Loss: 0.0269 | LR: 8.73e-05
+[2026-02-03 01:53:25] [INFO] Step 41700 | Loss: 0.0291 | LR: 8.72e-05
+[2026-02-03 01:53:31] [INFO] Step 41800 | Loss: 0.0242 | LR: 8.72e-05
+[2026-02-03 01:53:37] [INFO] Step 41900 | Loss: 0.0277 | LR: 8.71e-05
+[2026-02-03 01:53:43] [INFO] Step 42000 | Loss: 0.0260 | LR: 8.70e-05
+[2026-02-03 01:53:49] [INFO] Step 42100 | Loss: 0.0291 | LR: 8.69e-05
+[2026-02-03 01:53:55] [INFO] Step 42200 | Loss: 0.0254 | LR: 8.69e-05
+[2026-02-03 01:54:01] [INFO] Step 42300 | Loss: 0.0264 | LR: 8.68e-05
+[2026-02-03 01:54:07] [INFO] Step 42400 | Loss: 0.0314 | LR: 8.67e-05
+[2026-02-03 01:54:12] [INFO] Step 42500 | Loss: 0.0312 | LR: 8.66e-05
+[2026-02-03 01:54:18] [INFO] Step 42600 | Loss: 0.0261 | LR: 8.66e-05
+[2026-02-03 01:54:24] [INFO] Step 42700 | Loss: 0.0359 | LR: 8.65e-05
+[2026-02-03 01:54:30] [INFO] Step 42800 | Loss: 0.0278 | LR: 8.64e-05
+[2026-02-03 01:54:35] [INFO] Epoch 28/100 completed | Train Loss: 0.0283 | Time: 89.2s
+[2026-02-03 01:54:41] [INFO] Validation Loss: 0.0284
+[2026-02-03 01:54:41] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:54:41] [INFO] Step 42900 | Loss: 0.0319 | LR: 8.64e-05
+[2026-02-03 01:54:47] [INFO] Step 43000 | Loss: 0.0325 | LR: 8.63e-05
+[2026-02-03 01:54:52] [INFO] Step 43100 | Loss: 0.0256 | LR: 8.62e-05
+[2026-02-03 01:54:58] [INFO] Step 43200 | Loss: 0.0236 | LR: 8.61e-05
+[2026-02-03 01:55:04] [INFO] Step 43300 | Loss: 0.0250 | LR: 8.61e-05
+[2026-02-03 01:55:10] [INFO] Step 43400 | Loss: 0.0247 | LR: 8.60e-05
+[2026-02-03 01:55:15] [INFO] Step 43500 | Loss: 0.0245 | LR: 8.59e-05
+[2026-02-03 01:55:21] [INFO] Step 43600 | Loss: 0.0284 | LR: 8.58e-05
+[2026-02-03 01:55:27] [INFO] Step 43700 | Loss: 0.0272 | LR: 8.58e-05
+[2026-02-03 01:55:33] [INFO] Step 43800 | Loss: 0.0306 | LR: 8.57e-05
+[2026-02-03 01:55:39] [INFO] Step 43900 | Loss: 0.0321 | LR: 8.56e-05
+[2026-02-03 01:55:44] [INFO] Step 44000 | Loss: 0.0264 | LR: 8.55e-05
+[2026-02-03 01:55:50] [INFO] Step 44100 | Loss: 0.0304 | LR: 8.55e-05
+[2026-02-03 01:55:57] [INFO] Step 44200 | Loss: 0.0273 | LR: 8.54e-05
+[2026-02-03 01:56:02] [INFO] Step 44300 | Loss: 0.0281 | LR: 8.53e-05
+[2026-02-03 01:56:08] [INFO] Step 44400 | Loss: 0.0295 | LR: 8.52e-05
+[2026-02-03 01:56:09] [INFO] Epoch 29/100 completed | Train Loss: 0.0282 | Time: 88.7s
+[2026-02-03 01:56:15] [INFO] Validation Loss: 0.0284
+[2026-02-03 01:56:15] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:56:19] [INFO] Step 44500 | Loss: 0.0307 | LR: 8.52e-05
+[2026-02-03 01:56:25] [INFO] Step 44600 | Loss: 0.0278 | LR: 8.51e-05
+[2026-02-03 01:56:31] [INFO] Step 44700 | Loss: 0.0294 | LR: 8.50e-05
+[2026-02-03 01:56:37] [INFO] Step 44800 | Loss: 0.0258 | LR: 8.49e-05
+[2026-02-03 01:56:42] [INFO] Step 44900 | Loss: 0.0279 | LR: 8.48e-05
+[2026-02-03 01:56:48] [INFO] Step 45000 | Loss: 0.0284 | LR: 8.48e-05
+[2026-02-03 01:56:54] [INFO] Step 45100 | Loss: 0.0263 | LR: 8.47e-05
+[2026-02-03 01:57:00] [INFO] Step 45200 | Loss: 0.0351 | LR: 8.46e-05
+[2026-02-03 01:57:06] [INFO] Step 45300 | Loss: 0.0264 | LR: 8.45e-05
+[2026-02-03 01:57:12] [INFO] Step 45400 | Loss: 0.0284 | LR: 8.45e-05
+[2026-02-03 01:57:17] [INFO] Step 45500 | Loss: 0.0251 | LR: 8.44e-05
+[2026-02-03 01:57:23] [INFO] Step 45600 | Loss: 0.0331 | LR: 8.43e-05
+[2026-02-03 01:57:30] [INFO] Step 45700 | Loss: 0.0296 | LR: 8.42e-05
+[2026-02-03 01:57:35] [INFO] Step 45800 | Loss: 0.0300 | LR: 8.42e-05
+[2026-02-03 01:57:41] [INFO] Step 45900 | Loss: 0.0275 | LR: 8.41e-05
+[2026-02-03 01:57:45] [INFO] Epoch 30/100 completed | Train Loss: 0.0281 | Time: 89.7s
+[2026-02-03 01:57:50] [INFO] Validation Loss: 0.0287
+[2026-02-03 01:57:50] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:57:53] [INFO] Step 46000 | Loss: 0.0206 | LR: 8.40e-05
+[2026-02-03 01:57:59] [INFO] Step 46100 | Loss: 0.0276 | LR: 8.39e-05
+[2026-02-03 01:58:05] [INFO] Step 46200 | Loss: 0.0279 | LR: 8.38e-05
+[2026-02-03 01:58:11] [INFO] Step 46300 | Loss: 0.0265 | LR: 8.38e-05
+[2026-02-03 01:58:17] [INFO] Step 46400 | Loss: 0.0356 | LR: 8.37e-05
+[2026-02-03 01:58:23] [INFO] Step 46500 | Loss: 0.0307 | LR: 8.36e-05
+[2026-02-03 01:58:29] [INFO] Step 46600 | Loss: 0.0275 | LR: 8.35e-05
+[2026-02-03 01:58:34] [INFO] Step 46700 | Loss: 0.0263 | LR: 8.34e-05
+[2026-02-03 01:58:40] [INFO] Step 46800 | Loss: 0.0237 | LR: 8.34e-05
+[2026-02-03 01:58:46] [INFO] Step 46900 | Loss: 0.0289 | LR: 8.33e-05
+[2026-02-03 01:58:52] [INFO] Step 47000 | Loss: 0.0252 | LR: 8.32e-05
+[2026-02-03 01:58:58] [INFO] Step 47100 | Loss: 0.0297 | LR: 8.31e-05
+[2026-02-03 01:59:03] [INFO] Step 47200 | Loss: 0.0248 | LR: 8.30e-05
+[2026-02-03 01:59:09] [INFO] Step 47300 | Loss: 0.0252 | LR: 8.30e-05
+[2026-02-03 01:59:15] [INFO] Step 47400 | Loss: 0.0258 | LR: 8.29e-05
+[2026-02-03 01:59:20] [INFO] Epoch 31/100 completed | Train Loss: 0.0281 | Time: 89.5s
+[2026-02-03 01:59:26] [INFO] Validation Loss: 0.0282
+[2026-02-03 01:59:26] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:59:26] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 01:59:26] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 01:59:27] [INFO] Step 47500 | Loss: 0.0259 | LR: 8.28e-05
+[2026-02-03 01:59:32] [INFO] Step 47600 | Loss: 0.0247 | LR: 8.27e-05
+[2026-02-03 01:59:38] [INFO] Step 47700 | Loss: 0.0258 | LR: 8.26e-05
+[2026-02-03 01:59:44] [INFO] Step 47800 | Loss: 0.0327 | LR: 8.26e-05
+[2026-02-03 01:59:50] [INFO] Step 47900 | Loss: 0.0236 | LR: 8.25e-05
+[2026-02-03 01:59:56] [INFO] Step 48000 | Loss: 0.0220 | LR: 8.24e-05
+[2026-02-03 02:00:02] [INFO] Step 48100 | Loss: 0.0261 | LR: 8.23e-05
+[2026-02-03 02:00:07] [INFO] Step 48200 | Loss: 0.0223 | LR: 8.22e-05
+[2026-02-03 02:00:13] [INFO] Step 48300 | Loss: 0.0254 | LR: 8.21e-05
+[2026-02-03 02:00:18] [INFO] Step 48400 | Loss: 0.0285 | LR: 8.21e-05
+[2026-02-03 02:00:24] [INFO] Step 48500 | Loss: 0.0287 | LR: 8.20e-05
+[2026-02-03 02:00:30] [INFO] Step 48600 | Loss: 0.0273 | LR: 8.19e-05
+[2026-02-03 02:00:36] [INFO] Step 48700 | Loss: 0.0240 | LR: 8.18e-05
+[2026-02-03 02:00:42] [INFO] Step 48800 | Loss: 0.0269 | LR: 8.17e-05
+[2026-02-03 02:00:48] [INFO] Step 48900 | Loss: 0.0287 | LR: 8.16e-05
+[2026-02-03 02:00:53] [INFO] Step 49000 | Loss: 0.0318 | LR: 8.16e-05
+[2026-02-03 02:00:54] [INFO] Epoch 32/100 completed | Train Loss: 0.0279 | Time: 88.0s
+[2026-02-03 02:01:00] [INFO] Validation Loss: 0.0283
+[2026-02-03 02:01:00] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:01:04] [INFO] Step 49100 | Loss: 0.0262 | LR: 8.15e-05
+[2026-02-03 02:01:10] [INFO] Step 49200 | Loss: 0.0285 | LR: 8.14e-05
+[2026-02-03 02:01:16] [INFO] Step 49300 | Loss: 0.0321 | LR: 8.13e-05
+[2026-02-03 02:01:22] [INFO] Step 49400 | Loss: 0.0310 | LR: 8.12e-05
+[2026-02-03 02:01:28] [INFO] Step 49500 | Loss: 0.0249 | LR: 8.11e-05
+[2026-02-03 02:01:34] [INFO] Step 49600 | Loss: 0.0274 | LR: 8.11e-05
+[2026-02-03 02:01:39] [INFO] Step 49700 | Loss: 0.0263 | LR: 8.10e-05
+[2026-02-03 02:01:46] [INFO] Step 49800 | Loss: 0.0335 | LR: 8.09e-05
+[2026-02-03 02:01:52] [INFO] Step 49900 | Loss: 0.0331 | LR: 8.08e-05
+[2026-02-03 02:01:58] [INFO] Step 50000 | Loss: 0.0276 | LR: 8.07e-05
+[2026-02-03 02:02:03] [INFO] Step 50100 | Loss: 0.0253 | LR: 8.06e-05
+[2026-02-03 02:02:09] [INFO] Step 50200 | Loss: 0.0246 | LR: 8.06e-05
+[2026-02-03 02:02:15] [INFO] Step 50300 | Loss: 0.0250 | LR: 8.05e-05
+[2026-02-03 02:02:21] [INFO] Step 50400 | Loss: 0.0305 | LR: 8.04e-05
+[2026-02-03 02:02:27] [INFO] Step 50500 | Loss: 0.0291 | LR: 8.03e-05
+[2026-02-03 02:02:30] [INFO] Epoch 33/100 completed | Train Loss: 0.0279 | Time: 90.2s
+[2026-02-03 02:02:36] [INFO] Validation Loss: 0.0279
+[2026-02-03 02:02:36] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 02:02:36] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 02:02:36] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:02:39] [INFO] Step 50600 | Loss: 0.0258 | LR: 8.02e-05
+[2026-02-03 02:02:44] [INFO] Step 50700 | Loss: 0.0290 | LR: 8.01e-05
+[2026-02-03 02:02:50] [INFO] Step 50800 | Loss: 0.0289 | LR: 8.00e-05
+[2026-02-03 02:02:56] [INFO] Step 50900 | Loss: 0.0285 | LR: 8.00e-05
+[2026-02-03 02:03:02] [INFO] Step 51000 | Loss: 0.0276 | LR: 7.99e-05
+[2026-02-03 02:03:08] [INFO] Step 51100 | Loss: 0.0271 | LR: 7.98e-05
+[2026-02-03 02:03:14] [INFO] Step 51200 | Loss: 0.0257 | LR: 7.97e-05
+[2026-02-03 02:03:20] [INFO] Step 51300 | Loss: 0.0317 | LR: 7.96e-05
+[2026-02-03 02:03:26] [INFO] Step 51400 | Loss: 0.0245 | LR: 7.95e-05
+[2026-02-03 02:03:32] [INFO] Step 51500 | Loss: 0.0285 | LR: 7.94e-05
+[2026-02-03 02:03:38] [INFO] Step 51600 | Loss: 0.0334 | LR: 7.94e-05
+[2026-02-03 02:03:44] [INFO] Step 51700 | Loss: 0.0274 | LR: 7.93e-05
+[2026-02-03 02:03:49] [INFO] Step 51800 | Loss: 0.0313 | LR: 7.92e-05
+[2026-02-03 02:03:55] [INFO] Step 51900 | Loss: 0.0274 | LR: 7.91e-05
+[2026-02-03 02:04:01] [INFO] Step 52000 | Loss: 0.0327 | LR: 7.90e-05
+[2026-02-03 02:04:05] [INFO] Epoch 34/100 completed | Train Loss: 0.0278 | Time: 89.1s
+[2026-02-03 02:04:11] [INFO] Validation Loss: 0.0280
+[2026-02-03 02:04:11] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:04:11] [INFO] Step 52100 | Loss: 0.0298 | LR: 7.89e-05
+[2026-02-03 02:04:17] [INFO] Step 52200 | Loss: 0.0272 | LR: 7.88e-05
+[2026-02-03 02:04:23] [INFO] Step 52300 | Loss: 0.0256 | LR: 7.87e-05
+[2026-02-03 02:04:29] [INFO] Step 52400 | Loss: 0.0300 | LR: 7.87e-05
+[2026-02-03 02:04:35] [INFO] Step 52500 | Loss: 0.0318 | LR: 7.86e-05
+[2026-02-03 02:04:41] [INFO] Step 52600 | Loss: 0.0258 | LR: 7.85e-05
+[2026-02-03 02:04:47] [INFO] Step 52700 | Loss: 0.0302 | LR: 7.84e-05
+[2026-02-03 02:04:53] [INFO] Step 52800 | Loss: 0.0276 | LR: 7.83e-05
+[2026-02-03 02:04:59] [INFO] Step 52900 | Loss: 0.0295 | LR: 7.82e-05
+[2026-02-03 02:05:05] [INFO] Step 53000 | Loss: 0.0302 | LR: 7.81e-05
+[2026-02-03 02:05:11] [INFO] Step 53100 | Loss: 0.0311 | LR: 7.80e-05
+[2026-02-03 02:05:17] [INFO] Step 53200 | Loss: 0.0240 | LR: 7.79e-05
+[2026-02-03 02:05:22] [INFO] Step 53300 | Loss: 0.0254 | LR: 7.79e-05
+[2026-02-03 02:05:28] [INFO] Step 53400 | Loss: 0.0331 | LR: 7.78e-05
+[2026-02-03 02:05:34] [INFO] Step 53500 | Loss: 0.0264 | LR: 7.77e-05
+[2026-02-03 02:05:40] [INFO] Step 53600 | Loss: 0.0299 | LR: 7.76e-05
+[2026-02-03 02:05:41] [INFO] Epoch 35/100 completed | Train Loss: 0.0277 | Time: 90.0s
+[2026-02-03 02:05:46] [INFO] Validation Loss: 0.0280
+[2026-02-03 02:05:46] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:05:52] [INFO] Step 53700 | Loss: 0.0300 | LR: 7.75e-05
+[2026-02-03 02:05:57] [INFO] Step 53800 | Loss: 0.0308 | LR: 7.74e-05
+[2026-02-03 02:06:03] [INFO] Step 53900 | Loss: 0.0287 | LR: 7.73e-05
+[2026-02-03 02:06:09] [INFO] Step 54000 | Loss: 0.0238 | LR: 7.72e-05
+[2026-02-03 02:06:15] [INFO] Step 54100 | Loss: 0.0290 | LR: 7.71e-05
+[2026-02-03 02:06:21] [INFO] Step 54200 | Loss: 0.0251 | LR: 7.71e-05
+[2026-02-03 02:06:27] [INFO] Step 54300 | Loss: 0.0255 | LR: 7.70e-05
+[2026-02-03 02:06:33] [INFO] Step 54400 | Loss: 0.0282 | LR: 7.69e-05
+[2026-02-03 02:06:39] [INFO] Step 54500 | Loss: 0.0216 | LR: 7.68e-05
+[2026-02-03 02:06:45] [INFO] Step 54600 | Loss: 0.0351 | LR: 7.67e-05
+[2026-02-03 02:06:50] [INFO] Step 54700 | Loss: 0.0251 | LR: 7.66e-05
+[2026-02-03 02:06:56] [INFO] Step 54800 | Loss: 0.0246 | LR: 7.65e-05
+[2026-02-03 02:07:02] [INFO] Step 54900 | Loss: 0.0228 | LR: 7.64e-05
+[2026-02-03 02:07:08] [INFO] Step 55000 | Loss: 0.0253 | LR: 7.63e-05
+[2026-02-03 02:07:14] [INFO] Step 55100 | Loss: 0.0240 | LR: 7.62e-05
+[2026-02-03 02:07:17] [INFO] Epoch 36/100 completed | Train Loss: 0.0276 | Time: 90.3s
+[2026-02-03 02:07:22] [INFO] Validation Loss: 0.0280
+[2026-02-03 02:07:22] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:07:25] [INFO] Step 55200 | Loss: 0.0229 | LR: 7.61e-05
+[2026-02-03 02:07:31] [INFO] Step 55300 | Loss: 0.0259 | LR: 7.61e-05
+[2026-02-03 02:07:37] [INFO] Step 55400 | Loss: 0.0287 | LR: 7.60e-05
+[2026-02-03 02:07:43] [INFO] Step 55500 | Loss: 0.0242 | LR: 7.59e-05
+[2026-02-03 02:07:49] [INFO] Step 55600 | Loss: 0.0235 | LR: 7.58e-05
+[2026-02-03 02:07:54] [INFO] Step 55700 | Loss: 0.0256 | LR: 7.57e-05
+[2026-02-03 02:08:00] [INFO] Step 55800 | Loss: 0.0319 | LR: 7.56e-05
+[2026-02-03 02:08:06] [INFO] Step 55900 | Loss: 0.0269 | LR: 7.55e-05
+[2026-02-03 02:08:12] [INFO] Step 56000 | Loss: 0.0289 | LR: 7.54e-05
+[2026-02-03 02:08:18] [INFO] Step 56100 | Loss: 0.0302 | LR: 7.53e-05
+[2026-02-03 02:08:24] [INFO] Step 56200 | Loss: 0.0230 | LR: 7.52e-05
+[2026-02-03 02:08:30] [INFO] Step 56300 | Loss: 0.0256 | LR: 7.51e-05
+[2026-02-03 02:08:36] [INFO] Step 56400 | Loss: 0.0267 | LR: 7.50e-05
+[2026-02-03 02:08:42] [INFO] Step 56500 | Loss: 0.0271 | LR: 7.49e-05
+[2026-02-03 02:08:47] [INFO] Step 56600 | Loss: 0.0227 | LR: 7.49e-05
+[2026-02-03 02:08:52] [INFO] Epoch 37/100 completed | Train Loss: 0.0276 | Time: 89.8s
+[2026-02-03 02:08:58] [INFO] Validation Loss: 0.0279
+[2026-02-03 02:08:58] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:08:59] [INFO] Step 56700 | Loss: 0.0307 | LR: 7.48e-05
+[2026-02-03 02:09:05] [INFO] Step 56800 | Loss: 0.0259 | LR: 7.47e-05
+[2026-02-03 02:09:10] [INFO] Step 56900 | Loss: 0.0337 | LR: 7.46e-05
+[2026-02-03 02:09:16] [INFO] Step 57000 | Loss: 0.0229 | LR: 7.45e-05
+[2026-02-03 02:09:22] [INFO] Step 57100 | Loss: 0.0272 | LR: 7.44e-05
+[2026-02-03 02:09:28] [INFO] Step 57200 | Loss: 0.0272 | LR: 7.43e-05
+[2026-02-03 02:09:34] [INFO] Step 57300 | Loss: 0.0281 | LR: 7.42e-05
+[2026-02-03 02:09:40] [INFO] Step 57400 | Loss: 0.0263 | LR: 7.41e-05
+[2026-02-03 02:09:46] [INFO] Step 57500 | Loss: 0.0288 | LR: 7.40e-05
+[2026-02-03 02:09:52] [INFO] Step 57600 | Loss: 0.0292 | LR: 7.39e-05
+[2026-02-03 02:09:58] [INFO] Step 57700 | Loss: 0.0277 | LR: 7.38e-05
+[2026-02-03 02:10:03] [INFO] Step 57800 | Loss: 0.0291 | LR: 7.37e-05
+[2026-02-03 02:10:09] [INFO] Step 57900 | Loss: 0.0288 | LR: 7.36e-05
+[2026-02-03 02:10:14] [INFO] Step 58000 | Loss: 0.0289 | LR: 7.35e-05
+[2026-02-03 02:10:20] [INFO] Step 58100 | Loss: 0.0311 | LR: 7.34e-05
+[2026-02-03 02:10:26] [INFO] Step 58200 | Loss: 0.0284 | LR: 7.34e-05
+[2026-02-03 02:10:27] [INFO] Epoch 38/100 completed | Train Loss: 0.0275 | Time: 88.9s
+[2026-02-03 02:10:33] [INFO] Validation Loss: 0.0279
+[2026-02-03 02:10:33] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:10:38] [INFO] Step 58300 | Loss: 0.0260 | LR: 7.33e-05
+[2026-02-03 02:10:44] [INFO] Step 58400 | Loss: 0.0281 | LR: 7.32e-05
+[2026-02-03 02:10:49] [INFO] Step 58500 | Loss: 0.0277 | LR: 7.31e-05
+[2026-02-03 02:10:55] [INFO] Step 58600 | Loss: 0.0305 | LR: 7.30e-05
+[2026-02-03 02:11:01] [INFO] Step 58700 | Loss: 0.0296 | LR: 7.29e-05
+[2026-02-03 02:11:07] [INFO] Step 58800 | Loss: 0.0313 | LR: 7.28e-05
+[2026-02-03 02:11:13] [INFO] Step 58900 | Loss: 0.0289 | LR: 7.27e-05
+[2026-02-03 02:11:19] [INFO] Step 59000 | Loss: 0.0266 | LR: 7.26e-05
+[2026-02-03 02:11:25] [INFO] Step 59100 | Loss: 0.0291 | LR: 7.25e-05
+[2026-02-03 02:11:31] [INFO] Step 59200 | Loss: 0.0276 | LR: 7.24e-05
+[2026-02-03 02:11:37] [INFO] Step 59300 | Loss: 0.0273 | LR: 7.23e-05
+[2026-02-03 02:11:43] [INFO] Step 59400 | Loss: 0.0280 | LR: 7.22e-05
+[2026-02-03 02:11:49] [INFO] Step 59500 | Loss: 0.0209 | LR: 7.21e-05
+[2026-02-03 02:11:55] [INFO] Step 59600 | Loss: 0.0242 | LR: 7.20e-05
+[2026-02-03 02:12:01] [INFO] Step 59700 | Loss: 0.0235 | LR: 7.19e-05
+[2026-02-03 02:12:03] [INFO] Epoch 39/100 completed | Train Loss: 0.0274 | Time: 90.3s
+[2026-02-03 02:12:09] [INFO] Validation Loss: 0.0279
+[2026-02-03 02:12:09] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:12:12] [INFO] Step 59800 | Loss: 0.0265 | LR: 7.18e-05
+[2026-02-03 02:12:18] [INFO] Step 59900 | Loss: 0.0347 | LR: 7.17e-05
+[2026-02-03 02:12:24] [INFO] Step 60000 | Loss: 0.0278 | LR: 7.16e-05
+[2026-02-03 02:12:30] [INFO] Step 60100 | Loss: 0.0271 | LR: 7.15e-05
+[2026-02-03 02:12:35] [INFO] Step 60200 | Loss: 0.0320 | LR: 7.14e-05
+[2026-02-03 02:12:41] [INFO] Step 60300 | Loss: 0.0287 | LR: 7.13e-05
+[2026-02-03 02:12:47] [INFO] Step 60400 | Loss: 0.0251 | LR: 7.12e-05
+[2026-02-03 02:12:53] [INFO] Step 60500 | Loss: 0.0278 | LR: 7.11e-05
+[2026-02-03 02:12:59] [INFO] Step 60600 | Loss: 0.0268 | LR: 7.10e-05
+[2026-02-03 02:13:04] [INFO] Step 60700 | Loss: 0.0260 | LR: 7.09e-05
+[2026-02-03 02:13:10] [INFO] Step 60800 | Loss: 0.0213 | LR: 7.09e-05
+[2026-02-03 02:13:16] [INFO] Step 60900 | Loss: 0.0253 | LR: 7.08e-05
+[2026-02-03 02:13:22] [INFO] Step 61000 | Loss: 0.0251 | LR: 7.07e-05
+[2026-02-03 02:13:28] [INFO] Step 61100 | Loss: 0.0264 | LR: 7.06e-05
+[2026-02-03 02:13:34] [INFO] Step 61200 | Loss: 0.0331 | LR: 7.05e-05
+[2026-02-03 02:13:39] [INFO] Epoch 40/100 completed | Train Loss: 0.0273 | Time: 90.4s
+[2026-02-03 02:13:45] [INFO] Validation Loss: 0.0278
+[2026-02-03 02:13:45] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:13:46] [INFO] Step 61300 | Loss: 0.0297 | LR: 7.04e-05
+[2026-02-03 02:13:52] [INFO] Step 61400 | Loss: 0.0275 | LR: 7.03e-05
+[2026-02-03 02:13:58] [INFO] Step 61500 | Loss: 0.0254 | LR: 7.02e-05
+[2026-02-03 02:14:04] [INFO] Step 61600 | Loss: 0.0286 | LR: 7.01e-05
+[2026-02-03 02:14:10] [INFO] Step 61700 | Loss: 0.0315 | LR: 7.00e-05
+[2026-02-03 02:14:16] [INFO] Step 61800 | Loss: 0.0311 | LR: 6.99e-05
+[2026-02-03 02:14:21] [INFO] Step 61900 | Loss: 0.0247 | LR: 6.98e-05
+[2026-02-03 02:14:27] [INFO] Step 62000 | Loss: 0.0248 | LR: 6.97e-05
+[2026-02-03 02:14:33] [INFO] Step 62100 | Loss: 0.0269 | LR: 6.96e-05
+[2026-02-03 02:14:39] [INFO] Step 62200 | Loss: 0.0276 | LR: 6.95e-05
+[2026-02-03 02:14:45] [INFO] Step 62300 | Loss: 0.0299 | LR: 6.94e-05
+[2026-02-03 02:14:51] [INFO] Step 62400 | Loss: 0.0284 | LR: 6.93e-05
+[2026-02-03 02:14:57] [INFO] Step 62500 | Loss: 0.0330 | LR: 6.92e-05
+[2026-02-03 02:15:03] [INFO] Step 62600 | Loss: 0.0321 | LR: 6.91e-05
+[2026-02-03 02:15:09] [INFO] Step 62700 | Loss: 0.0268 | LR: 6.90e-05
+[2026-02-03 02:15:14] [INFO] Step 62800 | Loss: 0.0225 | LR: 6.89e-05
+[2026-02-03 02:15:15] [INFO] Epoch 41/100 completed | Train Loss: 0.0272 | Time: 90.0s
+[2026-02-03 02:15:20] [INFO] Validation Loss: 0.0279
+[2026-02-03 02:15:21] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:15:26] [INFO] Step 62900 | Loss: 0.0281 | LR: 6.88e-05
+[2026-02-03 02:15:32] [INFO] Step 63000 | Loss: 0.0258 | LR: 6.87e-05
+[2026-02-03 02:15:38] [INFO] Step 63100 | Loss: 0.0294 | LR: 6.86e-05
+[2026-02-03 02:15:44] [INFO] Step 63200 | Loss: 0.0273 | LR: 6.85e-05
+[2026-02-03 02:15:50] [INFO] Step 63300 | Loss: 0.0326 | LR: 6.84e-05
+[2026-02-03 02:15:56] [INFO] Step 63400 | Loss: 0.0299 | LR: 6.83e-05
+[2026-02-03 02:16:01] [INFO] Step 63500 | Loss: 0.0301 | LR: 6.82e-05
+[2026-02-03 02:16:07] [INFO] Step 63600 | Loss: 0.0291 | LR: 6.81e-05
+[2026-02-03 02:16:13] [INFO] Step 63700 | Loss: 0.0349 | LR: 6.80e-05
+[2026-02-03 02:16:19] [INFO] Step 63800 | Loss: 0.0240 | LR: 6.79e-05
+[2026-02-03 02:16:25] [INFO] Step 63900 | Loss: 0.0305 | LR: 6.78e-05
+[2026-02-03 02:16:31] [INFO] Step 64000 | Loss: 0.0264 | LR: 6.77e-05
+[2026-02-03 02:16:37] [INFO] Step 64100 | Loss: 0.0262 | LR: 6.76e-05
+[2026-02-03 02:16:43] [INFO] Step 64200 | Loss: 0.0314 | LR: 6.75e-05
+[2026-02-03 02:16:49] [INFO] Step 64300 | Loss: 0.0295 | LR: 6.74e-05
+[2026-02-03 02:16:51] [INFO] Epoch 42/100 completed | Train Loss: 0.0272 | Time: 90.7s
+[2026-02-03 02:16:57] [INFO] Validation Loss: 0.0278
+[2026-02-03 02:16:57] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 02:16:57] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 02:16:57] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:17:01] [INFO] Step 64400 | Loss: 0.0265 | LR: 6.73e-05
+[2026-02-03 02:17:07] [INFO] Step 64500 | Loss: 0.0259 | LR: 6.72e-05
+[2026-02-03 02:17:12] [INFO] Step 64600 | Loss: 0.0242 | LR: 6.71e-05
+[2026-02-03 02:17:18] [INFO] Step 64700 | Loss: 0.0302 | LR: 6.70e-05
+[2026-02-03 02:17:24] [INFO] Step 64800 | Loss: 0.0264 | LR: 6.69e-05
+[2026-02-03 02:17:30] [INFO] Step 64900 | Loss: 0.0282 | LR: 6.68e-05
+[2026-02-03 02:17:36] [INFO] Step 65000 | Loss: 0.0234 | LR: 6.67e-05
+[2026-02-03 02:17:42] [INFO] Step 65100 | Loss: 0.0278 | LR: 6.66e-05
+[2026-02-03 02:17:48] [INFO] Step 65200 | Loss: 0.0242 | LR: 6.65e-05
+[2026-02-03 02:17:54] [INFO] Step 65300 | Loss: 0.0284 | LR: 6.64e-05
+[2026-02-03 02:18:00] [INFO] Step 65400 | Loss: 0.0260 | LR: 6.63e-05
+[2026-02-03 02:18:06] [INFO] Step 65500 | Loss: 0.0280 | LR: 6.62e-05
+[2026-02-03 02:18:12] [INFO] Step 65600 | Loss: 0.0241 | LR: 6.61e-05
+[2026-02-03 02:18:18] [INFO] Step 65700 | Loss: 0.0237 | LR: 6.60e-05
+[2026-02-03 02:18:24] [INFO] Step 65800 | Loss: 0.0269 | LR: 6.59e-05
+[2026-02-03 02:18:28] [INFO] Epoch 43/100 completed | Train Loss: 0.0272 | Time: 90.4s
+[2026-02-03 02:18:33] [INFO] Validation Loss: 0.0281
+[2026-02-03 02:18:33] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:18:35] [INFO] Step 65900 | Loss: 0.0309 | LR: 6.58e-05
+[2026-02-03 02:18:40] [INFO] Step 66000 | Loss: 0.0287 | LR: 6.57e-05
+[2026-02-03 02:18:46] [INFO] Step 66100 | Loss: 0.0257 | LR: 6.56e-05
+[2026-02-03 02:18:51] [INFO] Step 66200 | Loss: 0.0338 | LR: 6.55e-05
+[2026-02-03 02:18:57] [INFO] Step 66300 | Loss: 0.0286 | LR: 6.54e-05
+[2026-02-03 02:19:02] [INFO] Step 66400 | Loss: 0.0239 | LR: 6.53e-05
+[2026-02-03 02:19:08] [INFO] Step 66500 | Loss: 0.0314 | LR: 6.52e-05
+[2026-02-03 02:19:14] [INFO] Step 66600 | Loss: 0.0232 | LR: 6.51e-05
+[2026-02-03 02:19:20] [INFO] Step 66700 | Loss: 0.0231 | LR: 6.50e-05
+[2026-02-03 02:19:25] [INFO] Step 66800 | Loss: 0.0268 | LR: 6.49e-05
+[2026-02-03 02:19:31] [INFO] Step 66900 | Loss: 0.0247 | LR: 6.48e-05
+[2026-02-03 02:19:37] [INFO] Step 67000 | Loss: 0.0253 | LR: 6.46e-05
+[2026-02-03 02:19:43] [INFO] Step 67100 | Loss: 0.0231 | LR: 6.45e-05
+[2026-02-03 02:19:49] [INFO] Step 67200 | Loss: 0.0284 | LR: 6.44e-05
+[2026-02-03 02:19:54] [INFO] Step 67300 | Loss: 0.0293 | LR: 6.43e-05
+[2026-02-03 02:20:00] [INFO] Step 67400 | Loss: 0.0238 | LR: 6.42e-05
+[2026-02-03 02:20:00] [INFO] Epoch 44/100 completed | Train Loss: 0.0271 | Time: 87.0s
+[2026-02-03 02:20:06] [INFO] Validation Loss: 0.0277
+[2026-02-03 02:20:06] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:20:11] [INFO] Step 67500 | Loss: 0.0239 | LR: 6.41e-05
+[2026-02-03 02:20:17] [INFO] Step 67600 | Loss: 0.0241 | LR: 6.40e-05
+[2026-02-03 02:20:23] [INFO] Step 67700 | Loss: 0.0302 | LR: 6.39e-05
+[2026-02-03 02:20:28] [INFO] Step 67800 | Loss: 0.0255 | LR: 6.38e-05
+[2026-02-03 02:20:34] [INFO] Step 67900 | Loss: 0.0358 | LR: 6.37e-05
+[2026-02-03 02:20:40] [INFO] Step 68000 | Loss: 0.0269 | LR: 6.36e-05
+[2026-02-03 02:20:46] [INFO] Step 68100 | Loss: 0.0265 | LR: 6.35e-05
+[2026-02-03 02:20:52] [INFO] Step 68200 | Loss: 0.0264 | LR: 6.34e-05
+[2026-02-03 02:20:57] [INFO] Step 68300 | Loss: 0.0279 | LR: 6.33e-05
+[2026-02-03 02:21:03] [INFO] Step 68400 | Loss: 0.0280 | LR: 6.32e-05
+[2026-02-03 02:21:09] [INFO] Step 68500 | Loss: 0.0317 | LR: 6.31e-05
+[2026-02-03 02:21:14] [INFO] Step 68600 | Loss: 0.0264 | LR: 6.30e-05
+[2026-02-03 02:21:20] [INFO] Step 68700 | Loss: 0.0269 | LR: 6.29e-05
+[2026-02-03 02:21:26] [INFO] Step 68800 | Loss: 0.0241 | LR: 6.28e-05
+[2026-02-03 02:21:31] [INFO] Step 68900 | Loss: 0.0277 | LR: 6.27e-05
+[2026-02-03 02:21:33] [INFO] Epoch 45/100 completed | Train Loss: 0.0270 | Time: 87.5s
+[2026-02-03 02:21:39] [INFO] Validation Loss: 0.0283
+[2026-02-03 02:21:39] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:21:42] [INFO] Step 69000 | Loss: 0.0252 | LR: 6.26e-05
+[2026-02-03 02:21:47] [INFO] Step 69100 | Loss: 0.0244 | LR: 6.25e-05
+[2026-02-03 02:21:53] [INFO] Step 69200 | Loss: 0.0269 | LR: 6.24e-05
+[2026-02-03 02:21:59] [INFO] Step 69300 | Loss: 0.0327 | LR: 6.23e-05
+[2026-02-03 02:22:05] [INFO] Step 69400 | Loss: 0.0266 | LR: 6.22e-05
+[2026-02-03 02:22:10] [INFO] Step 69500 | Loss: 0.0256 | LR: 6.21e-05
+[2026-02-03 02:22:16] [INFO] Step 69600 | Loss: 0.0277 | LR: 6.20e-05
+[2026-02-03 02:22:22] [INFO] Step 69700 | Loss: 0.0292 | LR: 6.19e-05
+[2026-02-03 02:22:27] [INFO] Step 69800 | Loss: 0.0297 | LR: 6.18e-05
+[2026-02-03 02:22:33] [INFO] Step 69900 | Loss: 0.0247 | LR: 6.17e-05
+[2026-02-03 02:22:39] [INFO] Step 70000 | Loss: 0.0242 | LR: 6.16e-05
+[2026-02-03 02:22:44] [INFO] Step 70100 | Loss: 0.0263 | LR: 6.14e-05
+[2026-02-03 02:22:50] [INFO] Step 70200 | Loss: 0.0268 | LR: 6.13e-05
+[2026-02-03 02:22:56] [INFO] Step 70300 | Loss: 0.0249 | LR: 6.12e-05
+[2026-02-03 02:23:02] [INFO] Step 70400 | Loss: 0.0273 | LR: 6.11e-05
+[2026-02-03 02:23:05] [INFO] Epoch 46/100 completed | Train Loss: 0.0269 | Time: 86.2s
+[2026-02-03 02:23:11] [INFO] Validation Loss: 0.0278
+[2026-02-03 02:23:11] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:23:12] [INFO] Step 70500 | Loss: 0.0272 | LR: 6.10e-05
+[2026-02-03 02:23:18] [INFO] Step 70600 | Loss: 0.0267 | LR: 6.09e-05
+[2026-02-03 02:23:24] [INFO] Step 70700 | Loss: 0.0293 | LR: 6.08e-05
+[2026-02-03 02:23:29] [INFO] Step 70800 | Loss: 0.0281 | LR: 6.07e-05
+[2026-02-03 02:23:35] [INFO] Step 70900 | Loss: 0.0301 | LR: 6.06e-05
+[2026-02-03 02:23:40] [INFO] Step 71000 | Loss: 0.0264 | LR: 6.05e-05
+[2026-02-03 02:23:46] [INFO] Step 71100 | Loss: 0.0247 | LR: 6.04e-05
+[2026-02-03 02:23:52] [INFO] Step 71200 | Loss: 0.0271 | LR: 6.03e-05
+[2026-02-03 02:23:58] [INFO] Step 71300 | Loss: 0.0244 | LR: 6.02e-05
+[2026-02-03 02:24:03] [INFO] Step 71400 | Loss: 0.0264 | LR: 6.01e-05
+[2026-02-03 02:24:09] [INFO] Step 71500 | Loss: 0.0254 | LR: 6.00e-05
+[2026-02-03 02:24:15] [INFO] Step 71600 | Loss: 0.0260 | LR: 5.99e-05
+[2026-02-03 02:24:20] [INFO] Step 71700 | Loss: 0.0247 | LR: 5.98e-05
+[2026-02-03 02:24:26] [INFO] Step 71800 | Loss: 0.0253 | LR: 5.97e-05
+[2026-02-03 02:24:31] [INFO] Step 71900 | Loss: 0.0285 | LR: 5.96e-05
+[2026-02-03 02:24:36] [INFO] Step 72000 | Loss: 0.0245 | LR: 5.95e-05
+[2026-02-03 02:24:37] [INFO] Epoch 47/100 completed | Train Loss: 0.0268 | Time: 85.8s
+[2026-02-03 02:24:42] [INFO] Validation Loss: 0.0278
+[2026-02-03 02:24:42] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:24:48] [INFO] Step 72100 | Loss: 0.0281 | LR: 5.94e-05
+[2026-02-03 02:24:54] [INFO] Step 72200 | Loss: 0.0266 | LR: 5.92e-05
+[2026-02-03 02:24:59] [INFO] Step 72300 | Loss: 0.0292 | LR: 5.91e-05
+[2026-02-03 02:25:05] [INFO] Step 72400 | Loss: 0.0275 | LR: 5.90e-05
+[2026-02-03 02:25:10] [INFO] Step 72500 | Loss: 0.0291 | LR: 5.89e-05
+[2026-02-03 02:25:16] [INFO] Step 72600 | Loss: 0.0283 | LR: 5.88e-05
+[2026-02-03 02:25:22] [INFO] Step 72700 | Loss: 0.0233 | LR: 5.87e-05
+[2026-02-03 02:25:28] [INFO] Step 72800 | Loss: 0.0300 | LR: 5.86e-05
+[2026-02-03 02:25:33] [INFO] Step 72900 | Loss: 0.0254 | LR: 5.85e-05
+[2026-02-03 02:25:39] [INFO] Step 73000 | Loss: 0.0337 | LR: 5.84e-05
+[2026-02-03 02:25:45] [INFO] Step 73100 | Loss: 0.0328 | LR: 5.83e-05
+[2026-02-03 02:25:51] [INFO] Step 73200 | Loss: 0.0311 | LR: 5.82e-05
+[2026-02-03 02:25:57] [INFO] Step 73300 | Loss: 0.0229 | LR: 5.81e-05
+[2026-02-03 02:26:02] [INFO] Step 73400 | Loss: 0.0275 | LR: 5.80e-05
+[2026-02-03 02:26:08] [INFO] Step 73500 | Loss: 0.0262 | LR: 5.79e-05
+[2026-02-03 02:26:10] [INFO] Epoch 48/100 completed | Train Loss: 0.0268 | Time: 87.6s
+[2026-02-03 02:26:15] [INFO] Validation Loss: 0.0277
+[2026-02-03 02:26:15] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 02:26:15] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 02:26:16] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:26:19] [INFO] Step 73600 | Loss: 0.0251 | LR: 5.78e-05
+[2026-02-03 02:26:25] [INFO] Step 73700 | Loss: 0.0305 | LR: 5.77e-05
+[2026-02-03 02:26:31] [INFO] Step 73800 | Loss: 0.0337 | LR: 5.76e-05
+[2026-02-03 02:26:37] [INFO] Step 73900 | Loss: 0.0249 | LR: 5.75e-05
+[2026-02-03 02:26:42] [INFO] Step 74000 | Loss: 0.0271 | LR: 5.73e-05
+[2026-02-03 02:26:48] [INFO] Step 74100 | Loss: 0.0292 | LR: 5.72e-05
+[2026-02-03 02:26:54] [INFO] Step 74200 | Loss: 0.0262 | LR: 5.71e-05
+[2026-02-03 02:27:00] [INFO] Step 74300 | Loss: 0.0227 | LR: 5.70e-05
+[2026-02-03 02:27:05] [INFO] Step 74400 | Loss: 0.0236 | LR: 5.69e-05
+[2026-02-03 02:27:11] [INFO] Step 74500 | Loss: 0.0303 | LR: 5.68e-05
+[2026-02-03 02:27:17] [INFO] Step 74600 | Loss: 0.0243 | LR: 5.67e-05
+[2026-02-03 02:27:22] [INFO] Step 74700 | Loss: 0.0296 | LR: 5.66e-05
+[2026-02-03 02:27:28] [INFO] Step 74800 | Loss: 0.0210 | LR: 5.65e-05
+[2026-02-03 02:27:34] [INFO] Step 74900 | Loss: 0.0274 | LR: 5.64e-05
+[2026-02-03 02:27:39] [INFO] Step 75000 | Loss: 0.0282 | LR: 5.63e-05
+[2026-02-03 02:27:42] [INFO] Epoch 49/100 completed | Train Loss: 0.0267 | Time: 86.9s
+[2026-02-03 02:27:48] [INFO] Validation Loss: 0.0278
+[2026-02-03 02:27:48] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:27:50] [INFO] Step 75100 | Loss: 0.0235 | LR: 5.62e-05
+[2026-02-03 02:27:56] [INFO] Step 75200 | Loss: 0.0226 | LR: 5.61e-05
+[2026-02-03 02:28:01] [INFO] Step 75300 | Loss: 0.0256 | LR: 5.60e-05
+[2026-02-03 02:28:07] [INFO] Step 75400 | Loss: 0.0265 | LR: 5.59e-05
+[2026-02-03 02:28:13] [INFO] Step 75500 | Loss: 0.0247 | LR: 5.58e-05
+[2026-02-03 02:28:18] [INFO] Step 75600 | Loss: 0.0235 | LR: 5.57e-05
+[2026-02-03 02:28:24] [INFO] Step 75700 | Loss: 0.0244 | LR: 5.55e-05
+[2026-02-03 02:28:29] [INFO] Step 75800 | Loss: 0.0227 | LR: 5.54e-05
+[2026-02-03 02:28:35] [INFO] Step 75900 | Loss: 0.0227 | LR: 5.53e-05
+[2026-02-03 02:28:41] [INFO] Step 76000 | Loss: 0.0295 | LR: 5.52e-05
+[2026-02-03 02:28:46] [INFO] Step 76100 | Loss: 0.0215 | LR: 5.51e-05
+[2026-02-03 02:28:52] [INFO] Step 76200 | Loss: 0.0218 | LR: 5.50e-05
+[2026-02-03 02:28:57] [INFO] Step 76300 | Loss: 0.0259 | LR: 5.49e-05
+[2026-02-03 02:29:03] [INFO] Step 76400 | Loss: 0.0273 | LR: 5.48e-05
+[2026-02-03 02:29:08] [INFO] Step 76500 | Loss: 0.0236 | LR: 5.47e-05
+[2026-02-03 02:29:14] [INFO] Step 76600 | Loss: 0.0243 | LR: 5.46e-05
+[2026-02-03 02:29:14] [INFO] Epoch 50/100 completed | Train Loss: 0.0267 | Time: 85.5s
+[2026-02-03 02:29:19] [INFO] Validation Loss: 0.0278
+[2026-02-03 02:29:19] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:29:25] [INFO] Step 76700 | Loss: 0.0290 | LR: 5.45e-05
+[2026-02-03 02:29:31] [INFO] Step 76800 | Loss: 0.0274 | LR: 5.44e-05
+[2026-02-03 02:29:37] [INFO] Step 76900 | Loss: 0.0256 | LR: 5.43e-05
+[2026-02-03 02:29:42] [INFO] Step 77000 | Loss: 0.0292 | LR: 5.42e-05
+[2026-02-03 02:29:48] [INFO] Step 77100 | Loss: 0.0252 | LR: 5.41e-05
+[2026-02-03 02:29:54] [INFO] Step 77200 | Loss: 0.0239 | LR: 5.39e-05
+[2026-02-03 02:30:00] [INFO] Step 77300 | Loss: 0.0339 | LR: 5.38e-05
+[2026-02-03 02:30:06] [INFO] Step 77400 | Loss: 0.0221 | LR: 5.37e-05
+[2026-02-03 02:30:11] [INFO] Step 77500 | Loss: 0.0275 | LR: 5.36e-05
+[2026-02-03 02:30:17] [INFO] Step 77600 | Loss: 0.0286 | LR: 5.35e-05
+[2026-02-03 02:30:22] [INFO] Step 77700 | Loss: 0.0285 | LR: 5.34e-05
+[2026-02-03 02:30:28] [INFO] Step 77800 | Loss: 0.0262 | LR: 5.33e-05
+[2026-02-03 02:30:34] [INFO] Step 77900 | Loss: 0.0265 | LR: 5.32e-05
+[2026-02-03 02:30:39] [INFO] Step 78000 | Loss: 0.0222 | LR: 5.31e-05
+[2026-02-03 02:30:45] [INFO] Step 78100 | Loss: 0.0309 | LR: 5.30e-05
+[2026-02-03 02:30:46] [INFO] Epoch 51/100 completed | Train Loss: 0.0266 | Time: 87.0s
+[2026-02-03 02:30:52] [INFO] Validation Loss: 0.0278
+[2026-02-03 02:30:52] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:30:56] [INFO] Step 78200 | Loss: 0.0240 | LR: 5.29e-05
+[2026-02-03 02:31:02] [INFO] Step 78300 | Loss: 0.0224 | LR: 5.28e-05
+[2026-02-03 02:31:07] [INFO] Step 78400 | Loss: 0.0244 | LR: 5.27e-05
+[2026-02-03 02:31:13] [INFO] Step 78500 | Loss: 0.0241 | LR: 5.26e-05
+[2026-02-03 02:31:19] [INFO] Step 78600 | Loss: 0.0317 | LR: 5.25e-05
+[2026-02-03 02:31:24] [INFO] Step 78700 | Loss: 0.0249 | LR: 5.23e-05
+[2026-02-03 02:31:30] [INFO] Step 78800 | Loss: 0.0300 | LR: 5.22e-05
+[2026-02-03 02:31:36] [INFO] Step 78900 | Loss: 0.0208 | LR: 5.21e-05
+[2026-02-03 02:31:41] [INFO] Step 79000 | Loss: 0.0304 | LR: 5.20e-05
+[2026-02-03 02:31:47] [INFO] Step 79100 | Loss: 0.0295 | LR: 5.19e-05
+[2026-02-03 02:31:53] [INFO] Step 79200 | Loss: 0.0243 | LR: 5.18e-05
+[2026-02-03 02:31:58] [INFO] Step 79300 | Loss: 0.0216 | LR: 5.17e-05
+[2026-02-03 02:32:04] [INFO] Step 79400 | Loss: 0.0291 | LR: 5.16e-05
+[2026-02-03 02:32:09] [INFO] Step 79500 | Loss: 0.0285 | LR: 5.15e-05
+[2026-02-03 02:32:15] [INFO] Step 79600 | Loss: 0.0266 | LR: 5.14e-05
+[2026-02-03 02:32:18] [INFO] Epoch 52/100 completed | Train Loss: 0.0265 | Time: 86.2s
+[2026-02-03 02:32:24] [INFO] Validation Loss: 0.0276
+[2026-02-03 02:32:24] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 02:32:24] [INFO] Saved best model: outputs/metaformer/checkpoints/best.pth
+[2026-02-03 02:32:24] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:32:26] [INFO] Step 79700 | Loss: 0.0255 | LR: 5.13e-05
+[2026-02-03 02:32:32] [INFO] Step 79800 | Loss: 0.0287 | LR: 5.12e-05
+[2026-02-03 02:32:38] [INFO] Step 79900 | Loss: 0.0259 | LR: 5.11e-05
+[2026-02-03 02:32:43] [INFO] Step 80000 | Loss: 0.0253 | LR: 5.10e-05
+[2026-02-03 02:32:49] [INFO] Step 80100 | Loss: 0.0246 | LR: 5.09e-05
+[2026-02-03 02:32:55] [INFO] Step 80200 | Loss: 0.0276 | LR: 5.07e-05
+[2026-02-03 02:33:01] [INFO] Step 80300 | Loss: 0.0267 | LR: 5.06e-05
+[2026-02-03 02:33:06] [INFO] Step 80400 | Loss: 0.0277 | LR: 5.05e-05
+[2026-02-03 02:33:12] [INFO] Step 80500 | Loss: 0.0258 | LR: 5.04e-05
+[2026-02-03 02:33:18] [INFO] Step 80600 | Loss: 0.0245 | LR: 5.03e-05
+[2026-02-03 02:33:24] [INFO] Step 80700 | Loss: 0.0229 | LR: 5.02e-05
+[2026-02-03 02:33:30] [INFO] Step 80800 | Loss: 0.0249 | LR: 5.01e-05
+[2026-02-03 02:33:36] [INFO] Step 80900 | Loss: 0.0273 | LR: 5.00e-05
+[2026-02-03 02:33:41] [INFO] Step 81000 | Loss: 0.0300 | LR: 4.99e-05
+[2026-02-03 02:33:47] [INFO] Step 81100 | Loss: 0.0277 | LR: 4.98e-05
+[2026-02-03 02:33:52] [INFO] Epoch 53/100 completed | Train Loss: 0.0265 | Time: 87.8s
+[2026-02-03 02:33:57] [INFO] Validation Loss: 0.0278
+[2026-02-03 02:33:57] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:33:58] [INFO] Step 81200 | Loss: 0.0281 | LR: 4.97e-05
+[2026-02-03 02:34:03] [INFO] Step 81300 | Loss: 0.0234 | LR: 4.96e-05
+[2026-02-03 02:34:09] [INFO] Step 81400 | Loss: 0.0284 | LR: 4.95e-05
+[2026-02-03 02:34:15] [INFO] Step 81500 | Loss: 0.0289 | LR: 4.94e-05
+[2026-02-03 02:34:21] [INFO] Step 81600 | Loss: 0.0230 | LR: 4.92e-05
+[2026-02-03 02:34:26] [INFO] Step 81700 | Loss: 0.0259 | LR: 4.91e-05
+[2026-02-03 02:34:32] [INFO] Step 81800 | Loss: 0.0235 | LR: 4.90e-05
+[2026-02-03 02:34:38] [INFO] Step 81900 | Loss: 0.0236 | LR: 4.89e-05
+[2026-02-03 02:34:44] [INFO] Step 82000 | Loss: 0.0260 | LR: 4.88e-05
+[2026-02-03 02:34:49] [INFO] Step 82100 | Loss: 0.0260 | LR: 4.87e-05
+[2026-02-03 02:34:55] [INFO] Step 82200 | Loss: 0.0260 | LR: 4.86e-05
+[2026-02-03 02:35:01] [INFO] Step 82300 | Loss: 0.0249 | LR: 4.85e-05
+[2026-02-03 02:35:06] [INFO] Step 82400 | Loss: 0.0272 | LR: 4.84e-05
+[2026-02-03 02:35:12] [INFO] Step 82500 | Loss: 0.0264 | LR: 4.83e-05
+[2026-02-03 02:35:18] [INFO] Step 82600 | Loss: 0.0233 | LR: 4.82e-05
+[2026-02-03 02:35:23] [INFO] Step 82700 | Loss: 0.0254 | LR: 4.81e-05
+[2026-02-03 02:35:24] [INFO] Epoch 54/100 completed | Train Loss: 0.0264 | Time: 86.9s
+[2026-02-03 02:35:30] [INFO] Validation Loss: 0.0276
+[2026-02-03 02:35:30] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:35:34] [INFO] Step 82800 | Loss: 0.0289 | LR: 4.80e-05
+[2026-02-03 02:35:40] [INFO] Step 82900 | Loss: 0.0238 | LR: 4.79e-05
+[2026-02-03 02:35:45] [INFO] Step 83000 | Loss: 0.0248 | LR: 4.78e-05
+[2026-02-03 02:35:51] [INFO] Step 83100 | Loss: 0.0220 | LR: 4.76e-05
+[2026-02-03 02:35:57] [INFO] Step 83200 | Loss: 0.0276 | LR: 4.75e-05
+[2026-02-03 02:36:03] [INFO] Step 83300 | Loss: 0.0298 | LR: 4.74e-05
+[2026-02-03 02:36:08] [INFO] Step 83400 | Loss: 0.0270 | LR: 4.73e-05
+[2026-02-03 02:36:14] [INFO] Step 83500 | Loss: 0.0274 | LR: 4.72e-05
+[2026-02-03 02:36:20] [INFO] Step 83600 | Loss: 0.0332 | LR: 4.71e-05
+[2026-02-03 02:36:26] [INFO] Step 83700 | Loss: 0.0239 | LR: 4.70e-05
+[2026-02-03 02:36:32] [INFO] Step 83800 | Loss: 0.0233 | LR: 4.69e-05
+[2026-02-03 02:36:37] [INFO] Step 83900 | Loss: 0.0282 | LR: 4.68e-05
+[2026-02-03 02:36:43] [INFO] Step 84000 | Loss: 0.0242 | LR: 4.67e-05
+[2026-02-03 02:36:48] [INFO] Step 84100 | Loss: 0.0257 | LR: 4.66e-05
+[2026-02-03 02:36:54] [INFO] Step 84200 | Loss: 0.0221 | LR: 4.65e-05
+[2026-02-03 02:36:56] [INFO] Epoch 55/100 completed | Train Loss: 0.0263 | Time: 86.4s
+[2026-02-03 02:37:02] [INFO] Validation Loss: 0.0279
+[2026-02-03 02:37:02] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:37:04] [INFO] Step 84300 | Loss: 0.0234 | LR: 4.64e-05
+[2026-02-03 02:37:10] [INFO] Step 84400 | Loss: 0.0251 | LR: 4.63e-05
+[2026-02-03 02:37:16] [INFO] Step 84500 | Loss: 0.0249 | LR: 4.62e-05
+[2026-02-03 02:37:22] [INFO] Step 84600 | Loss: 0.0269 | LR: 4.61e-05
+[2026-02-03 02:37:27] [INFO] Step 84700 | Loss: 0.0284 | LR: 4.59e-05
+[2026-02-03 02:37:32] [INFO] Step 84800 | Loss: 0.0235 | LR: 4.58e-05
+[2026-02-03 02:37:38] [INFO] Step 84900 | Loss: 0.0274 | LR: 4.57e-05
+[2026-02-03 02:37:43] [INFO] Step 85000 | Loss: 0.0271 | LR: 4.56e-05
+[2026-02-03 02:37:49] [INFO] Step 85100 | Loss: 0.0236 | LR: 4.55e-05
+[2026-02-03 02:37:55] [INFO] Step 85200 | Loss: 0.0286 | LR: 4.54e-05
+[2026-02-03 02:38:01] [INFO] Step 85300 | Loss: 0.0253 | LR: 4.53e-05
+[2026-02-03 02:38:06] [INFO] Step 85400 | Loss: 0.0251 | LR: 4.52e-05
+[2026-02-03 02:38:12] [INFO] Step 85500 | Loss: 0.0266 | LR: 4.51e-05
+[2026-02-03 02:38:18] [INFO] Step 85600 | Loss: 0.0227 | LR: 4.50e-05
+[2026-02-03 02:38:24] [INFO] Step 85700 | Loss: 0.0331 | LR: 4.49e-05
+[2026-02-03 02:38:29] [INFO] Epoch 56/100 completed | Train Loss: 0.0263 | Time: 86.8s
+[2026-02-03 02:38:34] [INFO] Validation Loss: 0.0276
+[2026-02-03 02:38:35] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:38:35] [INFO] Step 85800 | Loss: 0.0220 | LR: 4.48e-05
+[2026-02-03 02:38:41] [INFO] Step 85900 | Loss: 0.0266 | LR: 4.47e-05
+[2026-02-03 02:38:46] [INFO] Step 86000 | Loss: 0.0288 | LR: 4.46e-05
+[2026-02-03 02:38:52] [INFO] Step 86100 | Loss: 0.0287 | LR: 4.45e-05
+[2026-02-03 02:38:58] [INFO] Step 86200 | Loss: 0.0293 | LR: 4.44e-05
+[2026-02-03 02:39:03] [INFO] Step 86300 | Loss: 0.0279 | LR: 4.42e-05
+[2026-02-03 02:39:09] [INFO] Step 86400 | Loss: 0.0278 | LR: 4.41e-05
+[2026-02-03 02:39:15] [INFO] Step 86500 | Loss: 0.0257 | LR: 4.40e-05
+[2026-02-03 02:39:21] [INFO] Step 86600 | Loss: 0.0253 | LR: 4.39e-05
+[2026-02-03 02:39:26] [INFO] Step 86700 | Loss: 0.0344 | LR: 4.38e-05
+[2026-02-03 02:39:32] [INFO] Step 86800 | Loss: 0.0262 | LR: 4.37e-05
+[2026-02-03 02:39:38] [INFO] Step 86900 | Loss: 0.0238 | LR: 4.36e-05
+[2026-02-03 02:39:43] [INFO] Step 87000 | Loss: 0.0278 | LR: 4.35e-05
+[2026-02-03 02:39:49] [INFO] Step 87100 | Loss: 0.0245 | LR: 4.34e-05
+[2026-02-03 02:39:55] [INFO] Step 87200 | Loss: 0.0234 | LR: 4.33e-05
+[2026-02-03 02:40:00] [INFO] Step 87300 | Loss: 0.0273 | LR: 4.32e-05
+[2026-02-03 02:40:02] [INFO] Epoch 57/100 completed | Train Loss: 0.0262 | Time: 87.0s
+[2026-02-03 02:40:07] [INFO] Validation Loss: 0.0277
+[2026-02-03 02:40:07] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:40:12] [INFO] Step 87400 | Loss: 0.0326 | LR: 4.31e-05
+[2026-02-03 02:40:17] [INFO] Step 87500 | Loss: 0.0234 | LR: 4.30e-05
+[2026-02-03 02:40:22] [INFO] Step 87600 | Loss: 0.0260 | LR: 4.29e-05
+[2026-02-03 02:40:28] [INFO] Step 87700 | Loss: 0.0249 | LR: 4.28e-05
+[2026-02-03 02:40:34] [INFO] Step 87800 | Loss: 0.0234 | LR: 4.27e-05
+[2026-02-03 02:40:40] [INFO] Step 87900 | Loss: 0.0229 | LR: 4.26e-05
+[2026-02-03 02:40:45] [INFO] Step 88000 | Loss: 0.0284 | LR: 4.24e-05
+[2026-02-03 02:40:51] [INFO] Step 88100 | Loss: 0.0263 | LR: 4.23e-05
+[2026-02-03 02:40:57] [INFO] Step 88200 | Loss: 0.0257 | LR: 4.22e-05
+[2026-02-03 02:41:02] [INFO] Step 88300 | Loss: 0.0298 | LR: 4.21e-05
+[2026-02-03 02:41:08] [INFO] Step 88400 | Loss: 0.0300 | LR: 4.20e-05
+[2026-02-03 02:41:14] [INFO] Step 88500 | Loss: 0.0232 | LR: 4.19e-05
+[2026-02-03 02:41:20] [INFO] Step 88600 | Loss: 0.0266 | LR: 4.18e-05
+[2026-02-03 02:41:26] [INFO] Step 88700 | Loss: 0.0255 | LR: 4.17e-05
+[2026-02-03 02:41:31] [INFO] Step 88800 | Loss: 0.0264 | LR: 4.16e-05
+[2026-02-03 02:41:34] [INFO] Epoch 58/100 completed | Train Loss: 0.0262 | Time: 86.7s
+[2026-02-03 02:41:39] [INFO] Validation Loss: 0.0277
+[2026-02-03 02:41:40] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:41:42] [INFO] Step 88900 | Loss: 0.0263 | LR: 4.15e-05
+[2026-02-03 02:41:48] [INFO] Step 89000 | Loss: 0.0239 | LR: 4.14e-05
+[2026-02-03 02:41:53] [INFO] Step 89100 | Loss: 0.0242 | LR: 4.13e-05
+[2026-02-03 02:41:59] [INFO] Step 89200 | Loss: 0.0334 | LR: 4.12e-05
+[2026-02-03 02:42:05] [INFO] Step 89300 | Loss: 0.0283 | LR: 4.11e-05
+[2026-02-03 02:42:11] [INFO] Step 89400 | Loss: 0.0234 | LR: 4.10e-05
+[2026-02-03 02:42:16] [INFO] Step 89500 | Loss: 0.0230 | LR: 4.09e-05
+[2026-02-03 02:42:22] [INFO] Step 89600 | Loss: 0.0243 | LR: 4.08e-05
+[2026-02-03 02:42:28] [INFO] Step 89700 | Loss: 0.0248 | LR: 4.07e-05
+[2026-02-03 02:42:33] [INFO] Step 89800 | Loss: 0.0275 | LR: 4.06e-05
+[2026-02-03 02:42:39] [INFO] Step 89900 | Loss: 0.0270 | LR: 4.05e-05
+[2026-02-03 02:42:45] [INFO] Step 90000 | Loss: 0.0269 | LR: 4.03e-05
+[2026-02-03 02:42:51] [INFO] Step 90100 | Loss: 0.0299 | LR: 4.02e-05
+[2026-02-03 02:42:56] [INFO] Step 90200 | Loss: 0.0255 | LR: 4.01e-05
+[2026-02-03 02:43:02] [INFO] Step 90300 | Loss: 0.0235 | LR: 4.00e-05
+[2026-02-03 02:43:07] [INFO] Epoch 59/100 completed | Train Loss: 0.0261 | Time: 87.6s
+[2026-02-03 02:43:13] [INFO] Validation Loss: 0.0276
+[2026-02-03 02:43:13] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:43:13] [INFO] Step 90400 | Loss: 0.0245 | LR: 3.99e-05
+[2026-02-03 02:43:19] [INFO] Step 90500 | Loss: 0.0245 | LR: 3.98e-05
+[2026-02-03 02:43:25] [INFO] Step 90600 | Loss: 0.0253 | LR: 3.97e-05
+[2026-02-03 02:43:31] [INFO] Step 90700 | Loss: 0.0256 | LR: 3.96e-05
+[2026-02-03 02:43:36] [INFO] Step 90800 | Loss: 0.0261 | LR: 3.95e-05
+[2026-02-03 02:43:42] [INFO] Step 90900 | Loss: 0.0244 | LR: 3.94e-05
+[2026-02-03 02:43:48] [INFO] Step 91000 | Loss: 0.0297 | LR: 3.93e-05
+[2026-02-03 02:43:54] [INFO] Step 91100 | Loss: 0.0245 | LR: 3.92e-05
+[2026-02-03 02:43:59] [INFO] Step 91200 | Loss: 0.0279 | LR: 3.91e-05
+[2026-02-03 02:44:05] [INFO] Step 91300 | Loss: 0.0249 | LR: 3.90e-05
+[2026-02-03 02:44:11] [INFO] Step 91400 | Loss: 0.0272 | LR: 3.89e-05
+[2026-02-03 02:44:16] [INFO] Step 91500 | Loss: 0.0318 | LR: 3.88e-05
+[2026-02-03 02:44:22] [INFO] Step 91600 | Loss: 0.0262 | LR: 3.87e-05
+[2026-02-03 02:44:27] [INFO] Step 91700 | Loss: 0.0225 | LR: 3.86e-05
+[2026-02-03 02:44:33] [INFO] Step 91800 | Loss: 0.0258 | LR: 3.85e-05
+[2026-02-03 02:44:38] [INFO] Step 91900 | Loss: 0.0251 | LR: 3.84e-05
+[2026-02-03 02:44:39] [INFO] Epoch 60/100 completed | Train Loss: 0.0260 | Time: 86.8s
+[2026-02-03 02:44:45] [INFO] Validation Loss: 0.0277
+[2026-02-03 02:44:45] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:44:50] [INFO] Step 92000 | Loss: 0.0322 | LR: 3.83e-05
+[2026-02-03 02:44:56] [INFO] Step 92100 | Loss: 0.0262 | LR: 3.82e-05
+[2026-02-03 02:45:01] [INFO] Step 92200 | Loss: 0.0261 | LR: 3.81e-05
+[2026-02-03 02:45:07] [INFO] Step 92300 | Loss: 0.0272 | LR: 3.80e-05
+[2026-02-03 02:45:13] [INFO] Step 92400 | Loss: 0.0259 | LR: 3.79e-05
+[2026-02-03 02:45:19] [INFO] Step 92500 | Loss: 0.0225 | LR: 3.77e-05
+[2026-02-03 02:45:24] [INFO] Step 92600 | Loss: 0.0224 | LR: 3.76e-05
+[2026-02-03 02:45:30] [INFO] Step 92700 | Loss: 0.0311 | LR: 3.75e-05
+[2026-02-03 02:45:36] [INFO] Step 92800 | Loss: 0.0219 | LR: 3.74e-05
+[2026-02-03 02:45:41] [INFO] Step 92900 | Loss: 0.0266 | LR: 3.73e-05
+[2026-02-03 02:45:47] [INFO] Step 93000 | Loss: 0.0265 | LR: 3.72e-05
+[2026-02-03 02:45:53] [INFO] Step 93100 | Loss: 0.0269 | LR: 3.71e-05
+[2026-02-03 02:45:58] [INFO] Step 93200 | Loss: 0.0274 | LR: 3.70e-05
+[2026-02-03 02:46:04] [INFO] Step 93300 | Loss: 0.0218 | LR: 3.69e-05
+[2026-02-03 02:46:10] [INFO] Step 93400 | Loss: 0.0242 | LR: 3.68e-05
+[2026-02-03 02:46:12] [INFO] Epoch 61/100 completed | Train Loss: 0.0260 | Time: 87.2s
+[2026-02-03 02:46:18] [INFO] Validation Loss: 0.0278
+[2026-02-03 02:46:18] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:46:21] [INFO] Step 93500 | Loss: 0.0309 | LR: 3.67e-05
+[2026-02-03 02:46:26] [INFO] Step 93600 | Loss: 0.0301 | LR: 3.66e-05
+[2026-02-03 02:46:32] [INFO] Step 93700 | Loss: 0.0281 | LR: 3.65e-05
+[2026-02-03 02:46:38] [INFO] Step 93800 | Loss: 0.0256 | LR: 3.64e-05
+[2026-02-03 02:46:44] [INFO] Step 93900 | Loss: 0.0300 | LR: 3.63e-05
+[2026-02-03 02:46:50] [INFO] Step 94000 | Loss: 0.0226 | LR: 3.62e-05
+[2026-02-03 02:46:55] [INFO] Step 94100 | Loss: 0.0288 | LR: 3.61e-05
+[2026-02-03 02:47:01] [INFO] Step 94200 | Loss: 0.0256 | LR: 3.60e-05
+[2026-02-03 02:47:07] [INFO] Step 94300 | Loss: 0.0299 | LR: 3.59e-05
+[2026-02-03 02:47:13] [INFO] Step 94400 | Loss: 0.0207 | LR: 3.58e-05
+[2026-02-03 02:47:18] [INFO] Step 94500 | Loss: 0.0276 | LR: 3.57e-05
+[2026-02-03 02:47:24] [INFO] Step 94600 | Loss: 0.0276 | LR: 3.56e-05
+[2026-02-03 02:47:30] [INFO] Step 94700 | Loss: 0.0237 | LR: 3.55e-05
+[2026-02-03 02:47:36] [INFO] Step 94800 | Loss: 0.0268 | LR: 3.54e-05
+[2026-02-03 02:47:42] [INFO] Step 94900 | Loss: 0.0258 | LR: 3.53e-05
+[2026-02-03 02:47:46] [INFO] Epoch 62/100 completed | Train Loss: 0.0259 | Time: 87.8s
+[2026-02-03 02:47:51] [INFO] Validation Loss: 0.0278
+[2026-02-03 02:47:52] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:47:52] [INFO] Step 95000 | Loss: 0.0262 | LR: 3.52e-05
+[2026-02-03 02:47:58] [INFO] Step 95100 | Loss: 0.0287 | LR: 3.51e-05
+[2026-02-03 02:48:04] [INFO] Step 95200 | Loss: 0.0252 | LR: 3.50e-05
+[2026-02-03 02:48:09] [INFO] Step 95300 | Loss: 0.0256 | LR: 3.49e-05
+[2026-02-03 02:48:15] [INFO] Step 95400 | Loss: 0.0253 | LR: 3.48e-05
+[2026-02-03 02:48:21] [INFO] Step 95500 | Loss: 0.0258 | LR: 3.47e-05
+[2026-02-03 02:48:26] [INFO] Step 95600 | Loss: 0.0306 | LR: 3.46e-05
+[2026-02-03 02:48:32] [INFO] Step 95700 | Loss: 0.0251 | LR: 3.45e-05
+[2026-02-03 02:48:37] [INFO] Step 95800 | Loss: 0.0261 | LR: 3.44e-05
+[2026-02-03 02:48:43] [INFO] Step 95900 | Loss: 0.0269 | LR: 3.43e-05
+[2026-02-03 02:48:49] [INFO] Step 96000 | Loss: 0.0339 | LR: 3.42e-05
+[2026-02-03 02:48:54] [INFO] Step 96100 | Loss: 0.0289 | LR: 3.41e-05
+[2026-02-03 02:49:00] [INFO] Step 96200 | Loss: 0.0260 | LR: 3.40e-05
+[2026-02-03 02:49:06] [INFO] Step 96300 | Loss: 0.0254 | LR: 3.39e-05
+[2026-02-03 02:49:12] [INFO] Step 96400 | Loss: 0.0290 | LR: 3.38e-05
+[2026-02-03 02:49:17] [INFO] Step 96500 | Loss: 0.0275 | LR: 3.37e-05
+[2026-02-03 02:49:18] [INFO] Epoch 63/100 completed | Train Loss: 0.0258 | Time: 86.1s
+[2026-02-03 02:49:23] [INFO] Validation Loss: 0.0277
+[2026-02-03 02:49:23] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:49:28] [INFO] Step 96600 | Loss: 0.0235 | LR: 3.36e-05
+[2026-02-03 02:49:33] [INFO] Step 96700 | Loss: 0.0263 | LR: 3.35e-05
+[2026-02-03 02:49:39] [INFO] Step 96800 | Loss: 0.0232 | LR: 3.34e-05
+[2026-02-03 02:49:45] [INFO] Step 96900 | Loss: 0.0255 | LR: 3.33e-05
+[2026-02-03 02:49:51] [INFO] Step 97000 | Loss: 0.0279 | LR: 3.32e-05
+[2026-02-03 02:49:56] [INFO] Step 97100 | Loss: 0.0266 | LR: 3.31e-05
+[2026-02-03 02:50:02] [INFO] Step 97200 | Loss: 0.0301 | LR: 3.30e-05
+[2026-02-03 02:50:07] [INFO] Step 97300 | Loss: 0.0250 | LR: 3.29e-05
+[2026-02-03 02:50:13] [INFO] Step 97400 | Loss: 0.0289 | LR: 3.28e-05
+[2026-02-03 02:50:19] [INFO] Step 97500 | Loss: 0.0274 | LR: 3.27e-05
+[2026-02-03 02:50:25] [INFO] Step 97600 | Loss: 0.0302 | LR: 3.26e-05
+[2026-02-03 02:50:30] [INFO] Step 97700 | Loss: 0.0241 | LR: 3.25e-05
+[2026-02-03 02:50:36] [INFO] Step 97800 | Loss: 0.0229 | LR: 3.24e-05
+[2026-02-03 02:50:42] [INFO] Step 97900 | Loss: 0.0219 | LR: 3.23e-05
+[2026-02-03 02:50:47] [INFO] Step 98000 | Loss: 0.0285 | LR: 3.22e-05
+[2026-02-03 02:50:49] [INFO] Epoch 64/100 completed | Train Loss: 0.0257 | Time: 86.2s
+[2026-02-03 02:50:55] [INFO] Validation Loss: 0.0278
+[2026-02-03 02:50:55] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:50:58] [INFO] Step 98100 | Loss: 0.0263 | LR: 3.21e-05
+[2026-02-03 02:51:04] [INFO] Step 98200 | Loss: 0.0269 | LR: 3.20e-05
+[2026-02-03 02:51:09] [INFO] Step 98300 | Loss: 0.0209 | LR: 3.19e-05
+[2026-02-03 02:51:15] [INFO] Step 98400 | Loss: 0.0293 | LR: 3.18e-05
+[2026-02-03 02:51:21] [INFO] Step 98500 | Loss: 0.0224 | LR: 3.17e-05
+[2026-02-03 02:51:27] [INFO] Step 98600 | Loss: 0.0249 | LR: 3.16e-05
+[2026-02-03 02:51:32] [INFO] Step 98700 | Loss: 0.0220 | LR: 3.15e-05
+[2026-02-03 02:51:38] [INFO] Step 98800 | Loss: 0.0201 | LR: 3.14e-05
+[2026-02-03 02:51:44] [INFO] Step 98900 | Loss: 0.0278 | LR: 3.13e-05
+[2026-02-03 02:51:49] [INFO] Step 99000 | Loss: 0.0260 | LR: 3.12e-05
+[2026-02-03 02:51:55] [INFO] Step 99100 | Loss: 0.0251 | LR: 3.11e-05
+[2026-02-03 02:52:01] [INFO] Step 99200 | Loss: 0.0233 | LR: 3.10e-05
+[2026-02-03 02:52:07] [INFO] Step 99300 | Loss: 0.0266 | LR: 3.09e-05
+[2026-02-03 02:52:13] [INFO] Step 99400 | Loss: 0.0248 | LR: 3.08e-05
+[2026-02-03 02:52:18] [INFO] Step 99500 | Loss: 0.0257 | LR: 3.07e-05
+[2026-02-03 02:52:22] [INFO] Epoch 65/100 completed | Train Loss: 0.0257 | Time: 87.0s
+[2026-02-03 02:52:28] [INFO] Validation Loss: 0.0279
+[2026-02-03 02:52:28] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:52:29] [INFO] Step 99600 | Loss: 0.0248 | LR: 3.06e-05
+[2026-02-03 02:52:35] [INFO] Step 99700 | Loss: 0.0330 | LR: 3.05e-05
+[2026-02-03 02:52:40] [INFO] Step 99800 | Loss: 0.0212 | LR: 3.04e-05
+[2026-02-03 02:52:46] [INFO] Step 99900 | Loss: 0.0242 | LR: 3.03e-05
+[2026-02-03 02:52:52] [INFO] Step 100000 | Loss: 0.0263 | LR: 3.02e-05
+[2026-02-03 02:52:57] [INFO] Step 100100 | Loss: 0.0244 | LR: 3.01e-05
+[2026-02-03 02:53:03] [INFO] Step 100200 | Loss: 0.0277 | LR: 3.00e-05
+[2026-02-03 02:53:09] [INFO] Step 100300 | Loss: 0.0255 | LR: 2.99e-05
+[2026-02-03 02:53:14] [INFO] Step 100400 | Loss: 0.0297 | LR: 2.98e-05
+[2026-02-03 02:53:20] [INFO] Step 100500 | Loss: 0.0270 | LR: 2.97e-05
+[2026-02-03 02:53:25] [INFO] Step 100600 | Loss: 0.0287 | LR: 2.96e-05
+[2026-02-03 02:53:31] [INFO] Step 100700 | Loss: 0.0249 | LR: 2.95e-05
+[2026-02-03 02:53:36] [INFO] Step 100800 | Loss: 0.0301 | LR: 2.94e-05
+[2026-02-03 02:53:42] [INFO] Step 100900 | Loss: 0.0242 | LR: 2.93e-05
+[2026-02-03 02:53:47] [INFO] Step 101000 | Loss: 0.0245 | LR: 2.92e-05
+[2026-02-03 02:53:52] [INFO] Step 101100 | Loss: 0.0276 | LR: 2.91e-05
+[2026-02-03 02:53:53] [INFO] Epoch 66/100 completed | Train Loss: 0.0256 | Time: 85.0s
+[2026-02-03 02:53:58] [INFO] Validation Loss: 0.0278
+[2026-02-03 02:53:58] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:54:04] [INFO] Step 101200 | Loss: 0.0202 | LR: 2.90e-05
+[2026-02-03 02:54:09] [INFO] Step 101300 | Loss: 0.0247 | LR: 2.89e-05
+[2026-02-03 02:54:15] [INFO] Step 101400 | Loss: 0.0263 | LR: 2.89e-05
+[2026-02-03 02:54:21] [INFO] Step 101500 | Loss: 0.0222 | LR: 2.88e-05
+[2026-02-03 02:54:26] [INFO] Step 101600 | Loss: 0.0261 | LR: 2.87e-05
+[2026-02-03 02:54:32] [INFO] Step 101700 | Loss: 0.0276 | LR: 2.86e-05
+[2026-02-03 02:54:37] [INFO] Step 101800 | Loss: 0.0229 | LR: 2.85e-05
+[2026-02-03 02:54:43] [INFO] Step 101900 | Loss: 0.0293 | LR: 2.84e-05
+[2026-02-03 02:54:49] [INFO] Step 102000 | Loss: 0.0261 | LR: 2.83e-05
+[2026-02-03 02:54:54] [INFO] Step 102100 | Loss: 0.0286 | LR: 2.82e-05
+[2026-02-03 02:55:00] [INFO] Step 102200 | Loss: 0.0285 | LR: 2.81e-05
+[2026-02-03 02:55:06] [INFO] Step 102300 | Loss: 0.0299 | LR: 2.80e-05
+[2026-02-03 02:55:12] [INFO] Step 102400 | Loss: 0.0272 | LR: 2.79e-05
+[2026-02-03 02:55:17] [INFO] Step 102500 | Loss: 0.0245 | LR: 2.78e-05
+[2026-02-03 02:55:23] [INFO] Step 102600 | Loss: 0.0229 | LR: 2.77e-05
+[2026-02-03 02:55:25] [INFO] Epoch 67/100 completed | Train Loss: 0.0256 | Time: 86.8s
+[2026-02-03 02:55:31] [INFO] Validation Loss: 0.0277
+[2026-02-03 02:55:31] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:55:34] [INFO] Step 102700 | Loss: 0.0233 | LR: 2.76e-05
+[2026-02-03 02:55:40] [INFO] Step 102800 | Loss: 0.0206 | LR: 2.75e-05
+[2026-02-03 02:55:46] [INFO] Step 102900 | Loss: 0.0232 | LR: 2.74e-05
+[2026-02-03 02:55:52] [INFO] Step 103000 | Loss: 0.0299 | LR: 2.73e-05
+[2026-02-03 02:55:57] [INFO] Step 103100 | Loss: 0.0254 | LR: 2.72e-05
+[2026-02-03 02:56:03] [INFO] Step 103200 | Loss: 0.0245 | LR: 2.71e-05
+[2026-02-03 02:56:09] [INFO] Step 103300 | Loss: 0.0272 | LR: 2.70e-05
+[2026-02-03 02:56:15] [INFO] Step 103400 | Loss: 0.0209 | LR: 2.70e-05
+[2026-02-03 02:56:20] [INFO] Step 103500 | Loss: 0.0274 | LR: 2.69e-05
+[2026-02-03 02:56:26] [INFO] Step 103600 | Loss: 0.0273 | LR: 2.68e-05
+[2026-02-03 02:56:32] [INFO] Step 103700 | Loss: 0.0228 | LR: 2.67e-05
+[2026-02-03 02:56:38] [INFO] Step 103800 | Loss: 0.0290 | LR: 2.66e-05
+[2026-02-03 02:56:43] [INFO] Step 103900 | Loss: 0.0282 | LR: 2.65e-05
+[2026-02-03 02:56:49] [INFO] Step 104000 | Loss: 0.0257 | LR: 2.64e-05
+[2026-02-03 02:56:55] [INFO] Step 104100 | Loss: 0.0270 | LR: 2.63e-05
+[2026-02-03 02:56:58] [INFO] Epoch 68/100 completed | Train Loss: 0.0255 | Time: 87.2s
+[2026-02-03 02:57:04] [INFO] Validation Loss: 0.0278
+[2026-02-03 02:57:04] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:57:05] [INFO] Step 104200 | Loss: 0.0235 | LR: 2.62e-05
+[2026-02-03 02:57:11] [INFO] Step 104300 | Loss: 0.0243 | LR: 2.61e-05
+[2026-02-03 02:57:17] [INFO] Step 104400 | Loss: 0.0269 | LR: 2.60e-05
+[2026-02-03 02:57:22] [INFO] Step 104500 | Loss: 0.0289 | LR: 2.59e-05
+[2026-02-03 02:57:28] [INFO] Step 104600 | Loss: 0.0229 | LR: 2.58e-05
+[2026-02-03 02:57:34] [INFO] Step 104700 | Loss: 0.0291 | LR: 2.57e-05
+[2026-02-03 02:57:39] [INFO] Step 104800 | Loss: 0.0280 | LR: 2.56e-05
+[2026-02-03 02:57:45] [INFO] Step 104900 | Loss: 0.0310 | LR: 2.56e-05
+[2026-02-03 02:57:51] [INFO] Step 105000 | Loss: 0.0243 | LR: 2.55e-05
+[2026-02-03 02:57:56] [INFO] Step 105100 | Loss: 0.0287 | LR: 2.54e-05
+[2026-02-03 02:58:02] [INFO] Step 105200 | Loss: 0.0291 | LR: 2.53e-05
+[2026-02-03 02:58:08] [INFO] Step 105300 | Loss: 0.0247 | LR: 2.52e-05
+[2026-02-03 02:58:13] [INFO] Step 105400 | Loss: 0.0295 | LR: 2.51e-05
+[2026-02-03 02:58:19] [INFO] Step 105500 | Loss: 0.0272 | LR: 2.50e-05
+[2026-02-03 02:58:25] [INFO] Step 105600 | Loss: 0.0262 | LR: 2.49e-05
+[2026-02-03 02:58:30] [INFO] Step 105700 | Loss: 0.0247 | LR: 2.48e-05
+[2026-02-03 02:58:30] [INFO] Epoch 69/100 completed | Train Loss: 0.0255 | Time: 86.3s
+[2026-02-03 02:58:36] [INFO] Validation Loss: 0.0278
+[2026-02-03 02:58:36] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 02:58:41] [INFO] Step 105800 | Loss: 0.0223 | LR: 2.47e-05
+[2026-02-03 02:58:47] [INFO] Step 105900 | Loss: 0.0278 | LR: 2.46e-05
+[2026-02-03 02:58:53] [INFO] Step 106000 | Loss: 0.0229 | LR: 2.45e-05
+[2026-02-03 02:58:58] [INFO] Step 106100 | Loss: 0.0289 | LR: 2.45e-05
+[2026-02-03 02:59:04] [INFO] Step 106200 | Loss: 0.0238 | LR: 2.44e-05
+[2026-02-03 02:59:09] [INFO] Step 106300 | Loss: 0.0273 | LR: 2.43e-05
+[2026-02-03 02:59:15] [INFO] Step 106400 | Loss: 0.0317 | LR: 2.42e-05
+[2026-02-03 02:59:21] [INFO] Step 106500 | Loss: 0.0255 | LR: 2.41e-05
+[2026-02-03 02:59:26] [INFO] Step 106600 | Loss: 0.0241 | LR: 2.40e-05
+[2026-02-03 02:59:31] [INFO] Step 106700 | Loss: 0.0251 | LR: 2.39e-05
+[2026-02-03 02:59:36] [INFO] Step 106800 | Loss: 0.0240 | LR: 2.38e-05
+[2026-02-03 02:59:42] [INFO] Step 106900 | Loss: 0.0235 | LR: 2.37e-05
+[2026-02-03 02:59:48] [INFO] Step 107000 | Loss: 0.0294 | LR: 2.36e-05
+[2026-02-03 02:59:53] [INFO] Step 107100 | Loss: 0.0272 | LR: 2.36e-05
+[2026-02-03 02:59:59] [INFO] Step 107200 | Loss: 0.0268 | LR: 2.35e-05
+[2026-02-03 03:00:01] [INFO] Epoch 70/100 completed | Train Loss: 0.0254 | Time: 84.5s
+[2026-02-03 03:00:06] [INFO] Validation Loss: 0.0279
+[2026-02-03 03:00:06] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:00:10] [INFO] Step 107300 | Loss: 0.0262 | LR: 2.34e-05
+[2026-02-03 03:00:15] [INFO] Step 107400 | Loss: 0.0280 | LR: 2.33e-05
+[2026-02-03 03:00:21] [INFO] Step 107500 | Loss: 0.0277 | LR: 2.32e-05
+[2026-02-03 03:00:27] [INFO] Step 107600 | Loss: 0.0264 | LR: 2.31e-05
+[2026-02-03 03:00:32] [INFO] Step 107700 | Loss: 0.0206 | LR: 2.30e-05
+[2026-02-03 03:00:38] [INFO] Step 107800 | Loss: 0.0240 | LR: 2.29e-05
+[2026-02-03 03:00:44] [INFO] Step 107900 | Loss: 0.0266 | LR: 2.28e-05
+[2026-02-03 03:00:49] [INFO] Step 108000 | Loss: 0.0311 | LR: 2.27e-05
+[2026-02-03 03:00:55] [INFO] Step 108100 | Loss: 0.0274 | LR: 2.27e-05
+[2026-02-03 03:01:01] [INFO] Step 108200 | Loss: 0.0253 | LR: 2.26e-05
+[2026-02-03 03:01:07] [INFO] Step 108300 | Loss: 0.0292 | LR: 2.25e-05
+[2026-02-03 03:01:12] [INFO] Step 108400 | Loss: 0.0227 | LR: 2.24e-05
+[2026-02-03 03:01:18] [INFO] Step 108500 | Loss: 0.0217 | LR: 2.23e-05
+[2026-02-03 03:01:24] [INFO] Step 108600 | Loss: 0.0250 | LR: 2.22e-05
+[2026-02-03 03:01:30] [INFO] Step 108700 | Loss: 0.0228 | LR: 2.21e-05
+[2026-02-03 03:01:33] [INFO] Epoch 71/100 completed | Train Loss: 0.0253 | Time: 87.1s
+[2026-02-03 03:01:39] [INFO] Validation Loss: 0.0278
+[2026-02-03 03:01:39] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:01:41] [INFO] Step 108800 | Loss: 0.0291 | LR: 2.20e-05
+[2026-02-03 03:01:46] [INFO] Step 108900 | Loss: 0.0300 | LR: 2.20e-05
+[2026-02-03 03:01:52] [INFO] Step 109000 | Loss: 0.0275 | LR: 2.19e-05
+[2026-02-03 03:01:57] [INFO] Step 109100 | Loss: 0.0234 | LR: 2.18e-05
+[2026-02-03 03:02:03] [INFO] Step 109200 | Loss: 0.0247 | LR: 2.17e-05
+[2026-02-03 03:02:08] [INFO] Step 109300 | Loss: 0.0270 | LR: 2.16e-05
+[2026-02-03 03:02:14] [INFO] Step 109400 | Loss: 0.0274 | LR: 2.15e-05
+[2026-02-03 03:02:20] [INFO] Step 109500 | Loss: 0.0223 | LR: 2.14e-05
+[2026-02-03 03:02:25] [INFO] Step 109600 | Loss: 0.0286 | LR: 2.14e-05
+[2026-02-03 03:02:31] [INFO] Step 109700 | Loss: 0.0239 | LR: 2.13e-05
+[2026-02-03 03:02:37] [INFO] Step 109800 | Loss: 0.0202 | LR: 2.12e-05
+[2026-02-03 03:02:42] [INFO] Step 109900 | Loss: 0.0269 | LR: 2.11e-05
+[2026-02-03 03:02:48] [INFO] Step 110000 | Loss: 0.0226 | LR: 2.10e-05
+[2026-02-03 03:02:54] [INFO] Step 110100 | Loss: 0.0239 | LR: 2.09e-05
+[2026-02-03 03:03:00] [INFO] Step 110200 | Loss: 0.0254 | LR: 2.08e-05
+[2026-02-03 03:03:05] [INFO] Step 110300 | Loss: 0.0232 | LR: 2.07e-05
+[2026-02-03 03:03:05] [INFO] Epoch 72/100 completed | Train Loss: 0.0252 | Time: 85.6s
+[2026-02-03 03:03:10] [INFO] Validation Loss: 0.0277
+[2026-02-03 03:03:11] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:03:16] [INFO] Step 110400 | Loss: 0.0254 | LR: 2.07e-05
+[2026-02-03 03:03:22] [INFO] Step 110500 | Loss: 0.0244 | LR: 2.06e-05
+[2026-02-03 03:03:27] [INFO] Step 110600 | Loss: 0.0237 | LR: 2.05e-05
+[2026-02-03 03:03:33] [INFO] Step 110700 | Loss: 0.0302 | LR: 2.04e-05
+[2026-02-03 03:03:38] [INFO] Step 110800 | Loss: 0.0238 | LR: 2.03e-05
+[2026-02-03 03:03:44] [INFO] Step 110900 | Loss: 0.0239 | LR: 2.02e-05
+[2026-02-03 03:03:49] [INFO] Step 111000 | Loss: 0.0239 | LR: 2.02e-05
+[2026-02-03 03:03:55] [INFO] Step 111100 | Loss: 0.0263 | LR: 2.01e-05
+[2026-02-03 03:04:01] [INFO] Step 111200 | Loss: 0.0209 | LR: 2.00e-05
+[2026-02-03 03:04:06] [INFO] Step 111300 | Loss: 0.0228 | LR: 1.99e-05
+[2026-02-03 03:04:12] [INFO] Step 111400 | Loss: 0.0224 | LR: 1.98e-05
+[2026-02-03 03:04:18] [INFO] Step 111500 | Loss: 0.0248 | LR: 1.97e-05
+[2026-02-03 03:04:24] [INFO] Step 111600 | Loss: 0.0282 | LR: 1.97e-05
+[2026-02-03 03:04:29] [INFO] Step 111700 | Loss: 0.0276 | LR: 1.96e-05
+[2026-02-03 03:04:35] [INFO] Step 111800 | Loss: 0.0262 | LR: 1.95e-05
+[2026-02-03 03:04:37] [INFO] Epoch 73/100 completed | Train Loss: 0.0252 | Time: 86.5s
+[2026-02-03 03:04:43] [INFO] Validation Loss: 0.0278
+[2026-02-03 03:04:43] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:04:46] [INFO] Step 111900 | Loss: 0.0216 | LR: 1.94e-05
+[2026-02-03 03:04:52] [INFO] Step 112000 | Loss: 0.0278 | LR: 1.93e-05
+[2026-02-03 03:04:58] [INFO] Step 112100 | Loss: 0.0274 | LR: 1.92e-05
+[2026-02-03 03:05:03] [INFO] Step 112200 | Loss: 0.0272 | LR: 1.92e-05
+[2026-02-03 03:05:09] [INFO] Step 112300 | Loss: 0.0251 | LR: 1.91e-05
+[2026-02-03 03:05:15] [INFO] Step 112400 | Loss: 0.0262 | LR: 1.90e-05
+[2026-02-03 03:05:20] [INFO] Step 112500 | Loss: 0.0259 | LR: 1.89e-05
+[2026-02-03 03:05:26] [INFO] Step 112600 | Loss: 0.0286 | LR: 1.88e-05
+[2026-02-03 03:05:32] [INFO] Step 112700 | Loss: 0.0242 | LR: 1.87e-05
+[2026-02-03 03:05:37] [INFO] Step 112800 | Loss: 0.0287 | LR: 1.87e-05
+[2026-02-03 03:05:43] [INFO] Step 112900 | Loss: 0.0275 | LR: 1.86e-05
+[2026-02-03 03:05:49] [INFO] Step 113000 | Loss: 0.0275 | LR: 1.85e-05
+[2026-02-03 03:05:54] [INFO] Step 113100 | Loss: 0.0232 | LR: 1.84e-05
+[2026-02-03 03:06:00] [INFO] Step 113200 | Loss: 0.0212 | LR: 1.83e-05
+[2026-02-03 03:06:06] [INFO] Step 113300 | Loss: 0.0257 | LR: 1.83e-05
+[2026-02-03 03:06:09] [INFO] Epoch 74/100 completed | Train Loss: 0.0251 | Time: 86.0s
+[2026-02-03 03:06:14] [INFO] Validation Loss: 0.0279
+[2026-02-03 03:06:14] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:06:16] [INFO] Step 113400 | Loss: 0.0233 | LR: 1.82e-05
+[2026-02-03 03:06:22] [INFO] Step 113500 | Loss: 0.0230 | LR: 1.81e-05
+[2026-02-03 03:06:28] [INFO] Step 113600 | Loss: 0.0266 | LR: 1.80e-05
+[2026-02-03 03:06:33] [INFO] Step 113700 | Loss: 0.0285 | LR: 1.79e-05
+[2026-02-03 03:06:39] [INFO] Step 113800 | Loss: 0.0305 | LR: 1.78e-05
+[2026-02-03 03:06:44] [INFO] Step 113900 | Loss: 0.0250 | LR: 1.78e-05
+[2026-02-03 03:06:50] [INFO] Step 114000 | Loss: 0.0240 | LR: 1.77e-05
+[2026-02-03 03:06:55] [INFO] Step 114100 | Loss: 0.0232 | LR: 1.76e-05
+[2026-02-03 03:07:00] [INFO] Step 114200 | Loss: 0.0297 | LR: 1.75e-05
+[2026-02-03 03:07:06] [INFO] Step 114300 | Loss: 0.0265 | LR: 1.74e-05
+[2026-02-03 03:07:11] [INFO] Step 114400 | Loss: 0.0286 | LR: 1.74e-05
+[2026-02-03 03:07:16] [INFO] Step 114500 | Loss: 0.0238 | LR: 1.73e-05
+[2026-02-03 03:07:22] [INFO] Step 114600 | Loss: 0.0250 | LR: 1.72e-05
+[2026-02-03 03:07:27] [INFO] Step 114700 | Loss: 0.0296 | LR: 1.71e-05
+[2026-02-03 03:07:33] [INFO] Step 114800 | Loss: 0.0223 | LR: 1.71e-05
+[2026-02-03 03:07:37] [INFO] Step 114900 | Loss: 0.0236 | LR: 1.70e-05
+[2026-02-03 03:07:37] [INFO] Epoch 75/100 completed | Train Loss: 0.0251 | Time: 83.0s
+[2026-02-03 03:07:41] [INFO] Validation Loss: 0.0278
+[2026-02-03 03:07:42] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:07:47] [INFO] Step 115000 | Loss: 0.0273 | LR: 1.69e-05
+[2026-02-03 03:07:52] [INFO] Step 115100 | Loss: 0.0232 | LR: 1.68e-05
+[2026-02-03 03:07:57] [INFO] Step 115200 | Loss: 0.0270 | LR: 1.67e-05
+[2026-02-03 03:08:03] [INFO] Step 115300 | Loss: 0.0250 | LR: 1.67e-05
+[2026-02-03 03:08:08] [INFO] Step 115400 | Loss: 0.0264 | LR: 1.66e-05
+[2026-02-03 03:08:13] [INFO] Step 115500 | Loss: 0.0246 | LR: 1.65e-05
+[2026-02-03 03:08:18] [INFO] Step 115600 | Loss: 0.0291 | LR: 1.64e-05
+[2026-02-03 03:08:24] [INFO] Step 115700 | Loss: 0.0238 | LR: 1.64e-05
+[2026-02-03 03:08:28] [INFO] Step 115800 | Loss: 0.0229 | LR: 1.63e-05
+[2026-02-03 03:08:34] [INFO] Step 115900 | Loss: 0.0224 | LR: 1.62e-05
+[2026-02-03 03:08:39] [INFO] Step 116000 | Loss: 0.0237 | LR: 1.61e-05
+[2026-02-03 03:08:45] [INFO] Step 116100 | Loss: 0.0252 | LR: 1.60e-05
+[2026-02-03 03:08:50] [INFO] Step 116200 | Loss: 0.0210 | LR: 1.60e-05
+[2026-02-03 03:08:55] [INFO] Step 116300 | Loss: 0.0218 | LR: 1.59e-05
+[2026-02-03 03:09:00] [INFO] Step 116400 | Loss: 0.0257 | LR: 1.58e-05
+[2026-02-03 03:09:02] [INFO] Epoch 76/100 completed | Train Loss: 0.0250 | Time: 80.1s
+[2026-02-03 03:09:06] [INFO] Validation Loss: 0.0280
+[2026-02-03 03:09:06] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:09:09] [INFO] Step 116500 | Loss: 0.0252 | LR: 1.57e-05
+[2026-02-03 03:09:14] [INFO] Step 116600 | Loss: 0.0232 | LR: 1.57e-05
+[2026-02-03 03:09:19] [INFO] Step 116700 | Loss: 0.0259 | LR: 1.56e-05
+[2026-02-03 03:09:24] [INFO] Step 116800 | Loss: 0.0207 | LR: 1.55e-05
+[2026-02-03 03:09:30] [INFO] Step 116900 | Loss: 0.0252 | LR: 1.54e-05
+[2026-02-03 03:09:35] [INFO] Step 117000 | Loss: 0.0231 | LR: 1.54e-05
+[2026-02-03 03:09:40] [INFO] Step 117100 | Loss: 0.0282 | LR: 1.53e-05
+[2026-02-03 03:09:44] [INFO] Step 117200 | Loss: 0.0200 | LR: 1.52e-05
+[2026-02-03 03:09:49] [INFO] Step 117300 | Loss: 0.0300 | LR: 1.51e-05
+[2026-02-03 03:09:54] [INFO] Step 117400 | Loss: 0.0265 | LR: 1.51e-05
+[2026-02-03 03:09:59] [INFO] Step 117500 | Loss: 0.0236 | LR: 1.50e-05
+[2026-02-03 03:10:05] [INFO] Step 117600 | Loss: 0.0234 | LR: 1.49e-05
+[2026-02-03 03:10:10] [INFO] Step 117700 | Loss: 0.0250 | LR: 1.48e-05
+[2026-02-03 03:10:15] [INFO] Step 117800 | Loss: 0.0227 | LR: 1.48e-05
+[2026-02-03 03:10:20] [INFO] Step 117900 | Loss: 0.0245 | LR: 1.47e-05
+[2026-02-03 03:10:23] [INFO] Epoch 77/100 completed | Train Loss: 0.0250 | Time: 77.2s
+[2026-02-03 03:10:27] [INFO] Validation Loss: 0.0279
+[2026-02-03 03:10:27] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:10:29] [INFO] Step 118000 | Loss: 0.0255 | LR: 1.46e-05
+[2026-02-03 03:10:34] [INFO] Step 118100 | Loss: 0.0258 | LR: 1.45e-05
+[2026-02-03 03:10:39] [INFO] Step 118200 | Loss: 0.0253 | LR: 1.45e-05
+[2026-02-03 03:10:44] [INFO] Step 118300 | Loss: 0.0231 | LR: 1.44e-05
+[2026-02-03 03:10:49] [INFO] Step 118400 | Loss: 0.0193 | LR: 1.43e-05
+[2026-02-03 03:10:54] [INFO] Step 118500 | Loss: 0.0267 | LR: 1.42e-05
+[2026-02-03 03:10:59] [INFO] Step 118600 | Loss: 0.0283 | LR: 1.42e-05
+[2026-02-03 03:11:04] [INFO] Step 118700 | Loss: 0.0262 | LR: 1.41e-05
+[2026-02-03 03:11:09] [INFO] Step 118800 | Loss: 0.0238 | LR: 1.40e-05
+[2026-02-03 03:11:15] [INFO] Step 118900 | Loss: 0.0256 | LR: 1.40e-05
+[2026-02-03 03:11:20] [INFO] Step 119000 | Loss: 0.0222 | LR: 1.39e-05
+[2026-02-03 03:11:25] [INFO] Step 119100 | Loss: 0.0286 | LR: 1.38e-05
+[2026-02-03 03:11:30] [INFO] Step 119200 | Loss: 0.0200 | LR: 1.37e-05
+[2026-02-03 03:11:36] [INFO] Step 119300 | Loss: 0.0228 | LR: 1.37e-05
+[2026-02-03 03:11:41] [INFO] Step 119400 | Loss: 0.0206 | LR: 1.36e-05
+[2026-02-03 03:11:45] [INFO] Epoch 78/100 completed | Train Loss: 0.0249 | Time: 77.9s
+[2026-02-03 03:11:49] [INFO] Validation Loss: 0.0278
+[2026-02-03 03:11:49] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:11:49] [INFO] Step 119500 | Loss: 0.0212 | LR: 1.35e-05
+[2026-02-03 03:11:55] [INFO] Step 119600 | Loss: 0.0213 | LR: 1.35e-05
+[2026-02-03 03:12:00] [INFO] Step 119700 | Loss: 0.0229 | LR: 1.34e-05
+[2026-02-03 03:12:05] [INFO] Step 119800 | Loss: 0.0275 | LR: 1.33e-05
+[2026-02-03 03:12:10] [INFO] Step 119900 | Loss: 0.0241 | LR: 1.32e-05
+[2026-02-03 03:12:15] [INFO] Step 120000 | Loss: 0.0221 | LR: 1.32e-05
+[2026-02-03 03:12:21] [INFO] Step 120100 | Loss: 0.0229 | LR: 1.31e-05
+[2026-02-03 03:12:26] [INFO] Step 120200 | Loss: 0.0240 | LR: 1.30e-05
+[2026-02-03 03:12:31] [INFO] Step 120300 | Loss: 0.0266 | LR: 1.30e-05
+[2026-02-03 03:12:36] [INFO] Step 120400 | Loss: 0.0245 | LR: 1.29e-05
+[2026-02-03 03:12:41] [INFO] Step 120500 | Loss: 0.0245 | LR: 1.28e-05
+[2026-02-03 03:12:47] [INFO] Step 120600 | Loss: 0.0227 | LR: 1.28e-05
+[2026-02-03 03:12:52] [INFO] Step 120700 | Loss: 0.0203 | LR: 1.27e-05
+[2026-02-03 03:12:57] [INFO] Step 120800 | Loss: 0.0270 | LR: 1.26e-05
+[2026-02-03 03:13:02] [INFO] Step 120900 | Loss: 0.0259 | LR: 1.26e-05
+[2026-02-03 03:13:07] [INFO] Step 121000 | Loss: 0.0256 | LR: 1.25e-05
+[2026-02-03 03:13:08] [INFO] Epoch 79/100 completed | Train Loss: 0.0249 | Time: 79.1s
+[2026-02-03 03:13:12] [INFO] Validation Loss: 0.0280
+[2026-02-03 03:13:13] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:13:16] [INFO] Step 121100 | Loss: 0.0220 | LR: 1.24e-05
+[2026-02-03 03:13:22] [INFO] Step 121200 | Loss: 0.0283 | LR: 1.23e-05
+[2026-02-03 03:13:27] [INFO] Step 121300 | Loss: 0.0238 | LR: 1.23e-05
+[2026-02-03 03:13:32] [INFO] Step 121400 | Loss: 0.0235 | LR: 1.22e-05
+[2026-02-03 03:13:37] [INFO] Step 121500 | Loss: 0.0222 | LR: 1.21e-05
+[2026-02-03 03:13:42] [INFO] Step 121600 | Loss: 0.0239 | LR: 1.21e-05
+[2026-02-03 03:13:48] [INFO] Step 121700 | Loss: 0.0250 | LR: 1.20e-05
+[2026-02-03 03:13:53] [INFO] Step 121800 | Loss: 0.0300 | LR: 1.19e-05
+[2026-02-03 03:13:58] [INFO] Step 121900 | Loss: 0.0268 | LR: 1.19e-05
+[2026-02-03 03:14:03] [INFO] Step 122000 | Loss: 0.0244 | LR: 1.18e-05
+[2026-02-03 03:14:09] [INFO] Step 122100 | Loss: 0.0252 | LR: 1.17e-05
+[2026-02-03 03:14:14] [INFO] Step 122200 | Loss: 0.0238 | LR: 1.17e-05
+[2026-02-03 03:14:19] [INFO] Step 122300 | Loss: 0.0231 | LR: 1.16e-05
+[2026-02-03 03:14:24] [INFO] Step 122400 | Loss: 0.0235 | LR: 1.15e-05
+[2026-02-03 03:14:28] [INFO] Step 122500 | Loss: 0.0252 | LR: 1.15e-05
+[2026-02-03 03:14:31] [INFO] Epoch 80/100 completed | Train Loss: 0.0248 | Time: 78.4s
+[2026-02-03 03:14:35] [INFO] Validation Loss: 0.0281
+[2026-02-03 03:14:35] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:14:37] [INFO] Step 122600 | Loss: 0.0260 | LR: 1.14e-05
+[2026-02-03 03:14:42] [INFO] Step 122700 | Loss: 0.0244 | LR: 1.13e-05
+[2026-02-03 03:14:47] [INFO] Step 122800 | Loss: 0.0248 | LR: 1.13e-05
+[2026-02-03 03:14:52] [INFO] Step 122900 | Loss: 0.0287 | LR: 1.12e-05
+[2026-02-03 03:14:57] [INFO] Step 123000 | Loss: 0.0226 | LR: 1.12e-05
+[2026-02-03 03:15:02] [INFO] Step 123100 | Loss: 0.0236 | LR: 1.11e-05
+[2026-02-03 03:15:08] [INFO] Step 123200 | Loss: 0.0260 | LR: 1.10e-05
+[2026-02-03 03:15:13] [INFO] Step 123300 | Loss: 0.0208 | LR: 1.10e-05
+[2026-02-03 03:15:19] [INFO] Step 123400 | Loss: 0.0250 | LR: 1.09e-05
+[2026-02-03 03:15:24] [INFO] Step 123500 | Loss: 0.0255 | LR: 1.08e-05
+[2026-02-03 03:15:29] [INFO] Step 123600 | Loss: 0.0267 | LR: 1.08e-05
+[2026-02-03 03:15:34] [INFO] Step 123700 | Loss: 0.0227 | LR: 1.07e-05
+[2026-02-03 03:15:38] [INFO] Step 123800 | Loss: 0.0248 | LR: 1.06e-05
+[2026-02-03 03:15:44] [INFO] Step 123900 | Loss: 0.0205 | LR: 1.06e-05
+[2026-02-03 03:15:49] [INFO] Step 124000 | Loss: 0.0231 | LR: 1.05e-05
+[2026-02-03 03:15:53] [INFO] Epoch 81/100 completed | Train Loss: 0.0248 | Time: 77.9s
+[2026-02-03 03:15:57] [INFO] Validation Loss: 0.0280
+[2026-02-03 03:15:57] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:15:58] [INFO] Step 124100 | Loss: 0.0226 | LR: 1.04e-05
+[2026-02-03 03:16:04] [INFO] Step 124200 | Loss: 0.0265 | LR: 1.04e-05
+[2026-02-03 03:16:09] [INFO] Step 124300 | Loss: 0.0283 | LR: 1.03e-05
+[2026-02-03 03:16:15] [INFO] Step 124400 | Loss: 0.0262 | LR: 1.03e-05
+[2026-02-03 03:16:20] [INFO] Step 124500 | Loss: 0.0280 | LR: 1.02e-05
+[2026-02-03 03:16:26] [INFO] Step 124600 | Loss: 0.0241 | LR: 1.01e-05
+[2026-02-03 03:16:31] [INFO] Step 124700 | Loss: 0.0207 | LR: 1.01e-05
+[2026-02-03 03:16:36] [INFO] Step 124800 | Loss: 0.0252 | LR: 1.00e-05
+[2026-02-03 03:16:42] [INFO] Step 124900 | Loss: 0.0280 | LR: 9.95e-06
+[2026-02-03 03:16:47] [INFO] Step 125000 | Loss: 0.0234 | LR: 9.89e-06
+[2026-02-03 03:16:52] [INFO] Step 125100 | Loss: 0.0233 | LR: 9.83e-06
+[2026-02-03 03:16:58] [INFO] Step 125200 | Loss: 0.0226 | LR: 9.77e-06
+[2026-02-03 03:17:03] [INFO] Step 125300 | Loss: 0.0229 | LR: 9.71e-06
+[2026-02-03 03:17:08] [INFO] Step 125400 | Loss: 0.0239 | LR: 9.65e-06
+[2026-02-03 03:17:13] [INFO] Step 125500 | Loss: 0.0193 | LR: 9.59e-06
+[2026-02-03 03:17:18] [INFO] Step 125600 | Loss: 0.0230 | LR: 9.53e-06
+[2026-02-03 03:17:19] [INFO] Epoch 82/100 completed | Train Loss: 0.0247 | Time: 82.1s
+[2026-02-03 03:17:23] [INFO] Validation Loss: 0.0279
+[2026-02-03 03:17:24] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:17:28] [INFO] Step 125700 | Loss: 0.0287 | LR: 9.47e-06
+[2026-02-03 03:17:33] [INFO] Step 125800 | Loss: 0.0278 | LR: 9.41e-06
+[2026-02-03 03:17:38] [INFO] Step 125900 | Loss: 0.0263 | LR: 9.35e-06
+[2026-02-03 03:17:44] [INFO] Step 126000 | Loss: 0.0211 | LR: 9.29e-06
+[2026-02-03 03:17:49] [INFO] Step 126100 | Loss: 0.0222 | LR: 9.23e-06
+[2026-02-03 03:17:55] [INFO] Step 126200 | Loss: 0.0239 | LR: 9.17e-06
+[2026-02-03 03:18:00] [INFO] Step 126300 | Loss: 0.0226 | LR: 9.11e-06
+[2026-02-03 03:18:05] [INFO] Step 126400 | Loss: 0.0221 | LR: 9.05e-06
+[2026-02-03 03:18:10] [INFO] Step 126500 | Loss: 0.0211 | LR: 9.00e-06
+[2026-02-03 03:18:15] [INFO] Step 126600 | Loss: 0.0299 | LR: 8.94e-06
+[2026-02-03 03:18:21] [INFO] Step 126700 | Loss: 0.0215 | LR: 8.88e-06
+[2026-02-03 03:18:26] [INFO] Step 126800 | Loss: 0.0286 | LR: 8.82e-06
+[2026-02-03 03:18:31] [INFO] Step 126900 | Loss: 0.0266 | LR: 8.76e-06
+[2026-02-03 03:18:36] [INFO] Step 127000 | Loss: 0.0301 | LR: 8.71e-06
+[2026-02-03 03:18:41] [INFO] Step 127100 | Loss: 0.0231 | LR: 8.65e-06
+[2026-02-03 03:18:44] [INFO] Epoch 83/100 completed | Train Loss: 0.0247 | Time: 80.5s
+[2026-02-03 03:18:48] [INFO] Validation Loss: 0.0280
+[2026-02-03 03:18:48] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:18:51] [INFO] Step 127200 | Loss: 0.0249 | LR: 8.59e-06
+[2026-02-03 03:18:56] [INFO] Step 127300 | Loss: 0.0246 | LR: 8.54e-06
+[2026-02-03 03:19:01] [INFO] Step 127400 | Loss: 0.0246 | LR: 8.48e-06
+[2026-02-03 03:19:06] [INFO] Step 127500 | Loss: 0.0242 | LR: 8.42e-06
+[2026-02-03 03:19:11] [INFO] Step 127600 | Loss: 0.0273 | LR: 8.37e-06
+[2026-02-03 03:19:17] [INFO] Step 127700 | Loss: 0.0261 | LR: 8.31e-06
+[2026-02-03 03:19:22] [INFO] Step 127800 | Loss: 0.0252 | LR: 8.26e-06
+[2026-02-03 03:19:27] [INFO] Step 127900 | Loss: 0.0240 | LR: 8.20e-06
+[2026-02-03 03:19:32] [INFO] Step 128000 | Loss: 0.0216 | LR: 8.14e-06
+[2026-02-03 03:19:37] [INFO] Step 128100 | Loss: 0.0305 | LR: 8.09e-06
+[2026-02-03 03:19:42] [INFO] Step 128200 | Loss: 0.0269 | LR: 8.03e-06
+[2026-02-03 03:19:47] [INFO] Step 128300 | Loss: 0.0235 | LR: 7.98e-06
+[2026-02-03 03:19:53] [INFO] Step 128400 | Loss: 0.0264 | LR: 7.92e-06
+[2026-02-03 03:19:58] [INFO] Step 128500 | Loss: 0.0254 | LR: 7.87e-06
+[2026-02-03 03:20:03] [INFO] Step 128600 | Loss: 0.0223 | LR: 7.82e-06
+[2026-02-03 03:20:07] [INFO] Epoch 84/100 completed | Train Loss: 0.0247 | Time: 78.9s
+[2026-02-03 03:20:11] [INFO] Validation Loss: 0.0279
+[2026-02-03 03:20:11] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:20:12] [INFO] Step 128700 | Loss: 0.0216 | LR: 7.76e-06
+[2026-02-03 03:20:17] [INFO] Step 128800 | Loss: 0.0240 | LR: 7.71e-06
+[2026-02-03 03:20:22] [INFO] Step 128900 | Loss: 0.0224 | LR: 7.65e-06
+[2026-02-03 03:20:28] [INFO] Step 129000 | Loss: 0.0223 | LR: 7.60e-06
+[2026-02-03 03:20:33] [INFO] Step 129100 | Loss: 0.0248 | LR: 7.55e-06
+[2026-02-03 03:20:38] [INFO] Step 129200 | Loss: 0.0252 | LR: 7.50e-06
+[2026-02-03 03:20:43] [INFO] Step 129300 | Loss: 0.0268 | LR: 7.44e-06
+[2026-02-03 03:20:49] [INFO] Step 129400 | Loss: 0.0238 | LR: 7.39e-06
+[2026-02-03 03:20:53] [INFO] Step 129500 | Loss: 0.0230 | LR: 7.34e-06
+[2026-02-03 03:20:58] [INFO] Step 129600 | Loss: 0.0237 | LR: 7.29e-06
+[2026-02-03 03:21:03] [INFO] Step 129700 | Loss: 0.0259 | LR: 7.23e-06
+[2026-02-03 03:21:08] [INFO] Step 129800 | Loss: 0.0270 | LR: 7.18e-06
+[2026-02-03 03:21:13] [INFO] Step 129900 | Loss: 0.0258 | LR: 7.13e-06
+[2026-02-03 03:21:19] [INFO] Step 130000 | Loss: 0.0247 | LR: 7.08e-06
+[2026-02-03 03:21:24] [INFO] Step 130100 | Loss: 0.0212 | LR: 7.03e-06
+[2026-02-03 03:21:29] [INFO] Step 130200 | Loss: 0.0230 | LR: 6.98e-06
+[2026-02-03 03:21:30] [INFO] Epoch 85/100 completed | Train Loss: 0.0246 | Time: 78.3s
+[2026-02-03 03:21:34] [INFO] Validation Loss: 0.0280
+[2026-02-03 03:21:34] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:21:38] [INFO] Step 130300 | Loss: 0.0226 | LR: 6.93e-06
+[2026-02-03 03:21:44] [INFO] Step 130400 | Loss: 0.0290 | LR: 6.87e-06
+[2026-02-03 03:21:49] [INFO] Step 130500 | Loss: 0.0255 | LR: 6.82e-06
+[2026-02-03 03:21:55] [INFO] Step 130600 | Loss: 0.0228 | LR: 6.77e-06
+[2026-02-03 03:22:00] [INFO] Step 130700 | Loss: 0.0273 | LR: 6.72e-06
+[2026-02-03 03:22:05] [INFO] Step 130800 | Loss: 0.0270 | LR: 6.67e-06
+[2026-02-03 03:22:10] [INFO] Step 130900 | Loss: 0.0263 | LR: 6.62e-06
+[2026-02-03 03:22:16] [INFO] Step 131000 | Loss: 0.0226 | LR: 6.58e-06
+[2026-02-03 03:22:21] [INFO] Step 131100 | Loss: 0.0213 | LR: 6.53e-06
+[2026-02-03 03:22:27] [INFO] Step 131200 | Loss: 0.0262 | LR: 6.48e-06
+[2026-02-03 03:22:32] [INFO] Step 131300 | Loss: 0.0219 | LR: 6.43e-06
+[2026-02-03 03:22:38] [INFO] Step 131400 | Loss: 0.0226 | LR: 6.38e-06
+[2026-02-03 03:22:43] [INFO] Step 131500 | Loss: 0.0236 | LR: 6.33e-06
+[2026-02-03 03:22:48] [INFO] Step 131600 | Loss: 0.0261 | LR: 6.28e-06
+[2026-02-03 03:22:53] [INFO] Step 131700 | Loss: 0.0207 | LR: 6.24e-06
+[2026-02-03 03:22:55] [INFO] Epoch 86/100 completed | Train Loss: 0.0246 | Time: 80.9s
+[2026-02-03 03:22:59] [INFO] Validation Loss: 0.0280
+[2026-02-03 03:22:59] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:23:02] [INFO] Step 131800 | Loss: 0.0212 | LR: 6.19e-06
+[2026-02-03 03:23:07] [INFO] Step 131900 | Loss: 0.0265 | LR: 6.14e-06
+[2026-02-03 03:23:13] [INFO] Step 132000 | Loss: 0.0227 | LR: 6.09e-06
+[2026-02-03 03:23:18] [INFO] Step 132100 | Loss: 0.0221 | LR: 6.05e-06
+[2026-02-03 03:23:23] [INFO] Step 132200 | Loss: 0.0214 | LR: 6.00e-06
+[2026-02-03 03:23:27] [INFO] Step 132300 | Loss: 0.0228 | LR: 5.95e-06
+[2026-02-03 03:23:33] [INFO] Step 132400 | Loss: 0.0232 | LR: 5.91e-06
+[2026-02-03 03:23:38] [INFO] Step 132500 | Loss: 0.0234 | LR: 5.86e-06
+[2026-02-03 03:23:44] [INFO] Step 132600 | Loss: 0.0239 | LR: 5.81e-06
+[2026-02-03 03:23:49] [INFO] Step 132700 | Loss: 0.0220 | LR: 5.77e-06
+[2026-02-03 03:23:54] [INFO] Step 132800 | Loss: 0.0225 | LR: 5.72e-06
+[2026-02-03 03:23:59] [INFO] Step 132900 | Loss: 0.0312 | LR: 5.68e-06
+[2026-02-03 03:24:05] [INFO] Step 133000 | Loss: 0.0186 | LR: 5.63e-06
+[2026-02-03 03:24:10] [INFO] Step 133100 | Loss: 0.0239 | LR: 5.59e-06
+[2026-02-03 03:24:15] [INFO] Step 133200 | Loss: 0.0259 | LR: 5.54e-06
+[2026-02-03 03:24:19] [INFO] Epoch 87/100 completed | Train Loss: 0.0246 | Time: 79.3s
+[2026-02-03 03:24:22] [INFO] Validation Loss: 0.0280
+[2026-02-03 03:24:23] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:24:23] [INFO] Step 133300 | Loss: 0.0195 | LR: 5.50e-06
+[2026-02-03 03:24:28] [INFO] Step 133400 | Loss: 0.0244 | LR: 5.45e-06
+[2026-02-03 03:24:34] [INFO] Step 133500 | Loss: 0.0290 | LR: 5.41e-06
+[2026-02-03 03:24:39] [INFO] Step 133600 | Loss: 0.0243 | LR: 5.36e-06
+[2026-02-03 03:24:45] [INFO] Step 133700 | Loss: 0.0248 | LR: 5.32e-06
+[2026-02-03 03:24:50] [INFO] Step 133800 | Loss: 0.0254 | LR: 5.28e-06
+[2026-02-03 03:24:55] [INFO] Step 133900 | Loss: 0.0269 | LR: 5.23e-06
+[2026-02-03 03:25:00] [INFO] Step 134000 | Loss: 0.0230 | LR: 5.19e-06
+[2026-02-03 03:25:05] [INFO] Step 134100 | Loss: 0.0238 | LR: 5.15e-06
+[2026-02-03 03:25:10] [INFO] Step 134200 | Loss: 0.0232 | LR: 5.11e-06
+[2026-02-03 03:25:15] [INFO] Step 134300 | Loss: 0.0241 | LR: 5.06e-06
+[2026-02-03 03:25:20] [INFO] Step 134400 | Loss: 0.0277 | LR: 5.02e-06
+[2026-02-03 03:25:25] [INFO] Step 134500 | Loss: 0.0265 | LR: 4.98e-06
+[2026-02-03 03:25:30] [INFO] Step 134600 | Loss: 0.0269 | LR: 4.94e-06
+[2026-02-03 03:25:35] [INFO] Step 134700 | Loss: 0.0234 | LR: 4.89e-06
+[2026-02-03 03:25:40] [INFO] Step 134800 | Loss: 0.0250 | LR: 4.85e-06
+[2026-02-03 03:25:41] [INFO] Epoch 88/100 completed | Train Loss: 0.0245 | Time: 78.2s
+[2026-02-03 03:25:45] [INFO] Validation Loss: 0.0280
+[2026-02-03 03:25:45] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:25:49] [INFO] Step 134900 | Loss: 0.0210 | LR: 4.81e-06
+[2026-02-03 03:25:55] [INFO] Step 135000 | Loss: 0.0223 | LR: 4.77e-06
+[2026-02-03 03:25:59] [INFO] Step 135100 | Loss: 0.0259 | LR: 4.73e-06
+[2026-02-03 03:26:04] [INFO] Step 135200 | Loss: 0.0255 | LR: 4.69e-06
+[2026-02-03 03:26:10] [INFO] Step 135300 | Loss: 0.0250 | LR: 4.65e-06
+[2026-02-03 03:26:15] [INFO] Step 135400 | Loss: 0.0242 | LR: 4.61e-06
+[2026-02-03 03:26:20] [INFO] Step 135500 | Loss: 0.0249 | LR: 4.57e-06
+[2026-02-03 03:26:25] [INFO] Step 135600 | Loss: 0.0233 | LR: 4.53e-06
+[2026-02-03 03:26:31] [INFO] Step 135700 | Loss: 0.0259 | LR: 4.49e-06
+[2026-02-03 03:26:36] [INFO] Step 135800 | Loss: 0.0222 | LR: 4.45e-06
+[2026-02-03 03:26:41] [INFO] Step 135900 | Loss: 0.0254 | LR: 4.41e-06
+[2026-02-03 03:26:46] [INFO] Step 136000 | Loss: 0.0209 | LR: 4.37e-06
+[2026-02-03 03:26:51] [INFO] Step 136100 | Loss: 0.0221 | LR: 4.33e-06
+[2026-02-03 03:26:56] [INFO] Step 136200 | Loss: 0.0206 | LR: 4.30e-06
+[2026-02-03 03:27:01] [INFO] Step 136300 | Loss: 0.0256 | LR: 4.26e-06
+[2026-02-03 03:27:04] [INFO] Epoch 89/100 completed | Train Loss: 0.0245 | Time: 78.8s
+[2026-02-03 03:27:08] [INFO] Validation Loss: 0.0279
+[2026-02-03 03:27:08] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:27:11] [INFO] Step 136400 | Loss: 0.0274 | LR: 4.22e-06
+[2026-02-03 03:27:16] [INFO] Step 136500 | Loss: 0.0277 | LR: 4.18e-06
+[2026-02-03 03:27:21] [INFO] Step 136600 | Loss: 0.0233 | LR: 4.14e-06
+[2026-02-03 03:27:27] [INFO] Step 136700 | Loss: 0.0300 | LR: 4.11e-06
+[2026-02-03 03:27:32] [INFO] Step 136800 | Loss: 0.0281 | LR: 4.07e-06
+[2026-02-03 03:27:37] [INFO] Step 136900 | Loss: 0.0275 | LR: 4.03e-06
+[2026-02-03 03:27:42] [INFO] Step 137000 | Loss: 0.0245 | LR: 4.00e-06
+[2026-02-03 03:27:47] [INFO] Step 137100 | Loss: 0.0224 | LR: 3.96e-06
+[2026-02-03 03:27:53] [INFO] Step 137200 | Loss: 0.0263 | LR: 3.92e-06
+[2026-02-03 03:27:57] [INFO] Step 137300 | Loss: 0.0229 | LR: 3.89e-06
+[2026-02-03 03:28:02] [INFO] Step 137400 | Loss: 0.0243 | LR: 3.85e-06
+[2026-02-03 03:28:07] [INFO] Step 137500 | Loss: 0.0229 | LR: 3.82e-06
+[2026-02-03 03:28:12] [INFO] Step 137600 | Loss: 0.0234 | LR: 3.78e-06
+[2026-02-03 03:28:18] [INFO] Step 137700 | Loss: 0.0294 | LR: 3.74e-06
+[2026-02-03 03:28:23] [INFO] Step 137800 | Loss: 0.0215 | LR: 3.71e-06
+[2026-02-03 03:28:26] [INFO] Epoch 90/100 completed | Train Loss: 0.0245 | Time: 77.7s
+[2026-02-03 03:28:30] [INFO] Validation Loss: 0.0281
+[2026-02-03 03:28:30] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:28:31] [INFO] Step 137900 | Loss: 0.0315 | LR: 3.68e-06
+[2026-02-03 03:28:36] [INFO] Step 138000 | Loss: 0.0243 | LR: 3.64e-06
+[2026-02-03 03:28:41] [INFO] Step 138100 | Loss: 0.0241 | LR: 3.61e-06
+[2026-02-03 03:28:47] [INFO] Step 138200 | Loss: 0.0229 | LR: 3.57e-06
+[2026-02-03 03:28:52] [INFO] Step 138300 | Loss: 0.0248 | LR: 3.54e-06
+[2026-02-03 03:28:57] [INFO] Step 138400 | Loss: 0.0221 | LR: 3.50e-06
+[2026-02-03 03:29:02] [INFO] Step 138500 | Loss: 0.0253 | LR: 3.47e-06
+[2026-02-03 03:29:06] [INFO] Step 138600 | Loss: 0.0240 | LR: 3.44e-06
+[2026-02-03 03:29:11] [INFO] Step 138700 | Loss: 0.0232 | LR: 3.40e-06
+[2026-02-03 03:29:17] [INFO] Step 138800 | Loss: 0.0226 | LR: 3.37e-06
+[2026-02-03 03:29:22] [INFO] Step 138900 | Loss: 0.0273 | LR: 3.34e-06
+[2026-02-03 03:29:27] [INFO] Step 139000 | Loss: 0.0222 | LR: 3.31e-06
+[2026-02-03 03:29:32] [INFO] Step 139100 | Loss: 0.0207 | LR: 3.28e-06
+[2026-02-03 03:29:37] [INFO] Step 139200 | Loss: 0.0261 | LR: 3.24e-06
+[2026-02-03 03:29:42] [INFO] Step 139300 | Loss: 0.0293 | LR: 3.21e-06
+[2026-02-03 03:29:47] [INFO] Step 139400 | Loss: 0.0214 | LR: 3.18e-06
+[2026-02-03 03:29:48] [INFO] Epoch 91/100 completed | Train Loss: 0.0244 | Time: 77.5s
+[2026-02-03 03:29:51] [INFO] Validation Loss: 0.0280
+[2026-02-03 03:29:52] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:29:56] [INFO] Step 139500 | Loss: 0.0265 | LR: 3.15e-06
+[2026-02-03 03:30:01] [INFO] Step 139600 | Loss: 0.0229 | LR: 3.12e-06
+[2026-02-03 03:30:07] [INFO] Step 139700 | Loss: 0.0222 | LR: 3.09e-06
+[2026-02-03 03:30:12] [INFO] Step 139800 | Loss: 0.0218 | LR: 3.06e-06
+[2026-02-03 03:30:17] [INFO] Step 139900 | Loss: 0.0294 | LR: 3.03e-06
+[2026-02-03 03:30:23] [INFO] Step 140000 | Loss: 0.0254 | LR: 3.00e-06
+[2026-02-03 03:30:28] [INFO] Step 140100 | Loss: 0.0244 | LR: 2.97e-06
+[2026-02-03 03:30:33] [INFO] Step 140200 | Loss: 0.0236 | LR: 2.94e-06
+[2026-02-03 03:30:38] [INFO] Step 140300 | Loss: 0.0276 | LR: 2.91e-06
+[2026-02-03 03:30:44] [INFO] Step 140400 | Loss: 0.0257 | LR: 2.88e-06
+[2026-02-03 03:30:49] [INFO] Step 140500 | Loss: 0.0200 | LR: 2.85e-06
+[2026-02-03 03:30:54] [INFO] Step 140600 | Loss: 0.0281 | LR: 2.82e-06
+[2026-02-03 03:30:59] [INFO] Step 140700 | Loss: 0.0257 | LR: 2.79e-06
+[2026-02-03 03:31:05] [INFO] Step 140800 | Loss: 0.0281 | LR: 2.76e-06
+[2026-02-03 03:31:10] [INFO] Step 140900 | Loss: 0.0259 | LR: 2.73e-06
+[2026-02-03 03:31:11] [INFO] Epoch 92/100 completed | Train Loss: 0.0244 | Time: 79.8s
+[2026-02-03 03:31:15] [INFO] Validation Loss: 0.0280
+[2026-02-03 03:31:16] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:31:19] [INFO] Step 141000 | Loss: 0.0264 | LR: 2.71e-06
+[2026-02-03 03:31:24] [INFO] Step 141100 | Loss: 0.0274 | LR: 2.68e-06
+[2026-02-03 03:31:28] [INFO] Step 141200 | Loss: 0.0263 | LR: 2.65e-06
+[2026-02-03 03:31:33] [INFO] Step 141300 | Loss: 0.0289 | LR: 2.62e-06
+[2026-02-03 03:31:39] [INFO] Step 141400 | Loss: 0.0255 | LR: 2.60e-06
+[2026-02-03 03:31:44] [INFO] Step 141500 | Loss: 0.0239 | LR: 2.57e-06
+[2026-02-03 03:31:49] [INFO] Step 141600 | Loss: 0.0240 | LR: 2.54e-06
+[2026-02-03 03:31:54] [INFO] Step 141700 | Loss: 0.0272 | LR: 2.52e-06
+[2026-02-03 03:32:00] [INFO] Step 141800 | Loss: 0.0204 | LR: 2.49e-06
+[2026-02-03 03:32:05] [INFO] Step 141900 | Loss: 0.0273 | LR: 2.47e-06
+[2026-02-03 03:32:10] [INFO] Step 142000 | Loss: 0.0246 | LR: 2.44e-06
+[2026-02-03 03:32:15] [INFO] Step 142100 | Loss: 0.0248 | LR: 2.41e-06
+[2026-02-03 03:32:21] [INFO] Step 142200 | Loss: 0.0272 | LR: 2.39e-06
+[2026-02-03 03:32:26] [INFO] Step 142300 | Loss: 0.0249 | LR: 2.36e-06
+[2026-02-03 03:32:31] [INFO] Step 142400 | Loss: 0.0248 | LR: 2.34e-06
+[2026-02-03 03:32:35] [INFO] Epoch 93/100 completed | Train Loss: 0.0244 | Time: 79.1s
+[2026-02-03 03:32:39] [INFO] Validation Loss: 0.0281
+[2026-02-03 03:32:39] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:32:40] [INFO] Step 142500 | Loss: 0.0273 | LR: 2.31e-06
+[2026-02-03 03:32:45] [INFO] Step 142600 | Loss: 0.0260 | LR: 2.29e-06
+[2026-02-03 03:32:50] [INFO] Step 142700 | Loss: 0.0244 | LR: 2.27e-06
+[2026-02-03 03:32:55] [INFO] Step 142800 | Loss: 0.0260 | LR: 2.24e-06
+[2026-02-03 03:33:00] [INFO] Step 142900 | Loss: 0.0254 | LR: 2.22e-06
+[2026-02-03 03:33:05] [INFO] Step 143000 | Loss: 0.0235 | LR: 2.19e-06
+[2026-02-03 03:33:10] [INFO] Step 143100 | Loss: 0.0231 | LR: 2.17e-06
+[2026-02-03 03:33:16] [INFO] Step 143200 | Loss: 0.0213 | LR: 2.15e-06
+[2026-02-03 03:33:21] [INFO] Step 143300 | Loss: 0.0235 | LR: 2.13e-06
+[2026-02-03 03:33:26] [INFO] Step 143400 | Loss: 0.0216 | LR: 2.10e-06
+[2026-02-03 03:33:31] [INFO] Step 143500 | Loss: 0.0217 | LR: 2.08e-06
+[2026-02-03 03:33:36] [INFO] Step 143600 | Loss: 0.0201 | LR: 2.06e-06
+[2026-02-03 03:33:41] [INFO] Step 143700 | Loss: 0.0256 | LR: 2.04e-06
+[2026-02-03 03:33:46] [INFO] Step 143800 | Loss: 0.0292 | LR: 2.02e-06
+[2026-02-03 03:33:52] [INFO] Step 143900 | Loss: 0.0206 | LR: 1.99e-06
+[2026-02-03 03:33:57] [INFO] Step 144000 | Loss: 0.0232 | LR: 1.97e-06
+[2026-02-03 03:33:57] [INFO] Epoch 94/100 completed | Train Loss: 0.0244 | Time: 78.3s
+[2026-02-03 03:34:01] [INFO] Validation Loss: 0.0280
+[2026-02-03 03:34:01] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:34:06] [INFO] Step 144100 | Loss: 0.0229 | LR: 1.95e-06
+[2026-02-03 03:34:11] [INFO] Step 144200 | Loss: 0.0192 | LR: 1.93e-06
+[2026-02-03 03:34:16] [INFO] Step 144300 | Loss: 0.0240 | LR: 1.91e-06
+[2026-02-03 03:34:21] [INFO] Step 144400 | Loss: 0.0245 | LR: 1.89e-06
+[2026-02-03 03:34:26] [INFO] Step 144500 | Loss: 0.0214 | LR: 1.87e-06
+[2026-02-03 03:34:31] [INFO] Step 144600 | Loss: 0.0222 | LR: 1.85e-06
+[2026-02-03 03:34:36] [INFO] Step 144700 | Loss: 0.0243 | LR: 1.83e-06
+[2026-02-03 03:34:42] [INFO] Step 144800 | Loss: 0.0242 | LR: 1.81e-06
+[2026-02-03 03:34:47] [INFO] Step 144900 | Loss: 0.0213 | LR: 1.79e-06
+[2026-02-03 03:34:52] [INFO] Step 145000 | Loss: 0.0222 | LR: 1.77e-06
+[2026-02-03 03:34:58] [INFO] Step 145100 | Loss: 0.0229 | LR: 1.75e-06
+[2026-02-03 03:35:03] [INFO] Step 145200 | Loss: 0.0214 | LR: 1.74e-06
+[2026-02-03 03:35:08] [INFO] Step 145300 | Loss: 0.0226 | LR: 1.72e-06
+[2026-02-03 03:35:14] [INFO] Step 145400 | Loss: 0.0229 | LR: 1.70e-06
+[2026-02-03 03:35:19] [INFO] Step 145500 | Loss: 0.0209 | LR: 1.68e-06
+[2026-02-03 03:35:20] [INFO] Epoch 95/100 completed | Train Loss: 0.0244 | Time: 78.8s
+[2026-02-03 03:35:24] [INFO] Validation Loss: 0.0280
+[2026-02-03 03:35:24] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:35:28] [INFO] Step 145600 | Loss: 0.0224 | LR: 1.66e-06
+[2026-02-03 03:35:33] [INFO] Step 145700 | Loss: 0.0241 | LR: 1.65e-06
+[2026-02-03 03:35:38] [INFO] Step 145800 | Loss: 0.0206 | LR: 1.63e-06
+[2026-02-03 03:35:43] [INFO] Step 145900 | Loss: 0.0219 | LR: 1.61e-06
+[2026-02-03 03:35:48] [INFO] Step 146000 | Loss: 0.0264 | LR: 1.60e-06
+[2026-02-03 03:35:54] [INFO] Step 146100 | Loss: 0.0273 | LR: 1.58e-06
+[2026-02-03 03:35:59] [INFO] Step 146200 | Loss: 0.0266 | LR: 1.56e-06
+[2026-02-03 03:36:05] [INFO] Step 146300 | Loss: 0.0266 | LR: 1.55e-06
+[2026-02-03 03:36:10] [INFO] Step 146400 | Loss: 0.0211 | LR: 1.53e-06
+[2026-02-03 03:36:16] [INFO] Step 146500 | Loss: 0.0239 | LR: 1.52e-06
+[2026-02-03 03:36:21] [INFO] Step 146600 | Loss: 0.0225 | LR: 1.50e-06
+[2026-02-03 03:36:27] [INFO] Step 146700 | Loss: 0.0205 | LR: 1.49e-06
+[2026-02-03 03:36:32] [INFO] Step 146800 | Loss: 0.0184 | LR: 1.47e-06
+[2026-02-03 03:36:37] [INFO] Step 146900 | Loss: 0.0234 | LR: 1.46e-06
+[2026-02-03 03:36:42] [INFO] Step 147000 | Loss: 0.0207 | LR: 1.44e-06
+[2026-02-03 03:36:45] [INFO] Epoch 96/100 completed | Train Loss: 0.0243 | Time: 80.5s
+[2026-02-03 03:36:49] [INFO] Validation Loss: 0.0280
+[2026-02-03 03:36:49] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:36:51] [INFO] Step 147100 | Loss: 0.0240 | LR: 1.43e-06
+[2026-02-03 03:36:56] [INFO] Step 147200 | Loss: 0.0207 | LR: 1.41e-06
+[2026-02-03 03:37:02] [INFO] Step 147300 | Loss: 0.0201 | LR: 1.40e-06
+[2026-02-03 03:37:07] [INFO] Step 147400 | Loss: 0.0222 | LR: 1.39e-06
+[2026-02-03 03:37:12] [INFO] Step 147500 | Loss: 0.0214 | LR: 1.37e-06
+[2026-02-03 03:37:17] [INFO] Step 147600 | Loss: 0.0226 | LR: 1.36e-06
+[2026-02-03 03:37:23] [INFO] Step 147700 | Loss: 0.0226 | LR: 1.35e-06
+[2026-02-03 03:37:28] [INFO] Step 147800 | Loss: 0.0252 | LR: 1.34e-06
+[2026-02-03 03:37:33] [INFO] Step 147900 | Loss: 0.0226 | LR: 1.32e-06
+[2026-02-03 03:37:39] [INFO] Step 148000 | Loss: 0.0279 | LR: 1.31e-06
+[2026-02-03 03:37:44] [INFO] Step 148100 | Loss: 0.0248 | LR: 1.30e-06
+[2026-02-03 03:37:50] [INFO] Step 148200 | Loss: 0.0270 | LR: 1.29e-06
+[2026-02-03 03:37:55] [INFO] Step 148300 | Loss: 0.0301 | LR: 1.28e-06
+[2026-02-03 03:38:01] [INFO] Step 148400 | Loss: 0.0267 | LR: 1.27e-06
+[2026-02-03 03:38:06] [INFO] Step 148500 | Loss: 0.0235 | LR: 1.25e-06
+[2026-02-03 03:38:11] [INFO] Step 148600 | Loss: 0.0214 | LR: 1.24e-06
+[2026-02-03 03:38:11] [INFO] Epoch 97/100 completed | Train Loss: 0.0243 | Time: 82.1s
+[2026-02-03 03:38:15] [INFO] Validation Loss: 0.0281
+[2026-02-03 03:38:15] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:38:21] [INFO] Step 148700 | Loss: 0.0225 | LR: 1.23e-06
+[2026-02-03 03:38:26] [INFO] Step 148800 | Loss: 0.0238 | LR: 1.22e-06
+[2026-02-03 03:38:31] [INFO] Step 148900 | Loss: 0.0243 | LR: 1.21e-06
+[2026-02-03 03:38:35] [INFO] Step 149000 | Loss: 0.0247 | LR: 1.20e-06
+[2026-02-03 03:38:41] [INFO] Step 149100 | Loss: 0.0276 | LR: 1.19e-06
+[2026-02-03 03:38:46] [INFO] Step 149200 | Loss: 0.0227 | LR: 1.18e-06
+[2026-02-03 03:38:51] [INFO] Step 149300 | Loss: 0.0252 | LR: 1.18e-06
+[2026-02-03 03:38:56] [INFO] Step 149400 | Loss: 0.0207 | LR: 1.17e-06
+[2026-02-03 03:39:02] [INFO] Step 149500 | Loss: 0.0255 | LR: 1.16e-06
+[2026-02-03 03:39:07] [INFO] Step 149600 | Loss: 0.0211 | LR: 1.15e-06
+[2026-02-03 03:39:12] [INFO] Step 149700 | Loss: 0.0223 | LR: 1.14e-06
+[2026-02-03 03:39:18] [INFO] Step 149800 | Loss: 0.0253 | LR: 1.13e-06
+[2026-02-03 03:39:23] [INFO] Step 149900 | Loss: 0.0266 | LR: 1.13e-06
+[2026-02-03 03:39:28] [INFO] Step 150000 | Loss: 0.0240 | LR: 1.12e-06
+[2026-02-03 03:39:33] [INFO] Step 150100 | Loss: 0.0284 | LR: 1.11e-06
+[2026-02-03 03:39:35] [INFO] Epoch 98/100 completed | Train Loss: 0.0243 | Time: 79.9s
+[2026-02-03 03:39:39] [INFO] Validation Loss: 0.0280
+[2026-02-03 03:39:39] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:39:43] [INFO] Step 150200 | Loss: 0.0210 | LR: 1.10e-06
+[2026-02-03 03:39:48] [INFO] Step 150300 | Loss: 0.0230 | LR: 1.10e-06
+[2026-02-03 03:39:53] [INFO] Step 150400 | Loss: 0.0196 | LR: 1.09e-06
+[2026-02-03 03:39:58] [INFO] Step 150500 | Loss: 0.0297 | LR: 1.08e-06
+[2026-02-03 03:40:03] [INFO] Step 150600 | Loss: 0.0264 | LR: 1.08e-06
+[2026-02-03 03:40:08] [INFO] Step 150700 | Loss: 0.0297 | LR: 1.07e-06
+[2026-02-03 03:40:14] [INFO] Step 150800 | Loss: 0.0241 | LR: 1.07e-06
+[2026-02-03 03:40:19] [INFO] Step 150900 | Loss: 0.0229 | LR: 1.06e-06
+[2026-02-03 03:40:24] [INFO] Step 151000 | Loss: 0.0232 | LR: 1.06e-06
+[2026-02-03 03:40:29] [INFO] Step 151100 | Loss: 0.0235 | LR: 1.05e-06
+[2026-02-03 03:40:34] [INFO] Step 151200 | Loss: 0.0215 | LR: 1.05e-06
+[2026-02-03 03:40:40] [INFO] Step 151300 | Loss: 0.0250 | LR: 1.04e-06
+[2026-02-03 03:40:45] [INFO] Step 151400 | Loss: 0.0212 | LR: 1.04e-06
+[2026-02-03 03:40:50] [INFO] Step 151500 | Loss: 0.0286 | LR: 1.03e-06
+[2026-02-03 03:40:55] [INFO] Step 151600 | Loss: 0.0223 | LR: 1.03e-06
+[2026-02-03 03:40:58] [INFO] Epoch 99/100 completed | Train Loss: 0.0243 | Time: 78.7s
+[2026-02-03 03:41:02] [INFO] Validation Loss: 0.0280
+[2026-02-03 03:41:02] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:41:04] [INFO] Step 151700 | Loss: 0.0229 | LR: 1.03e-06
+[2026-02-03 03:41:09] [INFO] Step 151800 | Loss: 0.0222 | LR: 1.02e-06
+[2026-02-03 03:41:14] [INFO] Step 151900 | Loss: 0.0258 | LR: 1.02e-06
+[2026-02-03 03:41:19] [INFO] Step 152000 | Loss: 0.0238 | LR: 1.02e-06
+[2026-02-03 03:41:24] [INFO] Step 152100 | Loss: 0.0230 | LR: 1.01e-06
+[2026-02-03 03:41:29] [INFO] Step 152200 | Loss: 0.0193 | LR: 1.01e-06
+[2026-02-03 03:41:35] [INFO] Step 152300 | Loss: 0.0265 | LR: 1.01e-06
+[2026-02-03 03:41:40] [INFO] Step 152400 | Loss: 0.0230 | LR: 1.01e-06
+[2026-02-03 03:41:45] [INFO] Step 152500 | Loss: 0.0275 | LR: 1.01e-06
+[2026-02-03 03:41:51] [INFO] Step 152600 | Loss: 0.0240 | LR: 1.00e-06
+[2026-02-03 03:41:56] [INFO] Step 152700 | Loss: 0.0254 | LR: 1.00e-06
+[2026-02-03 03:42:02] [INFO] Step 152800 | Loss: 0.0272 | LR: 1.00e-06
+[2026-02-03 03:42:07] [INFO] Step 152900 | Loss: 0.0233 | LR: 1.00e-06
+[2026-02-03 03:42:12] [INFO] Step 153000 | Loss: 0.0280 | LR: 1.00e-06
+[2026-02-03 03:42:18] [INFO] Step 153100 | Loss: 0.0222 | LR: 1.00e-06
+[2026-02-03 03:42:22] [INFO] Step 153200 | Loss: 0.0185 | LR: 1.00e-06
+[2026-02-03 03:42:22] [INFO] Epoch 100/100 completed | Train Loss: 0.0243 | Time: 79.7s
+[2026-02-03 03:42:26] [INFO] Validation Loss: 0.0281
+[2026-02-03 03:42:26] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/latest.pth
+[2026-02-03 03:42:26] [INFO] ============================================================
+[2026-02-03 03:42:26] [INFO] Training completed in 2.54 hours
+[2026-02-03 03:42:26] [INFO] Best validation loss: 0.0276
+[2026-02-03 03:42:26] [INFO] ============================================================
+[2026-02-03 03:42:26] [INFO] Saved checkpoint: outputs/metaformer/checkpoints/final.pth
