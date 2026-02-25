@@ -1,0 +1,127 @@
+# EKGAN baseline model configuration.
+
+# =============================================================================
+# Experiment Configuration
+# =============================================================================
+experiment:
+  name: "EKGAN"
+  seed: 42
+  device: "cuda"
+  num_workers: 16
+  output_dir: "outputs_baseline/ekgan"
+  log_dir: "logs"
+  checkpoint_dir: "checkpoints"
+
+# =============================================================================
+# Data Configuration
+# =============================================================================
+data:
+  dataset: "csn"
+  ptbxl_path: "data/ptbxl"
+  csn_path: "data/csn"
+  
+  signal_length: 512
+  num_leads: 12
+  condition_leads: [0]  # Lead I
+  
+  batch_size: 512
+  shuffle: true
+  drop_last: true
+  pin_memory: true
+  prefetch_factor: 4
+  cache_signals: false
+
+# =============================================================================
+# Model Configuration
+# =============================================================================
+model:
+  # Input/Output configuration
+  input_height: 16  # 12 leads + 4 zero padding rows
+  input_width: 512
+  zero_padding_rows: 2  # 2 at top, 2 at bottom
+  
+  # Inference Generator (G_I) - 2D U-Net
+  inference_generator:
+    encoder_filters: [64, 128, 256, 512, 1024]
+    decoder_filters: [512, 256, 128, 64, 1]
+    kernel_size: [2, 4]
+    encoder_strides: [[2, 2], [2, 2], [2, 2], [2, 2], [1, 2]]
+    decoder_strides: [[1, 2], [2, 2], [2, 2], [2, 2], [2, 2]]
+  
+  # Label Generator (G_L) - Autoencoder without skip connections
+  label_generator:
+    encoder_filters: [64, 128, 256, 512, 1024]
+    decoder_filters: [512, 256, 128, 64, 1]
+    kernel_size: [2, 4]
+    encoder_strides: [[2, 2], [2, 2], [2, 2], [2, 2], [1, 2]]
+    decoder_strides: [[1, 2], [2, 2], [2, 2], [2, 2], [2, 2]]
+  
+  # Discriminator (D) - 1D U-Net
+  discriminator:
+    encoder_filters: [32, 64, 128, 256, 512]
+    decoder_filters: [256, 128, 64, 32, 1]
+    kernel_sizes: [64, 32, 16, 8, 4]
+    strides: [4, 4, 4, 2, 2]
+
+# =============================================================================
+# Training Configuration
+# =============================================================================
+training:
+  num_epochs: 10
+  
+  optimizer:
+    type: "adam"
+    lr: 1.0e-4
+    betas: [0.5, 0.999]
+    weight_decay: 0.0
+  
+  scheduler:
+    type: "step_decay"
+    decay_epoch_start: 6
+    decay_rate: 0.95
+  
+  # Loss weights
+  loss:
+    lambda_l1: 50.0      # L1 reconstruction loss weight
+    alpha_lv: 1.0        # Latent vector alignment loss weight
+  
+  # Weight initialization
+  init:
+    type: "normal"
+    mean: 0.0
+    std: 0.02
+  
+  checkpoint:
+    save_every_n_epochs: 9999
+    save_best: true
+    save_latest: true
+  
+  logging:
+    log_every_n_steps: 50
+  
+  validation:
+    enabled: true
+    every_n_epochs: 1
+
+# =============================================================================
+# Evaluation Configuration
+# =============================================================================
+evaluation:
+  batch_size: 512
+  num_samples: null
+  
+  metrics:
+    - "mse"
+    - "mae"
+    - "rmse"
+    - "prd"
+    - "snr"
+    - "psnr"
+    - "cosine_similarity"
+    - "pearson"
+    - "ssim"
+    - "mmd"
+    - "spectral_correlation"
+    - "spectral_mse"
+  
+  per_lead_metrics: true

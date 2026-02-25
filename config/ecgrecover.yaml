@@ -1,0 +1,112 @@
+# ECGRecover baseline model configuration.
+
+# =============================================================================
+# Experiment Configuration
+# =============================================================================
+experiment:
+  name: "ECGRecover"
+  seed: 42
+  device: "cuda"
+  num_workers: 16
+  # output_dir: "outputs_baseline/ecgrecover"
+  output_dir: "outputs_baseline/ecgrecover_100epochs"
+  log_dir: "logs"
+  checkpoint_dir: "checkpoints"
+
+# =============================================================================
+# Data Configuration
+# =============================================================================
+data:
+  dataset: "csn"
+  ptbxl_path: "data/ptbxl"
+  csn_path: "data/csn"
+  
+  signal_length: 512
+  num_leads: 12
+  condition_leads: [0]  # Lead I
+  
+  batch_size: 256
+  shuffle: true
+  drop_last: true
+  pin_memory: true
+  prefetch_factor: 4
+  cache_signals: false
+
+# =============================================================================
+# Model Configuration
+# =============================================================================
+model:
+  # Encoder configuration
+  encoder_channels: [16, 32, 64, 128]
+  
+  # Decoder configuration
+  decoder_channels: [128, 64, 32, 1]
+  
+  # Convolution settings
+  kernel_size_1d: 4
+  kernel_size_2d: [13, 4]
+  stride_1d: 2
+  stride_2d: [1, 2]
+  padding_1d: 1
+  padding_2d: [6, 1]
+  
+  # Regularization
+  dropout: 0.2
+  leaky_relu_slope: 0.02
+
+# =============================================================================
+# Training Configuration
+# =============================================================================
+training:
+  num_epochs: 100
+  
+  optimizer:
+    type: "adam"
+    lr: 1.0e-2
+    betas: [0.9, 0.999]
+    weight_decay: 0.0
+  
+  scheduler:
+    type: "reduce_on_plateau"
+    mode: "min"
+    factor: 0.1
+    patience: 5
+  
+  loss:
+    type: "mse_pearson"
+    pearson_weight: 0.1
+  
+  checkpoint:
+    save_every_n_epochs: 9999
+    save_best: true
+    save_latest: true
+  
+  logging:
+    log_every_n_steps: 50
+  
+  validation:
+    enabled: true
+    every_n_epochs: 1
+
+# =============================================================================
+# Evaluation Configuration
+# =============================================================================
+evaluation:
+  batch_size: 256
+  num_samples: null
+  
+  metrics:
+    - "mse"
+    - "mae"
+    - "rmse"
+    - "prd"
+    - "snr"
+    - "psnr"
+    - "cosine_similarity"
+    - "pearson"
+    - "ssim"
+    - "mmd"
+    - "spectral_correlation"
+    - "spectral_mse"
+  
+  per_lead_metrics: true

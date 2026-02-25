@@ -1,0 +1,121 @@
+# mEcgNet baseline model configuration.
+
+# =============================================================================
+# Experiment Configuration
+# =============================================================================
+experiment:
+  name: "mEcgNet"
+  seed: 42
+  device: "cuda"
+  num_workers: 16
+  output_dir: "outputs_baseline/mecgnet"
+  log_dir: "logs"
+  checkpoint_dir: "checkpoints"
+
+# =============================================================================
+# Data Configuration
+# =============================================================================
+data:
+  dataset: "csn"
+  ptbxl_path: "data/ptbxl"
+  csn_path: "data/csn"
+  
+  signal_length: 512
+  num_leads: 12
+  condition_leads: [0]  # Lead I
+  
+  batch_size: 512
+  shuffle: true
+  drop_last: true
+  pin_memory: true
+  prefetch_factor: 4
+  cache_signals: false
+
+# =============================================================================
+# Model Configuration
+# =============================================================================
+model:
+  # Frequency segmentation
+  frequency_segments: 3  # low, mid, high
+  low_freq_ratio: 0.1    # 0-10% of frequency range
+  mid_freq_ratio: 0.3    # 10-40% of frequency range
+  # high_freq_ratio: remaining 60-100%
+  
+  # EcgModule configuration
+  module_sequence: ["S", "S", "L"]  # Module types in order
+  
+  # EcgModule-L (Large) configuration
+  ecgmodule_l:
+    encoder_channels: [64, 128, 256]
+    decoder_channels: [256, 128, 64]
+    kernel_size: [2, 4]
+    stride: [2, 2]
+    padding: [0, 1]
+  
+  # EcgModule-S (Small) configuration  
+  ecgmodule_s:
+    encoder_channels: [64, 128, 256]
+    decoder_channels: [256, 128, 64]
+    kernel_size: [2, 4]
+    stride: [2, 2]
+    padding: [0, 1]
+    # MLP block configuration
+    mlp_kernel: [1, 4]
+    mlp_stride: [1, 4]
+    mlp_groups: 64
+    mlp_dropout: 0.1
+
+# =============================================================================
+# Training Configuration
+# =============================================================================
+training:
+  num_epochs: 10
+  
+  optimizer:
+    type: "adam"
+    lr: 1.0e-4
+    betas: [0.9, 0.999]
+    weight_decay: 0.0
+  
+  scheduler:
+    type: "step_decay"
+    decay_epoch_start: 6
+    decay_rate: 0.95
+  
+  loss:
+    type: "mse"
+  
+  checkpoint:
+    save_every_n_epochs: 9999
+    save_best: true
+    save_latest: true
+  
+  logging:
+    log_every_n_steps: 50
+  
+  validation:
+    enabled: true
+    every_n_epochs: 1
+
+# =============================================================================
+# Evaluation Configuration
+# =============================================================================
+evaluation:
+  batch_size: 512
+  num_samples: null
+  
+  metrics:
+    - "mse"
+    - "mae"
+    - "rmse"
+    - "prd"
+    - "snr"
+    - "psnr"
+    - "cosine_similarity"
+    - "pearson"
+    - "ssim"
+    - "mmd"
+    - "spectral_correlation"
+    - "spectral_mse"
+  
+  per_lead_metrics: true

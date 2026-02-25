@@ -1,0 +1,208 @@
+# MetaFormer configuration file.
+
+# =============================================================================
+# Experiment Configuration
+# =============================================================================
+experiment:
+  name: "MetaFormer"
+  seed: 42
+  device: "cuda"
+  num_workers: 16
+  output_dir: "outputs/metaformer"
+  log_dir: "logs"
+  checkpoint_dir: "checkpoints"
+
+# =============================================================================
+# Data Configuration
+# =============================================================================
+data:
+  # Dataset: ptbxl, csn, or all
+  dataset: "ptbxl"
+  ptbxl_path: "data/ptbxl"
+  csn_path: "data/csn"
+  
+  # Signal parameters
+  signal_length: 512
+  num_leads: 12
+  
+  # Lead configuration for conditioning
+  # Lead indices: 0=I, 1=II, 2=III, 3=aVR, 4=aVL, 5=aVF, 6=V1, 7=V2, 8=V3, 9=V4, 10=V5, 11=V6
+  condition_leads: [0]  # Lead I as default condition
+  
+  # Data loading
+  batch_size: 32
+  shuffle: true
+  drop_last: true
+  pin_memory: true
+  prefetch_factor: 4
+  cache_signals: true
+  
+  # Augmentation (optional)
+  augmentation:
+    enabled: false
+    noise_std: 0.01
+    scale_range: [0.9, 1.1]
+
+# =============================================================================
+# Model Configuration
+# =============================================================================
+model:
+  # Meta Tokenizer Configuration
+  meta_tokenizer:
+    # Embedding dimensions
+    embed_dim: 256
+    hidden_dim: 512
+    output_dim: 256
+    
+    # Sinusoidal position encoding for continuous variables
+    sin_embed_dim: 64
+    max_period: 10000
+    
+    # Continuous variables configuration
+    age_range: [0, 100]
+    height_range: [100, 220]  # cm
+    weight_range: [20, 200]   # kg
+    
+    # Number of discrete categories for sex (0: Male, 1: Female, 2: Unknown/NULL)
+    num_sex_categories: 3
+    
+    # MLP configuration
+    mlp_layers: 2
+    mlp_dropout: 0.1
+    
+    # Number of output tokens
+    num_tokens: 4  # age, sex, height, weight
+  
+  # U-Net Configuration
+  unet:
+    # Input/Output channels
+    in_channels: 11  # 11 target leads
+    out_channels: 11  # Predict 11 leads (exclude Lead I)
+    
+    # Architecture
+    base_channels: 32
+    # channel_multipliers: [1, 2, 4, 8]
+    channel_multipliers: [1, 2, 3, 4]
+    num_res_blocks: 2
+    
+    # Attention configuration
+    attention_resolutions: [32, 16, 8]
+    num_heads: 8
+    head_dim: 64
+    
+    # Cross-attention for metadata
+    cross_attention:
+      enabled: true
+      num_heads: 8
+      head_dim: 32
+    
+    # Temporal attention
+    temporal_attention:
+      enabled: true
+      num_heads: 4
+    
+    # Other settings
+    dropout: 0.3
+    use_scale_shift_norm: true
+    resblock_updown: true
+    
+    # Reference encoder for conditioning lead features
+    reference_encoder:
+      hidden_channels: null
+      num_res_blocks: 2
+      kernel_size: 7
+      use_attention: false
+      num_heads: 4
+
+# =============================================================================
+# Evaluation Configuration
+# =============================================================================
+training:
+  # Basic training parameters
+  num_epochs: 100
+  gradient_accumulation_steps: 1
+  max_grad_norm: 1.0
+  
+  # Optimizer configuration
+  optimizer:
+    type: "adamw"
+    lr: 1.0e-4
+    betas: [0.9, 0.999]
+    weight_decay: 0.1
+    eps: 1.0e-8
+  
+  # Learning rate scheduler
+  scheduler:
+    type: "cosine"  # cosine, linear, constant, step
+    warmup_epochs: 5
+    warmup_start_lr: 1.0e-7
+    min_lr: 1.0e-6
+    # For step scheduler
+    step_size: 50
+    gamma: 0.5
+  
+  # Mixed precision training
+  mixed_precision:
+    enabled: true
+    dtype: "fp16"  # fp16, bf16
+  
+  # Metadata dropout for robustness
+  modality_dropout:
+    # Probability to replace Height/Weight with NULL embedding
+    hw_drop_prob: 0.3
+    # Probability to replace all metadata with NULL embedding
+    uncond_prob: 0.1
+  
+  # Checkpointing
+  checkpoint:
+    save_every_n_epochs: 9999
+    save_best: true
+    save_latest: true
+  
+  # Logging
+  logging:
+    log_every_n_steps: 100
+    log_images_every_n_epochs: 5
+    num_samples_to_log: 5
+  
+  # Validation during training
+  validation:
+    enabled: true
+    every_n_epochs: 1
+    num_samples: 100
+  
+  # Early stopping
+  early_stopping:
+    enabled: false
+    patience: 20
+    min_delta: 0.0001
+    monitor: "val_loss"
+
+# =============================================================================
+# Evaluation Configuration
+# =============================================================================
+evaluation:
+  # Batch size for evaluation
+  batch_size: 512
+  
+  # Number of samples for evaluation
+  num_samples: null  # null means all samples
+  
+  # Metrics to compute
+  metrics:
+    - "mse"
+    - "mae"
+    - "rmse"
+    - "prd"
+    - "snr"
+    - "psnr"
+    - "cosine_similarity"
+    - "pearson"
+    - "ssim"
+    - "mmd"
+    - "spectral_correlation"
+    - "spectral_mse"
+    # - "dtw"
+  
+  # Per-lead evaluation
+  per_lead_metrics: true
