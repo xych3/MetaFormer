@@ -1,6 +1,10 @@
 # MetaFormer
 
-Implementation for **MetaFormer: Metadata-Guided Transformer for Patient-Aware 12-Lead ECG Reconstruction**.
+[MICCAI 2026] The official implementation of our paper **"MetaFormer: Metadata-Guided Transformer for Patient-Aware 12-Lead ECG Reconstruction"**.
+
+## Introduction
+
+Reconstructing 12-lead electrocardiogram (ECG) signals from single-lead wearable recordings bridges the gap between long-term monitoring for critical paroxysmal events and the clinical gold standard required for accurate diagnosis. However, existing methods usually treat this ill-posed inverse problem as a generic regression task, failing to resolve physiological ambiguities and consequently reconstructing toward population averages. To address these problems, we propose MetaFormer, an efficient reconstruction network that utilizes demographic characteristics to enforce patient-aware physical consistency. We introduce a meta tokenizer to parse heterogeneous clinical metadata into a unified semantic manifold, which establishes patient-specific physiological context to guide the reconstruction. To reduce the cross-lead spatial ambiguity, a metadata-guided Transformer aligns latent representations of the reconstructed signal with individual physiological baselines. Experimental results on two large-scale benchmarks demonstrate that MetaFormer outperforms other state-of-the-art methods while reducing computational cost by ${\sim}73\%$, and closely approaches the performance of original 12-lead ECG signals on downstream arrhythmia classification. The code is available at [here](https://github.com/xych3/MetaFormer).
 
 ## Overview
 
@@ -9,7 +13,7 @@ MetaFormer reconstructs 11 target leads from a single Lead-I input, conditioned 
 - **Meta Tokenizer** — encodes heterogeneous clinical metadata into a unified token sequence.
 - **Metadata-guided Transformer** — a 1D U-Net with cross-attention that fuses reference lead features with metadata tokens to predict target leads.
 
-Three baseline methods are also included for comparison: **EKGAN**, **mEcgNet**, and **ECGRecover**.
+![framework](figs/framework.png)
 
 ## Repository Structure
 
@@ -130,12 +134,15 @@ All hyperparameters are specified in YAML files under `config/`. Key sections in
 
 Refer to `config/metaformer.yaml` for the full list of configurable options.
 
-## Evaluation Metrics
+## Results
 
-The following metrics are computed during evaluation:
+![results](figs/vis.png)
 
-- **Reconstruction error**: MSE, MAE, RMSE, PRD
-- **Signal quality**: SNR, PSNR
-- **Similarity**: Cosine Similarity, Pearson Correlation, SSIM
-- **Distribution**: MMD
-- **Spectral**: Spectral Correlation, Spectral MSE
+![results](figs/results.png)
+
+## Reference
+
+If you found our work useful in your research, please consider citing our works at:
+
+> 
+
