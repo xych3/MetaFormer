@@ -142,7 +142,23 @@ Refer to `config/metaformer.yaml` for the full list of configurable options.
 
 ## Reference
 
-If you found our work useful in your research, please consider citing our works at:
+If you find our work useful in your research, please consider citing our paper:
 
-> 
+> Xie, Y. *et al.* (2027). **MetaFormer: Efficient Metadata-Guided Transformer for Patient-Aware 12-Lead Electrocardiogram Reconstruction.** In: Yang, G., *et al.* Medical Image Computing and Computer Assisted Intervention – MICCAI 2026. Lecture Notes in Computer Science, vol. 16896, pp. 344–354. Springer, Cham. [https://doi.org/10.1007/978-3-032-38260-3_33](https://doi.org/10.1007/978-3-032-38260-3_33)
+
+```bibtex
+@inproceedings{xie2026metaformer,
+  title     = {{MetaFormer}: Efficient {Metadata-Guided} Transformer for {Patient-Aware} {12-Lead} Electrocardiogram Reconstruction},
+  author    = {Xie, Yanchong and Chen, Jiepeng and Li, Zefeng and Zheng, Kai and Huang, Haoyang and Zheng, Minglong and Cui, Mingyue and Huang, Kai},
+  booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2026},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {16896},
+  pages     = {344--354},
+  year      = {2027},
+  publisher = {Springer},
+  address   = {Cham},
+  doi       = {10.1007/978-3-032-38260-3_33},
+  url       = {https://doi.org/10.1007/978-3-032-38260-3_33}
+}
+```
 
